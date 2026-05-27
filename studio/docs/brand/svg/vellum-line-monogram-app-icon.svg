@@ -1,0 +1,14 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Vellum &amp; Line App Icon</title>
+  <desc id="desc">Dark app icon using the selected Vellum monogram.</desc>
+  <rect width="512" height="512" rx="108" fill="#0a1824"/>
+  <circle cx="256" cy="248" r="178" fill="#102434"/>
+  <g transform="translate(96 96) scale(3.2)">
+    <path d="M19 20h15l16 49 16-49h15L58 82H42z" fill="#122434" stroke="#edf3f4" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 82l8-25 8 25" fill="none" stroke="#9db7c8" stroke-width="2.2" stroke-linecap="round" opacity=".56"/>
+    <path d="M30 41c8.8 6.2 18.8 6.2 29.8-.6 5.3-3.3 10.5-4.2 15.2-1.8" fill="none" stroke="#ff8259" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="30" cy="41" r="3.8" fill="#ff8259"/>
+    <circle cx="75" cy="38.6" r="3.8" fill="#ff8259"/>
+    <path d="M34 53h11M56 53h11" fill="none" stroke="#f3c17d" stroke-width="2" stroke-linecap="round" opacity=".72"/>
+  </g>
+</svg>

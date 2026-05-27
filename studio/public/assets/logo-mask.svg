@@ -1,0 +1,6 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vellum &amp; Line logo mask">
+  <path d="M19 20h15l16 49 16-49h15L58 82H42z" fill="#000"/>
+  <path d="M30 41c8.8 6.2 18.8 6.2 29.8-.6 5.3-3.3 10.5-4.2 15.2-1.8" fill="none" stroke="#000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="30" cy="41" r="5.5" fill="#000"/>
+  <circle cx="75" cy="38.6" r="5.5" fill="#000"/>
+</svg>

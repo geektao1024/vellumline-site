@@ -1,0 +1,274 @@
+{
+  "metadata": {
+    "title": "Terraink 替代方案与定制地图海报工具 | Vellum & Line",
+    "description": "正在寻找 Terraink 或 TerraInk？对比 Terraink 风格地图海报流程，并使用 Vellum & Line 从城市、路线和纪念地点创建可打印地图作品。",
+    "keywords": "Terraink 替代方案, Terraink, TerraInk, Terraink map poster maker, Terraink app, Terraink review, 定制地图海报生成器, 可打印地图艺术"
+  },
+  "page": {
+    "title": "Terraink 替代方案与定制地图海报工具",
+    "description": "使用 Vellum & Line 作为独立的浏览器地图海报工作台，制作城市地图海报、路线海报和可打印地图艺术作品。",
+    "show_sections": [
+      "hero",
+      "introduce",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Terraink 替代方案与定制地图海报工具",
+        "highlight_text": "Terraink 替代方案",
+        "description": "正在搜索 Terraink、TerraInk 或 Terraink 风格地图海报生成器？Vellum & Line 是独立的在线工作台，可以从地点、路线、坐标和纪念记忆制作可打印定制地图海报。<br/>Vellum & Line 与 Terraink 或 TerraInk 没有官方从属、授权或所有权关系。",
+        "announcement": {
+          "title": "面向可打印地图海报的独立浏览器工作台",
+          "url": "#compare-workflows"
+        },
+        "buttons": [
+          {
+            "title": "打开 Vellum & Line 工作台",
+            "url": "/app?utm_source=terraink-alternative",
+            "target": "_self",
+            "icon": "Map"
+          },
+          {
+            "title": "对比制作流程",
+            "url": "#compare-workflows",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "/imgs/vellumline/vellun-app.png",
+          "alt": "Vellum & Line Terraink 替代地图海报工作台",
+          "width": 1725,
+          "height": 1077
+        },
+        "image_invert": {
+          "src": "/imgs/vellumline/vellun-app.png",
+          "alt": "Vellum & Line Terraink 替代地图海报工作台",
+          "width": 1725,
+          "height": 1077
+        },
+        "background_image": {
+          "src": "/imgs/vellumline/generated/hero-map-bg.jpg",
+          "alt": "Terraink 替代方案页面的深色地图背景"
+        }
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "terraink-search-intent",
+        "title": "用户搜索 Terraink 替代方案时，通常真正想要什么",
+        "label": "Terraink 搜索意图",
+        "description": "多数 Terraink 相关搜索背后，真正需求是制作一张完成度高的地图海报：从真实地点开始，调整地图风格，添加路线或标记，并导出可打印文件。",
+        "image": {
+          "src": "/imgs/vellumline/showcase-1.png",
+          "alt": "使用 Vellum & Line 制作的定制城市地图海报"
+        },
+        "items": [
+          {
+            "title": "地图海报制作流程",
+            "description": "在一个浏览器流程里创建城市地图、家乡海报、旅行地图、婚礼地图或路线纪念作品。",
+            "icon": "MapPinned",
+            "image": {
+              "src": "/imgs/vellumline/showcase-1.png",
+              "alt": "城市地图海报制作流程"
+            }
+          },
+          {
+            "title": "浏览器在线工作台",
+            "description": "直接打开工作台，搜索地点，调整地图，并把主要设计决策集中在同一个界面。",
+            "icon": "PanelTop",
+            "image": {
+              "src": "/imgs/vellumline/studio.png",
+              "alt": "浏览器地图海报工作台"
+            }
+          },
+          {
+            "title": "可打印地图作品",
+            "description": "导出 PNG、PDF 和 SVG/RSVG 路径的成品文件，而不是停留在屏幕预览。",
+            "icon": "FileDown",
+            "image": {
+              "src": "/imgs/vellumline/og-banner.png",
+              "alt": "可打印定制地图海报导出"
+            }
+          }
+        ],
+        "className": "bg-background/60",
+        "buttons": [
+          {
+            "title": "从你的地点开始",
+            "url": "/app?utm_source=terraink-alternative_intro",
+            "target": "_self",
+            "icon": "Search"
+          },
+          {
+            "title": "查看地图海报页",
+            "url": "/terraink-map-poster-maker",
+            "target": "_self",
+            "icon": "MapPinned",
+            "variant": "outline"
+          }
+        ]
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "compare-workflows",
+        "title": "搜索 Terraink 后，为什么可以试 Vellum & Line",
+        "label": "流程对比",
+        "description": "有效的替代页应该让用户快速进入真实测试。Vellum & Line 聚焦地点搜索、海报风格、路线内容和可导出的成品文件。",
+        "items": [
+          {
+            "title": "从任意地点开始",
+            "description": "用城市、地址、地标、当前位置、经纬度或有意义的目的地作为地图海报中心。",
+            "icon": "Search",
+            "image": {
+              "src": "/imgs/vellumline/generated/search-intent.jpg",
+              "alt": "搜索地点开始 Terraink 替代流程"
+            }
+          },
+          {
+            "title": "塑造海报风格",
+            "description": "调整配色、道路强调、标签密度、图层可见性、字体、海报尺寸、边框和文字，让地图接近可打印状态。",
+            "icon": "SlidersHorizontal",
+            "image": {
+              "src": "/imgs/vellumline/generated/poster-workflow.jpg",
+              "alt": "调整定制地图海报风格"
+            }
+          },
+          {
+            "title": "导出真实海报文件",
+            "description": "下载 PNG、PDF 或 SVG/RSVG 作品，让设计从浏览器预览进入印刷、装裱或设计交付。",
+            "icon": "FileDown",
+            "image": {
+              "src": "/imgs/vellumline/generated/brand-clarity.jpg",
+              "alt": "导出可打印地图海报文件"
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "title": "试用 Terraink 替代流程",
+            "url": "/app?utm_source=terraink-alternative_benefits",
+            "target": "_self",
+            "icon": "Map"
+          },
+          {
+            "title": "对比 Terraink vs Vellum & Line",
+            "url": "/terraink-vs-vellum-line",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "选择 Terraink 替代方案时应该检查什么",
+        "description": "这些检查点能把判断拉回真实输出，避免只停留在品牌名和泛泛对比。",
+        "items": [
+          {
+            "title": "独立关系清楚",
+            "description": "Vellum & Line 只把 Terraink 作为比较语境，不声明自己是 Terraink 官方产品。",
+            "icon": "ShieldCheck"
+          },
+          {
+            "title": "城市地图海报",
+            "description": "围绕家乡、街区、校园、婚礼城市、旅行目的地和坐标创建地图海报。",
+            "icon": "Map"
+          },
+          {
+            "title": "路线与标记",
+            "description": "需要故事上下文时，可以添加路线线条、标记点、坐标、海报文字和其他记忆细节。",
+            "icon": "Route"
+          },
+          {
+            "title": "样式与版式控制",
+            "description": "在同一工作区调整图层、标签、颜色、尺寸、字体、边框和构图。",
+            "icon": "Palette"
+          },
+          {
+            "title": "导出格式",
+            "description": "通过 PNG、PDF 和 SVG/RSVG 导出路径，支持打印、装裱和设计交付。",
+            "icon": "FileCheck"
+          },
+          {
+            "title": "直接进入工作台",
+            "description": "从比较页直接进入真实制作流程，不再继续阅读重复的薄内容评测。",
+            "icon": "MousePointerClick"
+          }
+        ],
+        "buttons": [
+          {
+            "title": "打开工作台",
+            "url": "/app?utm_source=terraink-alternative_features",
+            "target": "_self",
+            "icon": "Map"
+          },
+          {
+            "title": "阅读 Terraink 评测",
+            "url": "/terraink-review",
+            "target": "_self",
+            "icon": "BookOpen",
+            "variant": "outline"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Terraink 替代方案常见问题",
+        "description": "面向 Terraink、TerraInk、地图海报生成器和可打印定制地图作品搜索意图的简明回答。",
+        "items": [
+          {
+            "question": "Vellum & Line 是官方 Terraink app 吗？",
+            "answer": "不是。Vellum & Line 是独立产品，与 Terraink 或 TerraInk 没有官方从属、授权或所有权关系。"
+          },
+          {
+            "question": "Terraink 替代方案是什么意思？",
+            "answer": "在这里，它指一个独立工具，可以帮助你实现相近的地图海报结果：城市地图、路线海报、定制地图艺术和可打印文件。"
+          },
+          {
+            "question": "可以用 Vellum & Line 制作 Terraink 风格地图海报吗？",
+            "answer": "你可以制作干净的定制地图海报，并使用城市、路线、标记、样式、字体和导出控制。Vellum & Line 是独立产品，不复制 Terraink 官方资产。"
+          },
+          {
+            "question": "可以制作跑步、骑行或旅行路线海报吗？",
+            "answer": "可以。Vellum & Line 支持路线线条和标记细节，适合跑步、骑行、旅行、徒步和其他移动记忆地图。"
+          },
+          {
+            "question": "可以导出哪些文件？",
+            "answer": "当前工作台包含 PNG、PDF 和 SVG/RSVG 导出路径，用于可打印地图海报作品。"
+          },
+          {
+            "question": "应该从哪里开始？",
+            "answer": "直接打开工作台，用一个城市、路线或有意义的坐标测试。这个判断比继续阅读泛泛对比更有效。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "label": "Terraink 替代方案",
+        "title": "直接试一次地图海报制作流程",
+        "description": "从真实地点或路线开始，调整地图风格，并在 Vellum & Line 中导出可打印海报文件。",
+        "buttons": [
+          {
+            "title": "打开 Vellum & Line 工作台",
+            "url": "/app?utm_source=terraink-alternative_cta",
+            "target": "_self",
+            "icon": "Map"
+          },
+          {
+            "title": "对比 Terraink",
+            "url": "/terraink-vs-vellum-line",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
+          }
+        ],
+        "className": "bg-background/60"
+      }
+    }
+  }
+}

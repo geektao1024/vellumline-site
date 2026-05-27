@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "地图海报笔记 | Vellum & Line",
+    "description": "关于定制地图海报、路线海报流程、可打印地图艺术和 Vellum & Line 产品更新的简短笔记。"
+  },
+  "page": {
+    "title": "地图海报笔记",
+    "sections": {
+      "blog": {
+        "id": "blog",
+        "title": "地图海报笔记",
+        "description": "记录定制城市地图、路线海报、可打印地图艺术和产品更新的简短内容。"
+      }
+    }
+  },
+  "messages": {
+    "all": "全部",
+    "no_content": "暂未发布笔记。",
+    "crumb": "地图海报笔记",
+    "toc": "目录"
+  }
+}

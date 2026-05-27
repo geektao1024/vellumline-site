@@ -1,0 +1,15 @@
+<svg viewBox="0 0 640 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Vellum &amp; Line Monogram Lockup</title>
+  <desc id="desc">Horizontal lockup for Vellum &amp; Line using the selected monogram.</desc>
+  <g transform="translate(12 18)">
+    <path d="M19 20h15l16 49 16-49h15L58 82H42z" fill="#122434" stroke="#edf3f4" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M42 82l8-25 8 25" fill="none" stroke="#9db7c8" stroke-width="2.2" stroke-linecap="round" opacity=".56"/>
+    <path d="M30 41c8.8 6.2 18.8 6.2 29.8-.6 5.3-3.3 10.5-4.2 15.2-1.8" fill="none" stroke="#ff8259" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="30" cy="41" r="3.8" fill="#ff8259"/>
+    <circle cx="75" cy="38.6" r="3.8" fill="#ff8259"/>
+    <path d="M34 53h11M56 53h11" fill="none" stroke="#f3c17d" stroke-width="2" stroke-linecap="round" opacity=".72"/>
+  </g>
+  <text x="122" y="62" fill="#f2eadb" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="500" letter-spacing=".2">Vellum &amp; Line</text>
+  <path d="M124 76h286" stroke="#ff8259" stroke-width="3.2" stroke-linecap="round"/>
+  <text x="124" y="101" fill="#9db7c8" font-family="'Spline Sans Mono', 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="700" letter-spacing="1.8">CUSTOM MAP ART FOR MEANINGFUL PLACES</text>
+</svg>

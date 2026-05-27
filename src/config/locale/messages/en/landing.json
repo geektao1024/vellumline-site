@@ -1,0 +1,180 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "Vellum & Line",
+      "logo": {
+        "src": "/logo-mark.png",
+        "alt": "Vellum & Line",
+        "width": 512,
+        "height": 512
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Studio",
+          "url": "/app?utm_source=top_nav",
+          "icon": "PanelTop"
+        },
+        {
+          "title": "Map Posters",
+          "url": "/#map-poster-maker",
+          "icon": "MapPinned"
+        },
+        {
+          "title": "Route Posters",
+          "url": "/#use-cases",
+          "icon": "Route"
+        },
+        {
+          "title": "Features",
+          "url": "/#features",
+          "icon": "SlidersHorizontal"
+        },
+        {
+          "title": "FAQ",
+          "url": "/#faq",
+          "icon": "CircleHelp"
+        },
+        {
+          "title": "Terraink Guide",
+          "url": "/terraink-alternative",
+          "icon": "Split"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "Open Studio",
+        "url": "/app?utm_source=home_header",
+        "icon": "Map",
+        "variant": "default"
+      }
+    ],
+    "user_nav": {
+      "show_name": false,
+      "show_credits": false,
+      "show_sign_out": false,
+      "items": []
+    },
+    "show_sign": false,
+    "show_theme": false,
+    "show_locale": true
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "Vellum & Line",
+      "description": "Browser-based custom map poster maker for meaningful places, routes, city prints, and printable map art.",
+      "logo": {
+        "src": "/logo-mark.png",
+        "alt": "Vellum & Line",
+        "width": 512,
+        "height": 512
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Product",
+          "children": [
+            {
+              "title": "Custom map posters",
+              "url": "/#map-poster-maker",
+              "target": "_self"
+            },
+            {
+              "title": "Route poster workflow",
+              "url": "/#use-cases",
+              "target": "_self"
+            },
+            {
+              "title": "Features",
+              "url": "/#features",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Studio",
+          "children": [
+            {
+              "title": "Open Vellum & Line",
+              "url": "/app?utm_source=footer",
+              "target": "_self"
+            },
+            {
+              "title": "FAQ",
+              "url": "/#faq",
+              "target": "_self"
+            },
+            {
+              "title": "Privacy",
+              "url": "/privacy-policy",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Alternatives & Guides",
+          "children": [
+            {
+              "title": "Terraink Alternative",
+              "url": "/terraink-alternative",
+              "target": "_self"
+            },
+            {
+              "title": "Terraink Map Poster Maker",
+              "url": "/terraink-map-poster-maker",
+              "target": "_self"
+            },
+            {
+              "title": "Terraink App",
+              "url": "/terraink-app",
+              "target": "_self"
+            },
+            {
+              "title": "Terraink Review",
+              "url": "/terraink-review",
+              "target": "_self"
+            },
+            {
+              "title": "Terraink vs Vellum & Line",
+              "url": "/terraink-vs-vellum-line",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "Email",
+          "icon": "Mail",
+          "url": "mailto:support@vellumline.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        }
+      ]
+    },
+    "copyright": "© 2026 Vellum & Line. Vellum & Line is independent and not affiliated with Terraink or TerraInk.",
+    "show_theme": false,
+    "show_locale": true,
+    "show_built_with": false
+  }
+}

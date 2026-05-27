@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Product Updates | Vellum & Line",
+    "description": "Follow Vellum & Line product updates for the custom map poster studio, export workflow, and map design experience."
+  },
+  "page": {
+    "sections": {
+      "updates": {
+        "id": "updates",
+        "title": "Product updates",
+        "description": "A lightweight place for Vellum & Line release notes, studio improvements, and map poster workflow updates."
+      }
+    }
+  }
+}

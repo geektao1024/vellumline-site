@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "Map Poster Examples | Vellum & Line",
+    "description": "See simple custom map poster examples for city prints, route memories, and printable wall art made with Vellum & Line."
+  },
+  "page": {
+    "title": "Map Poster Examples",
+    "sections": {
+      "showcases": {
+        "id": "showcases",
+        "title": "Map poster examples for places and routes",
+        "description": "A small gallery of the map poster directions Vellum & Line is built for: city prints, route memories, and giftable map art.",
+        "groups": [
+          {
+            "name": "all",
+            "title": "All"
+          },
+          {
+            "name": "city",
+            "title": "City posters"
+          },
+          {
+            "name": "route",
+            "title": "Route posters"
+          },
+          {
+            "name": "gift",
+            "title": "Gift ideas"
+          }
+        ],
+        "items": [
+          {
+            "title": "City map poster",
+            "description": "Turn a city, neighborhood, address, or landmark into a clean printable map poster.",
+            "image": {
+              "src": "/imgs/vellumline/showcase-1.png",
+              "alt": "City map poster example"
+            },
+            "group": "city",
+            "button": {
+              "title": "Open Studio",
+              "url": "/app?utm_source=showcases_city",
+              "icon": "Map",
+              "variant": "default"
+            }
+          },
+          {
+            "title": "Route memory poster",
+            "description": "Create map art around a run, ride, road trip, hike, or travel path that matters.",
+            "image": {
+              "src": "/imgs/vellumline/showcase-2.png",
+              "alt": "Route map poster example"
+            },
+            "group": "route",
+            "button": {
+              "title": "Create Route Poster",
+              "url": "/app?utm_source=showcases_route",
+              "icon": "Route",
+              "variant": "default"
+            }
+          },
+          {
+            "title": "Giftable map art",
+            "description": "Use places, coordinates, route lines, and poster text for anniversaries, travel gifts, and home decor.",
+            "image": {
+              "src": "/imgs/vellumline/generated/poster-workflow.jpg",
+              "alt": "Printable map art example"
+            },
+            "group": "gift",
+            "button": {
+              "title": "Start a Poster",
+              "url": "/app?utm_source=showcases_gift",
+              "icon": "Sparkles",
+              "variant": "default"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

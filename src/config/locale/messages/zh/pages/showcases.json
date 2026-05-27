@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "title": "地图海报示例 | Vellum & Line",
+    "description": "查看 Vellum & Line 可制作的城市地图海报、路线纪念海报和可打印墙面地图艺术示例。"
+  },
+  "page": {
+    "title": "地图海报示例",
+    "sections": {
+      "showcases": {
+        "id": "showcases",
+        "title": "围绕地点和路线的地图海报示例",
+        "description": "这里保留几个基础方向：城市地图、路线纪念和可作为礼物的地图艺术。",
+        "groups": [
+          {
+            "name": "all",
+            "title": "全部"
+          },
+          {
+            "name": "city",
+            "title": "城市海报"
+          },
+          {
+            "name": "route",
+            "title": "路线海报"
+          },
+          {
+            "name": "gift",
+            "title": "礼物灵感"
+          }
+        ],
+        "items": [
+          {
+            "title": "城市地图海报",
+            "description": "把城市、街区、地址或地标变成干净的可打印地图海报。",
+            "image": {
+              "src": "/imgs/vellumline/showcase-1.png",
+              "alt": "城市地图海报示例"
+            },
+            "group": "city",
+            "button": {
+              "title": "打开工作台",
+              "url": "/app?utm_source=showcases_city",
+              "icon": "Map",
+              "variant": "default"
+            }
+          },
+          {
+            "title": "路线纪念海报",
+            "description": "围绕跑步、骑行、公路旅行、徒步或旅行路线创建地图作品。",
+            "image": {
+              "src": "/imgs/vellumline/showcase-2.png",
+              "alt": "路线地图海报示例"
+            },
+            "group": "route",
+            "button": {
+              "title": "制作路线海报",
+              "url": "/app?utm_source=showcases_route",
+              "icon": "Route",
+              "variant": "default"
+            }
+          },
+          {
+            "title": "可赠送地图艺术",
+            "description": "结合地点、坐标、路线线条和海报文字，制作纪念日、旅行礼物和家居装饰作品。",
+            "image": {
+              "src": "/imgs/vellumline/generated/poster-workflow.jpg",
+              "alt": "可打印地图艺术示例"
+            },
+            "group": "gift",
+            "button": {
+              "title": "开始制作海报",
+              "url": "/app?utm_source=showcases_gift",
+              "icon": "Sparkles",
+              "variant": "default"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,335 @@
+@import 'tailwindcss';
+@import './theme.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@plugin 'tailwindcss-animate';
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+    min-height: 100dvh;
+    font-feature-settings:
+      'kern' 1,
+      'liga' 1,
+      'calt' 1;
+    background-image:
+      linear-gradient(to right, oklch(76% 0.075 82 / 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, oklch(76% 0.075 82 / 0.035) 1px, transparent 1px);
+    background-size: 64px 64px;
+    text-rendering: optimizeLegibility;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+    background-image:
+      linear-gradient(to right, oklch(76% 0.075 82 / 0.045) 1px, transparent 1px),
+      linear-gradient(to bottom, oklch(76% 0.075 82 / 0.04) 1px, transparent 1px),
+      radial-gradient(circle at 12% 18%, oklch(72% 0.16 47 / 0.07), transparent 26rem);
+    background-size: 64px 64px, 64px 64px, auto;
+    mask-image: linear-gradient(to bottom, black 0%, black 48%, transparent 100%);
+  }
+
+  ::selection {
+    color: var(--color-accent-ink);
+    background: var(--color-accent);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+  }
+}
+
+.container {
+  @apply mx-auto max-w-7xl px-4 md:px-8;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+input,
+select,
+textarea {
+  @apply border-border outline-ring/50 bg-background;
+  border-radius: var(--radius-control);
+  transition:
+    background-color var(--dur-short) var(--ease-out),
+    border-color var(--dur-short) var(--ease-out),
+    color var(--dur-short) var(--ease-out),
+    box-shadow var(--dur-short) var(--ease-out);
+}
+
+button {
+  @apply border-border outline-ring/50 cursor-pointer;
+}
+
+button,
+[data-slot='button'],
+a {
+  transition:
+    background-color var(--dur-short) var(--ease-out),
+    border-color var(--dur-short) var(--ease-out),
+    color var(--dur-short) var(--ease-out),
+    opacity var(--dur-short) var(--ease-out),
+    transform var(--dur-short) var(--ease-out);
+}
+
+button:not(:disabled):active,
+[data-slot='button']:not(:disabled):active {
+  transform: translateY(1px);
+}
+
+pre {
+  @apply px-4;
+}
+
+.docs th,
+.docs td {
+  @apply border-border border p-3;
+}
+
+@theme inline {
+  --animate-grid: grid 15s linear infinite;
+  @keyframes grid {
+    0% {
+      transform: translateY(-50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  --animate-ripple: ripple var(--duration, 2s) ease calc(var(--i, 0) * 0.2s)
+    infinite;
+  @keyframes ripple {
+    0%,
+    100% {
+      transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+      transform: translate(-50%, -50%) scale(0.9);
+    }
+  }
+  --animate-meteor: meteor 5s linear infinite;
+  @keyframes meteor {
+    0% {
+      transform: rotate(var(--angle)) translateX(0);
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(var(--angle)) translateX(-500px);
+      opacity: 0;
+    }
+  }
+  --animate-marquee: marquee var(--duration) infinite linear;
+  --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+  @keyframes marquee-vertical {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(calc(-100% - var(--gap)));
+    }
+  }
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+.vellum-hero-icon-shell {
+  --vellum-icon-glow: oklch(82% 0.1 84 / 0.34);
+  animation: vellum-hero-float 7.8s var(--ease-out) infinite;
+  box-shadow:
+    0 14px 30px -24px var(--vellum-icon-glow),
+    0 0 0 1px oklch(89% 0.1 86 / 0.055) inset,
+    0 1px 0 oklch(89% 0.1 86 / 0.1) inset;
+  opacity: 0.76;
+  will-change: transform, opacity;
+}
+
+.vellum-hero-icon-shell::before {
+  content: '';
+  position: absolute;
+  inset: -0.85rem;
+  z-index: -1;
+  border-radius: inherit;
+  background:
+    radial-gradient(
+      circle at 50% 42%,
+      oklch(82% 0.1 84 / 0.2),
+      oklch(82% 0.1 84 / 0.075) 36%,
+      transparent 68%
+    );
+  filter: blur(4px);
+  opacity: 0.42;
+  transform: scale(0.9);
+  animation: vellum-hero-icon-aura 4.8s var(--ease-out) infinite;
+  animation-delay: inherit;
+}
+
+.vellum-hero-icon-shell svg {
+  transform-origin: center;
+  animation: vellum-hero-icon-breathe 4.8s var(--ease-out) infinite;
+  animation-delay: inherit;
+  filter:
+    drop-shadow(0 0 6px oklch(82% 0.1 84 / 0.24))
+    drop-shadow(0 0 16px oklch(82% 0.1 84 / 0.08));
+  will-change: transform, opacity, filter;
+}
+
+.vellum-hero-prompt {
+  box-shadow:
+    0 22px 52px -42px oklch(2% 0.008 243 / 0.92),
+    0 0 0 1px oklch(89% 0.1 86 / 0.06) inset,
+    0 1px 0 oklch(89% 0.1 86 / 0.1) inset;
+  transition:
+    border-color var(--dur-short) var(--ease-out),
+    box-shadow var(--dur-short) var(--ease-out),
+    background-color var(--dur-short) var(--ease-out);
+}
+
+.vellum-hero-prompt:focus-within {
+  border-color: oklch(82% 0.1 84 / 0.58);
+  box-shadow:
+    0 24px 58px -42px oklch(2% 0.008 243 / 0.9),
+    0 0 0 1px oklch(89% 0.1 86 / 0.12) inset,
+    0 0 26px oklch(82% 0.1 84 / 0.11);
+}
+
+.vellum-hero-dice svg {
+  transition: transform var(--dur-short) var(--ease-out);
+  filter: drop-shadow(0 0 7px oklch(82% 0.1 84 / 0.28));
+}
+
+.vellum-hero-dice:hover svg,
+.vellum-hero-dice:focus-visible svg {
+  transform: rotate(18deg);
+}
+
+.vellum-hero-primary {
+  position: relative;
+  overflow: hidden;
+  box-shadow:
+    0 18px 36px -26px oklch(82% 0.1 84 / 0.62),
+    0 1px 0 oklch(100% 0 0 / 0.28) inset;
+}
+
+.vellum-hero-primary::before {
+  content: '';
+  position: absolute;
+  inset: -60% auto -60% -38%;
+  width: 30%;
+  pointer-events: none;
+  background: linear-gradient(
+    115deg,
+    transparent 0%,
+    oklch(100% 0 0 / 0.42) 48%,
+    transparent 100%
+  );
+  opacity: 0;
+  transform: translateX(-140%) skewX(-18deg);
+  transition:
+    opacity 180ms var(--ease-out),
+    transform 560ms var(--ease-out);
+}
+
+.vellum-hero-primary:hover::before,
+.vellum-hero-primary:focus-visible::before {
+  opacity: 0.62;
+  transform: translateX(420%) skewX(-18deg);
+}
+
+@keyframes vellum-hero-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) rotate(-1deg);
+    opacity: 0.58;
+  }
+  50% {
+    transform: translate3d(0, -5px, 0) rotate(1deg);
+    opacity: 0.82;
+  }
+}
+
+@keyframes vellum-hero-icon-aura {
+  0%,
+  100% {
+    opacity: 0.28;
+    transform: scale(0.86);
+  }
+  50% {
+    opacity: 0.58;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes vellum-hero-icon-breathe {
+  0%,
+  100% {
+    opacity: 0.66;
+    transform: scale(0.96);
+    filter:
+      drop-shadow(0 0 5px oklch(82% 0.1 84 / 0.2))
+      drop-shadow(0 0 12px oklch(82% 0.1 84 / 0.07));
+  }
+  50% {
+    opacity: 0.95;
+    transform: scale(1.06);
+    filter:
+      drop-shadow(0 0 8px oklch(82% 0.1 84 / 0.34))
+      drop-shadow(0 0 20px oklch(82% 0.1 84 / 0.14));
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

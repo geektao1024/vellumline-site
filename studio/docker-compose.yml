@@ -1,0 +1,10 @@
+services:
+  vellum-line:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: vellum-line:latest
+    container_name: vellum-line
+    ports:
+      - "${APP_PORT:-7200}:80"
+    restart: unless-stopped

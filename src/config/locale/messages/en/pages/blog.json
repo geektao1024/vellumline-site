@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "Map Poster Notes | Vellum & Line",
+    "description": "Short notes about custom map posters, route poster workflows, printable map art, and Vellum & Line product updates."
+  },
+  "page": {
+    "title": "Map Poster Notes",
+    "sections": {
+      "blog": {
+        "id": "blog",
+        "title": "Map poster notes",
+        "description": "Short product notes and practical ideas for custom city map posters, route posters, and printable map art."
+      }
+    }
+  },
+  "messages": {
+    "all": "All",
+    "no_content": "No notes published yet.",
+    "crumb": "Map Poster Notes",
+    "toc": "Table of Contents"
+  }
+}

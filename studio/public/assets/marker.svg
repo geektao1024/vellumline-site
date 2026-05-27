@@ -1,0 +1,11 @@
+<svg width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg">
+  <title id="title">Vellum &amp; Line marker</title>
+  <desc id="desc">A map pin marker with a folded route symbol.</desc>
+  <path d="M256 472s148-141 148-284C404 106 338 40 256 40S108 106 108 188c0 143 148 284 148 284z" fill="#d86d50" stroke="#16212c" stroke-width="20" stroke-linejoin="round"/>
+  <circle cx="256" cy="188" r="76" fill="#f2eadb" stroke="#16212c" stroke-width="14"/>
+  <g transform="translate(178 112) scale(1.55)" fill="none" stroke="#16212c" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M25 24l15 5 20-5 15 5v47l-15-5-20 5-15-5z" stroke-width="4"/>
+    <path d="M40 29v47M60 24v47" stroke-width="3" opacity=".68"/>
+    <path d="M33 62c8-14 17-2 25-18 3-6 7-9 13-10" stroke="#d86d50" stroke-width="4"/>
+  </g>
+</svg>

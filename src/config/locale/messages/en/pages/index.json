@@ -1,0 +1,386 @@
+{
+  "metadata": {
+    "title": "Vellum & Line | Custom Map Poster Maker Online",
+    "description": "Create custom city map posters, route posters, and printable map art from places, coordinates, and meaningful journeys in Vellum & Line.",
+    "keywords": "Vellum & Line, Vellumline, custom map poster maker, map poster maker online, city map poster, route map poster, printable map art, OpenStreetMap poster"
+  },
+  "page": {
+    "title": "Vellum & Line Map Poster Maker for Cities, Routes, and Memories",
+    "description": "Create custom map posters from cities, routes, addresses, and memories with an independent browser studio for printable map art.",
+    "show_sections": [
+      "hero",
+      "introduce",
+      "benefits",
+      "usage",
+      "features",
+      "stats",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "block": "hero-map",
+        "id": "hero",
+        "title": "Vellum & Line Map Poster Maker for Cities, Routes, and Memories",
+        "title_line1": "Vellum & Line Map Poster Maker",
+        "title_line2": "for Cities, Routes, and Memories",
+        "highlight_text": "Vellum & Line",
+        "description": "Design printable map posters from cities, routes, addresses, and meaningful places in a focused browser studio.<br/>Vellum & Line is an independent online map studio that helps you turn coordinates, running paths, and destinations into beautiful, print-ready wall art.",
+        "announcement": {
+          "badge": "Vellum & Line",
+          "title": "Create city maps, route posters, and memory maps",
+          "url": "#map-poster-maker"
+        },
+        "tip": "Create a map poster from any meaningful place, route, city, or address.",
+        "buttons": [
+          {
+            "title": "Open Vellum & Line Studio",
+            "icon": "Map",
+            "url": "/app?utm_source=home_hero",
+            "target": "_self",
+            "variant": "default"
+          }
+        ],
+        "city_input": {
+          "label": "Map poster city",
+          "placeholder": "Enter a city, for example New York, NY",
+          "helper": "Type a city name, then open the studio with that place ready to shape.",
+          "dice_label": "Roll a random city",
+          "action_title": "Open Studio",
+          "random_cities": [
+            "New York, NY",
+            "Hannover, Germany",
+            "Kyoto, Japan",
+            "Paris, France",
+            "London, United Kingdom",
+            "San Francisco, CA",
+            "Barcelona, Spain",
+            "Singapore"
+          ],
+          "meta": [
+            "Custom map poster maker",
+            "Route poster maker",
+            "Printable map art"
+          ]
+        },
+        "show_avatars": false,
+        "show_award": false,
+        "image": {
+          "src": "/imgs/vellumline/vellun-app.png",
+          "alt": "Vellum & Line map poster app screenshot",
+          "width": 1725,
+          "height": 1077
+        },
+        "image_invert": {
+          "src": "/imgs/vellumline/vellun-app.png",
+          "alt": "Vellum & Line map poster app screenshot",
+          "width": 1725,
+          "height": 1077
+        },
+        "background_image": {
+          "src": "/imgs/vellumline/generated/hero-map-bg.jpg",
+          "alt": "Soft brass cartographic background for Vellum & Line"
+        }
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "map-poster-maker",
+        "title": "Create city maps, route posters, and memory maps",
+        "label": "Custom map poster maker",
+        "description": "Turn a city, address, landmark, coordinate, or route into a printable map poster with search, styling, layout, and export controls in one online studio.",
+        "image": {
+          "src": "/imgs/vellumline/showcase-1.png",
+          "alt": "Custom city map poster made with Vellum & Line"
+        },
+        "items": [
+          {
+            "title": "City map posters",
+            "description": "Search any city, neighborhood, address, landmark, or coordinate and frame it as a clean custom map print.",
+            "icon": "MapPin",
+            "image": {
+              "src": "/imgs/vellumline/showcase-1.png",
+              "alt": "Custom city map poster"
+            }
+          },
+          {
+            "title": "Route map posters",
+            "description": "Build posters around a run, ride, road trip, hike, or travel path when the route is the memory.",
+            "icon": "Route",
+            "image": {
+              "src": "/imgs/vellumline/showcase-2.png",
+              "alt": "Route map poster"
+            }
+          },
+          {
+            "title": "Map style presets",
+            "description": "Tune layers, road detail, color, label density, typography, and poster ratio until the map feels print-ready.",
+            "icon": "Palette",
+            "image": {
+              "src": "/imgs/vellumline/studio.png",
+              "alt": "Map poster style controls"
+            }
+          },
+          {
+            "title": "Print-ready export",
+            "description": "Download high-resolution PNG, PDF, or SVG/RSVG artwork for printing, framing, or design handoff.",
+            "icon": "FileDown",
+            "image": {
+              "src": "/imgs/vellumline/og-banner.png",
+              "alt": "Printable map poster export"
+            }
+          }
+        ],
+        "className": "bg-background/60",
+        "buttons": [
+          {
+            "title": "Open the studio",
+            "url": "/app?utm_source=home_intro",
+            "target": "_self",
+            "icon": "Map"
+          },
+          {
+            "title": "Make a route poster",
+            "url": "#use-cases",
+            "target": "_self",
+            "icon": "Route",
+            "variant": "outline"
+          }
+        ]
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "custom-map-poster",
+        "title": "Design a custom map poster from any place or route",
+        "label": "Online map poster studio",
+        "description": "Search a place, set the map style, add route or marker details, and export printable artwork without leaving the browser.",
+        "items": [
+          {
+            "title": "Search places and coordinates",
+            "description": "Start from a city, address, landmark, current location, latitude and longitude, or a meaningful destination.",
+            "icon": "Search",
+            "image": {
+              "src": "/imgs/vellumline/generated/search-intent.jpg",
+              "alt": "Search a place for a custom map poster"
+            }
+          },
+          {
+            "title": "Style roads, labels, and layers",
+            "description": "Control the visual mood with map palettes, layer visibility, road emphasis, label density, poster size, and type choices.",
+            "icon": "SlidersHorizontal",
+            "image": {
+              "src": "/imgs/vellumline/generated/poster-workflow.jpg",
+              "alt": "Style roads labels and layers in a map poster maker"
+            }
+          },
+          {
+            "title": "Export poster files",
+            "description": "Save the finished map as PNG, PDF, or SVG/RSVG so it can move from browser preview to a real printed poster.",
+            "icon": "FileDown",
+            "image": {
+              "src": "/imgs/vellumline/generated/brand-clarity.jpg",
+              "alt": "Export printable map poster files"
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "title": "Open map poster studio",
+            "url": "/app?utm_source=home_custom_map",
+            "target": "_self",
+            "icon": "Map"
+          },
+          {
+            "title": "See route poster workflow",
+            "url": "#use-cases",
+            "target": "_self",
+            "icon": "Route",
+            "variant": "outline"
+          }
+        ]
+      },
+      "usage": {
+        "block": "features-step",
+        "id": "use-cases",
+        "title": "How to make a custom map poster online",
+        "description": "Use the same practical steps for a city print, wedding map, travel memory, running route, or hometown poster.",
+        "image": {
+          "src": "/imgs/vellumline/showcase-2.png",
+          "alt": "Custom map poster use cases"
+        },
+        "image_position": "left",
+        "text_align": "center",
+        "items": [
+          {
+            "title": "Search your place",
+            "description": "Enter the city, address, landmark, or coordinate that gives the poster its geographic anchor.",
+            "icon": "Search",
+            "image": {
+              "src": "/imgs/vellumline/studio.png",
+              "alt": "Search a place in Vellum & Line"
+            }
+          },
+          {
+            "title": "Choose a map style",
+            "description": "Set the palette, layer visibility, label density, typography, and poster ratio for the final print.",
+            "icon": "Palette",
+            "image": {
+              "src": "/imgs/vellumline/showcase-1.png",
+              "alt": "Style a custom map poster"
+            }
+          },
+          {
+            "title": "Add route or marker details",
+            "description": "Add route lines, marker points, poster text, coordinates, and credits when the map needs context.",
+            "icon": "Route",
+            "image": {
+              "src": "/imgs/vellumline/showcase-2.png",
+              "alt": "Route map poster example"
+            }
+          },
+          {
+            "title": "Export the poster",
+            "description": "Download the poster file, then refine spacing, label density, color, or route styling before the final version.",
+            "icon": "Download",
+            "image": {
+              "src": "/imgs/vellumline/og-banner.png",
+              "alt": "Export a printable map poster"
+            }
+          }
+        ],
+        "className": "bg-background/60",
+        "buttons": [
+          {
+            "title": "Start a custom map poster",
+            "url": "/app?utm_source=home_workflow",
+            "target": "_self",
+            "icon": "Map"
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Map poster features for print-ready artwork",
+        "description": "Vellum & Line focuses on the controls people need before a map becomes wall art: location search, route drawing, style control, and reliable export.",
+        "items": [
+          {
+            "title": "City map prints",
+            "description": "Create a clean poster around a hometown, favorite neighborhood, wedding city, campus, or travel stop.",
+            "icon": "Map"
+          },
+          {
+            "title": "Running and travel routes",
+            "description": "Create posters around running routes, cycling paths, road trips, hikes, or meaningful travel movement.",
+            "icon": "Route"
+          },
+          {
+            "title": "Giftable map art",
+            "description": "Use poster text, coordinates, and a polished layout for keepsakes, anniversaries, and personal wall art.",
+            "icon": "Gift"
+          },
+          {
+            "title": "Map layer control",
+            "description": "Adjust layers, roads, labels, palettes, poster ratio, and typography from the same focused workspace.",
+            "icon": "SlidersHorizontal"
+          },
+          {
+            "title": "PNG, PDF, and SVG export",
+            "description": "Use PNG, PDF, and SVG/RSVG output when the design needs to move beyond the browser preview.",
+            "icon": "FileDown"
+          },
+          {
+            "title": "High-resolution poster output",
+            "description": "Export crisp poster files for physical printing, framing, or further design work.",
+            "icon": "FileCheck"
+          }
+        ],
+        "buttons": [
+          {
+            "title": "Open Studio",
+            "url": "/app?utm_source=home_features",
+            "target": "_self",
+            "icon": "Map"
+          },
+          {
+            "title": "View Terraink alternative guide",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Search",
+            "variant": "outline"
+          }
+        ]
+      },
+      "stats": {
+        "id": "stats",
+        "title": "Online map poster maker, built for final files",
+        "description": "The product value is simple: start fast, design accurately, and leave with a poster file you can actually use.",
+        "items": [
+          {
+            "title": "No install required",
+            "description": "Start designing in the browser without downloading desktop software.",
+            "icon": "MousePointerClick"
+          },
+          {
+            "title": "Print-friendly formats",
+            "description": "Export PNG, PDF, and SVG/RSVG files for framed prints, gifts, and design handoff.",
+            "icon": "BadgeCheck"
+          },
+          {
+            "title": "Routes and markers",
+            "description": "Add route lines, pinned coordinates, and marker details for running, cycling, travel, and personal memory maps.",
+            "icon": "Route"
+          }
+        ],
+        "className": "bg-background/60"
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Custom map poster maker FAQ",
+        "description": "Answers for people comparing online map poster tools, route poster makers, and printable map art workflows.",
+        "items": [
+          {
+            "question": "Can I create a custom city map poster online?",
+            "answer": "Yes. Search a city, address, landmark, or coordinate, then adjust the map style, poster ratio, labels, and export format in the browser studio."
+          },
+          {
+            "question": "Can I make route posters for running, cycling, or travel?",
+            "answer": "Yes. The studio supports route lines and marker details, so you can turn a run, ride, road trip, hike, or travel path into a map poster."
+          },
+          {
+            "question": "What export formats does Vellum & Line support?",
+            "answer": "The current app includes PNG, PDF, and SVG/RSVG export paths for printable poster artwork."
+          },
+          {
+            "question": "Do I need to install anything or create an account?",
+            "answer": "No desktop install is required. The map poster studio runs in the browser and can be opened directly from the homepage."
+          },
+          {
+            "question": "Is Vellum & Line affiliated with Terraink?",
+            "answer": "No. Vellum & Line is an independent product and is not affiliated with, endorsed by, or owned by Terraink or TerraInk."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "label": "Start creating",
+        "title": "Create your custom map poster online",
+        "description": "Start with a city, address, coordinate, or route, then export a printable map poster from the browser studio.",
+        "buttons": [
+          {
+            "title": "Open Vellum & Line Studio",
+            "url": "/app?utm_source=home_cta",
+            "target": "_self",
+            "icon": "Map"
+          },
+          {
+            "title": "View Terraink alternative guide",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
+          }
+        ],
+        "className": "bg-background/60"
+      }
+    }
+  }
+}
