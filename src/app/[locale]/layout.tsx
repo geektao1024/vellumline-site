@@ -82,7 +82,12 @@ export default async function LocaleLayout({
   }
 
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html
+      lang={locale}
+      className="dark"
+      style={{ backgroundColor: '#090f17', colorScheme: 'dark' }}
+      suppressHydrationWarning
+    >
       <head>
         <link rel="icon" href={envConfigs.app_favicon} />
         <link rel="alternate icon" href="/favicon.ico" />
@@ -100,7 +105,11 @@ export default async function LocaleLayout({
         {customerServiceMetaTags}
         {customerServiceHeadScripts}
       </head>
-      <body suppressHydrationWarning className="overflow-x-hidden">
+      <body
+        suppressHydrationWarning
+        className="bg-background overflow-x-hidden"
+        style={{ backgroundColor: '#090f17' }}
+      >
         <NextTopLoader
           color="#6466F1"
           initialPosition={0.08}

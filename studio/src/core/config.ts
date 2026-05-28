@@ -69,6 +69,8 @@ export const UPDATES_URL = String(
   import.meta.env.VITE_UPDATES_URL ?? "",
 ).trim();
 
+export const GA_MEASUREMENT_ID = "G-P89X20H88F";
+
 export const INSTALL_DIAGNOSTICS_ENABLED = false;
 
 export interface FontOption {

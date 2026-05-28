@@ -48,8 +48,6 @@ Important values for launch:
 - `VITE_REPO_API_URL`
 - `VITE_CONTACT_EMAIL`
 - `VITE_PRIVACY_URL`
-- `VITE_GOOGLE_SITE_VERIFICATION`
-- `VITE_GA_MEASUREMENT_ID`
 - `VITE_APP_CREDIT_URL`
 
 ## License And Attribution
