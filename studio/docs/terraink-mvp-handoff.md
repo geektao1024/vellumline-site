@@ -404,9 +404,8 @@ github.com/yourname/your-saas-site
 
 | 优先级 | 域名方向 | 说明 |
 |---|---|---|
-| P0 | `vellumline.com` | 最短、最适合长期品牌，但需正式查域名可用性 |
+| P0 | `vellumline.app` | 已购入，作为当前主域名；短、清晰，适合 Web app 和长期品牌 |
 | P1 | `vellumandline.com` | 与品牌全称一致，适合品牌保护 |
-| P1 | `vellumline.app` | 工具属性明确，适合 Web app |
 | P2 | `vellumline.art` | 艺术感强，但通用信任弱于 `.com` |
 
 建议不要把主品牌继续定为：
@@ -459,7 +458,7 @@ Create custom map posters from cities, routes, addresses, and meaningful places.
 命名策略：
 
 - 品牌层用 `Vellum & Line`。
-- 域名层优先 `vellumline.com` 或 `vellumandline.com`。
+- 域名层优先 `vellumline.app` 或 `vellumandline.com`。
 - SEO 页面层继续吃 `map poster maker`、`custom map poster maker`、`personalized map art`、`wedding map poster` 等通用词。
 - 社区发布时不要只讲品牌名，要用 `I built a free map poster maker for meaningful places` 这类高理解度表达。
 - 等有第一波用户后，再用 `Vellum & Line` 承接品牌搜索。
@@ -1042,7 +1041,7 @@ Backend
 
 请先阅读当前工作目录下的 terraink-mvp-handoff.md，按里面的路线执行。
 
-当前建议品牌名是 Vellum & Line，域名优先检查 vellumline.com 和 vellumandline.com。
+当前建议品牌名是 Vellum & Line，主域名已确定为 vellumline.app，品牌保护域名可继续检查 vellumandline.com。
 
 优先目标：
 1. 搭建 www 营销站 + app 工具站的结构。

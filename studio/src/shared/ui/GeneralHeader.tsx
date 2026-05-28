@@ -49,7 +49,7 @@ export default function GeneralHeader({
 
   const shareOptions = useMemo(() => {
     const pageUrl =
-      typeof window === "undefined" ? "https://vellumline.com" : window.location.href;
+      typeof window === "undefined" ? "https://vellumline.app" : window.location.href;
     const shareTitle = "Vellum & Line";
     const shareText = "Custom map art for meaningful places.";
     const encodedUrl = encodeURIComponent(pageUrl);

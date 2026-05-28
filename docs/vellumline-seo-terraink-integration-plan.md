@@ -14,15 +14,15 @@
 推荐 URL：
 
 ```text
-vellumline.com/                         首页：custom map poster maker + Terraink 搜索承接
-vellumline.com/map-poster-maker          核心工具词页面
-vellumline.com/running-route-poster      路线海报场景页
-vellumline.com/terraink-alternative      Terraink 替代方案页
-vellumline.com/terraink-map-poster-maker Terraink 风格地图海报页
-vellumline.com/terraink-app              Terraink app 搜索承接页
-vellumline.com/terraink-review           Terraink review 搜索承接页
-vellumline.com/terraink-vs-vellum-line   对比页
-vellumline.com/app                       实际地图海报工作台
+vellumline.app/                         首页：custom map poster maker + Terraink 搜索承接
+vellumline.app/map-poster-maker          核心工具词页面
+vellumline.app/running-route-poster      路线海报场景页
+vellumline.app/terraink-alternative      Terraink 替代方案页
+vellumline.app/terraink-map-poster-maker Terraink 风格地图海报页
+vellumline.app/terraink-app              Terraink app 搜索承接页
+vellumline.app/terraink-review           Terraink review 搜索承接页
+vellumline.app/terraink-vs-vellum-line   对比页
+vellumline.app/app                       实际地图海报工作台
 ```
 
 ## 2. 实施状态

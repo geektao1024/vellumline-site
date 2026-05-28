@@ -25,13 +25,13 @@
 
 1. Go to https://search.google.com/search-console
 2. Click **Add Property** and choose **URL prefix** method
-3. Enter `https://vellumline.com`
+3. Enter `https://vellumline.app`
 4. Verify ownership using one of these methods:
    - **HTML meta tag** (easiest): Add the verification `<meta>` tag Google gives you to `index.html` `<head>`
    - **DNS TXT record**: Add a TXT record to your domain's DNS settings
    - **HTML file**: Upload a verification HTML file to `public/`
 5. Once verified:
    - Go to **Sitemaps** in the left sidebar
-   - Submit `https://vellumline.com/sitemap.xml`
-   - Go to **URL Inspection** and request indexing for `https://vellumline.com`
+   - Submit `https://vellumline.app/sitemap.xml`
+   - Go to **URL Inspection** and request indexing for `https://vellumline.app`
 6. Monitor the **Performance** tab for keyword impressions, clicks, and average position

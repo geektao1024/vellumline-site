@@ -5,7 +5,7 @@
 ## 1. 品牌基线
 
 - 产品名：`Vellum & Line`
-- 域名：`https://vellumline.com`
+- 域名：`https://vellumline.app`
 - 产品类型：custom map poster maker / printable map art studio
 - 主 CTA：`Open Studio`
 - 工具入口：`/app`

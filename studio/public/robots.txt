@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vellumline.com/sitemap.xml
+Sitemap: https://vellumline.app/sitemap.xml
