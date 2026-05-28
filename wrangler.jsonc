@@ -6,7 +6,8 @@
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
   "assets": {
     "binding": "ASSETS",
-    "directory": ".open-next/assets"
+    "directory": ".open-next/assets",
+    "run_worker_first": ["/app", "/app/*"]
   },
   "observability": {
     "enabled": true
