@@ -7,6 +7,12 @@ import { routing } from '@/core/i18n/config';
 const intlMiddleware = createIntlMiddleware(routing);
 
 export async function middleware(request: NextRequest) {
+  if (request.nextUrl.hostname === 'www.vellumline.app') {
+    const url = request.nextUrl.clone();
+    url.hostname = 'vellumline.app';
+    return NextResponse.redirect(url, 308);
+  }
+
   const { pathname } = request.nextUrl;
 
   if (pathname === '/app' || pathname.startsWith('/app/')) {
