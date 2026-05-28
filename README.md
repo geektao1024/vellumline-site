@@ -26,4 +26,4 @@ The embedded studio is built from `studio/` and synced into `public/app`.
 pnpm app:integrate
 ```
 
-The root site should stay indexable. The `/app` studio is kept as the conversion tool and currently uses `noindex, follow`.
+The root site and `/app` studio should stay indexable. The studio is the conversion tool and is listed in the root sitemap.
