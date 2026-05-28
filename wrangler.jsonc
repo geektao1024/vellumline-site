@@ -1,0 +1,25 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "vellumline-site",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-03-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "binding": "ASSETS",
+    "directory": ".open-next/assets"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "NEXT_PUBLIC_APP_URL": "https://vellumline.app",
+    "NEXT_PUBLIC_APP_NAME": "Vellum & Line",
+    "NEXT_PUBLIC_APP_DESCRIPTION": "Independent Terraink alternative and custom map poster maker for printable map art.",
+    "NEXT_PUBLIC_APP_LOGO": "/logo.png",
+    "NEXT_PUBLIC_APP_FAVICON": "/favicon.ico",
+    "NEXT_PUBLIC_APP_PREVIEW_IMAGE": "/imgs/vellumline/og-banner.png",
+    "NEXT_PUBLIC_LOCALE": "en",
+    "NEXT_PUBLIC_THEME": "default",
+    "NEXT_PUBLIC_APPEARANCE": "dark"
+  }
+}
