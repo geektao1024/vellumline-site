@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "Terraink Review and Alternative | Vellum & Line",
-    "description": "Read a neutral Terraink review angle and compare Terraink-style map poster workflows with Vellum & Line.",
+    "title": "Terraink Review Checklist | Vellum & Line",
+    "description": "Before choosing a Terraink-style map poster tool, test the workflow that matters: place search, styling, route support, and export.",
     "keywords": "Terraink review, Terraink map poster review, Terraink alternative review, Vellum & Line, map poster maker review"
   },
   "page": {
-    "title": "Terraink Review and Alternative",
+    "title": "Terraink Review Checklist",
     "show_sections": [
       "hero",
       "introduce",
@@ -17,17 +17,17 @@
     "sections": {
       "hero": {
         "id": "hero",
-        "title": "Terraink Review and Alternative",
-        "description": "Looking for a Terraink review? Use this page to understand what to compare, then test Vellum & Line as an independent map poster studio.",
+        "title": "Review the tool by making one real poster",
+        "description": "If you are searching for a Terraink review, the useful question is not who has the longer feature list. It is which workflow helps you create a poster you would actually print.",
         "buttons": [
           {
-            "title": "Open Vellum & Line Studio",
+            "title": "Test with your own place",
             "url": "/app?utm_source=terraink-review",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "See the guided path",
+            "title": "Review the checklist",
             "url": "#introduce",
             "target": "_self",
             "icon": "ArrowDown",
@@ -48,16 +48,16 @@
       "introduce": {
         "block": "features-list",
         "id": "introduce",
-        "title": "Use the review to decide what to test",
-        "description": "A useful review should help you make a decision. Start with workflow, map styling, route support, and export quality instead of unsupported scores.",
+        "title": "What a useful Terraink review should answer",
+        "description": "A review should help you decide quickly. Use your own city, route, or gift idea and see whether the tool carries it from search to finished artwork.",
         "image": {
           "src": "/imgs/vellumline/showcase-1.png",
           "alt": "Terraink review comparison"
         },
         "items": [
           {
-            "title": "Start with a real place",
-            "description": "Use a city, address, landmark, or coordinate so the poster begins from something concrete.",
+            "title": "Does it start from your real location?",
+            "description": "The test begins with the city, venue, landmark, address, or coordinate you care about.",
             "icon": "MapPin",
             "image": {
               "src": "/imgs/vellumline/showcase-1.png",
@@ -65,8 +65,8 @@
             }
           },
           {
-            "title": "Choose a poster style",
-            "description": "Adjust map layers, color, label density, typography, and ratio until the artwork feels intentional.",
+            "title": "Does the style feel gift-worthy?",
+            "description": "A market-ready poster needs more than a map preview. It needs color, labels, ratio, type, and composition control.",
             "icon": "Palette",
             "image": {
               "src": "/imgs/vellumline/showcase-2.png",
@@ -74,8 +74,8 @@
             }
           },
           {
-            "title": "Export when it feels ready",
-            "description": "Move from preview to usable artwork with PNG, PDF, and RSVG output paths.",
+            "title": "Can you leave with usable files?",
+            "description": "The review should end with an output check: PNG, PDF, or SVG/RSVG files that can move toward print.",
             "icon": "FileDown",
             "image": {
               "src": "/imgs/vellumline/studio.png",
@@ -86,14 +86,14 @@
         "className": "bg-background/60",
         "buttons": [
           {
-            "title": "Open the studio",
+            "title": "Run the review test",
             "url": "/app?utm_source=terraink-review_intro",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "Check the steps",
-            "url": "#benefits",
+            "title": "Compare side by side",
+            "url": "/terraink-vs-vellum-line",
             "target": "_self",
             "icon": "Route",
             "variant": "outline"
@@ -103,12 +103,12 @@
       "benefits": {
         "block": "features-accordion",
         "id": "benefits",
-        "title": "A review checklist that stays practical",
-        "description": "Compare the parts you can actually feel in use: search, styling, poster text, route handling, and export.",
+        "title": "The practical review criteria",
+        "description": "This is the user-facing lens: speed to first design, quality of the poster, memory details, and whether the final file is useful.",
         "items": [
           {
-            "title": "Open before you decide",
-            "description": "The clearest comparison is a hands-on one. Start with your own city, route, or meaningful place.",
+            "title": "Speed to first poster",
+            "description": "How fast can you move from search result to an actual map poster draft?",
             "icon": "MousePointerClick",
             "image": {
               "src": "/imgs/vellumline/generated/search-intent.jpg",
@@ -116,8 +116,8 @@
             }
           },
           {
-            "title": "Check the poster fit",
-            "description": "Look at whether the style controls, route support, labels, and export options match your use case.",
+            "title": "Control over the final look",
+            "description": "Can you make the map look premium enough for a wall, gift, travel memory, or personal project?",
             "icon": "SlidersHorizontal",
             "image": {
               "src": "/imgs/vellumline/showcase-2.png",
@@ -125,8 +125,8 @@
             }
           },
           {
-            "title": "Evaluate print-readiness",
-            "description": "Check whether the exported maps meet professional printing guidelines (DPI scaling, bleed boundaries, and text crispness) for wall framing.",
+            "title": "Confidence at export",
+            "description": "Can the finished file leave the browser as practical artwork instead of remaining a screenshot-like preview?",
             "icon": "Printer",
             "image": {
               "src": "/imgs/vellumline/og-banner.png",
@@ -136,49 +136,56 @@
         ],
         "buttons": [
           {
-            "title": "Try Vellum & Line",
+            "title": "Run the checklist in Vellum & Line",
             "url": "/app?utm_source=terraink-review_benefits",
             "target": "_self",
             "icon": "Map"
+          },
+          {
+            "title": "Terraink alternative overview",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
           }
         ]
       },
       "features": {
         "id": "features",
-        "title": "What to test before choosing a map poster maker",
-        "description": "Use these points as a simple decision guide before spending more time comparing map poster tools.",
+        "title": "What to test before choosing",
+        "description": "A useful review ends with a real poster test. Use one city, route, venue, or coordinate and judge the workflow by the result.",
         "items": [
           {
-            "title": "Place search",
-            "description": "Can you quickly start from the city, address, landmark, or coordinate that matters?",
+            "title": "Your place",
+            "description": "Try a specific city, route, address, venue, or coordinate instead of a generic demo location.",
             "icon": "Search"
           },
           {
-            "title": "Map styling",
-            "description": "Can you control color, layers, label density, typography, and poster ratio without friction?",
+            "title": "Your style",
+            "description": "Check whether the palette, labels, type, borders, and layout can match the mood you want.",
             "icon": "Palette"
           },
           {
-            "title": "Route memories",
-            "description": "Can the workflow support running, cycling, travel, and other movement-based posters?",
+            "title": "Your memory details",
+            "description": "Add route lines, markers, coordinates, or poster text if the map needs a personal story.",
             "icon": "Route"
           },
           {
-            "title": "Export path",
-            "description": "Can you leave with practical poster files instead of only a browser preview?",
+            "title": "Your output",
+            "description": "Check whether the export format fits printing, framing, sharing, or design handoff.",
             "icon": "Download"
           }
         ],
         "buttons": [
           {
-            "title": "Open Studio",
+            "title": "Open review test",
             "url": "/app?utm_source=terraink-review_features",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "View Terraink alternative guide",
-            "url": "/terraink-alternative",
+            "title": "Terraink vs Vellum & Line",
+            "url": "/terraink-vs-vellum-line",
             "target": "_self",
             "icon": "Split",
             "variant": "outline"
@@ -188,36 +195,36 @@
       "faq": {
         "id": "faq",
         "title": "Terraink review FAQ",
-        "description": "Short answers before you decide whether to try the studio.",
+        "description": "Short answers for users evaluating map poster tools before spending time on one.",
         "items": [
           {
-            "question": "Is Vellum & Line official Terraink software?",
-            "answer": "No. Vellum & Line is independent and is not affiliated with Terraink or TerraInk."
+            "question": "What should a Terraink review check first?",
+            "answer": "Start with whether you can turn a real place, route, or gift idea into a map poster you would actually print, not just a longer feature list."
           },
           {
-            "question": "What is the best next step?",
-            "answer": "Open the studio and test it with your own city, route, or meaningful place. That gives you a better answer than reading another comparison paragraph."
+            "question": "How should I compare Terraink-style map poster workflows?",
+            "answer": "Use the same city, route, or memory location and compare search, styling, markers, text, and export quality."
           },
           {
-            "question": "What should I compare in a map poster tool?",
-            "answer": "Compare place search, style control, route support, poster text, export formats, and how quickly you can reach a finished design."
+            "question": "What should I test first?",
+            "answer": "Use one real poster idea: a hometown, route, wedding venue, travel stop, or coordinate. The best review is whether the workflow works for that idea."
           }
         ]
       },
       "cta": {
         "id": "cta",
-        "title": "Turn review research into a real test",
-        "description": "Open Vellum & Line and try the workflow with your own place or route.",
+        "title": "Turn the review into a real poster test",
+        "description": "Open Vellum & Line with a city, route, or coordinate and judge the workflow by the poster it helps you make.",
         "buttons": [
           {
-            "title": "Open Vellum & Line Studio",
+            "title": "Run the review test",
             "url": "/app?utm_source=terraink-review_cta",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "View Terraink alternative guide",
-            "url": "/terraink-alternative",
+            "title": "Compare side by side",
+            "url": "/terraink-vs-vellum-line",
             "target": "_self",
             "icon": "Split",
             "variant": "outline"

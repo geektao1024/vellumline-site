@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Terraink vs Vellum & Line | Map Poster Maker Comparison",
-    "description": "Compare Terraink and Vellum & Line for custom map posters, route posters, city maps, and printable map art workflows.",
+    "description": "Compare Terraink-style map poster workflows with Vellum & Line by testing speed, styling, route support, and export quality.",
     "keywords": "Terraink vs Vellum & Line, Terraink alternative, Terraink comparison, Vellum & Line map poster maker, custom map poster comparison"
   },
   "page": {
@@ -18,16 +18,16 @@
       "hero": {
         "id": "hero",
         "title": "Terraink vs Vellum & Line",
-        "description": "Compare Terraink-style map poster creation with Vellum & Line by testing the actual workflow: place search, style control, route support, and export.",
+        "description": "The useful comparison is simple: which workflow gets you from a meaningful place or route to a poster file you would actually use?",
         "buttons": [
           {
-            "title": "Open Vellum & Line Studio",
+            "title": "Test Vellum & Line",
             "url": "/app?utm_source=terraink-vs-vellum-line",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "See the guided path",
+            "title": "See comparison points",
             "url": "#introduce",
             "target": "_self",
             "icon": "ArrowDown",
@@ -48,16 +48,16 @@
       "introduce": {
         "block": "features-list",
         "id": "introduce",
-        "title": "Compare by making the same poster idea",
-        "description": "The most useful comparison is not a name checklist. Use the same city, route, or memory and see which workflow gets you to a finished poster faster.",
+        "title": "Compare the outcome, not the brand names",
+        "description": "Use the same city, route, venue, or travel memory. Then judge each workflow by how quickly it turns that idea into wall-ready map art.",
         "image": {
           "src": "/imgs/vellumline/showcase-1.png",
           "alt": "Map poster workflow comparison"
         },
         "items": [
           {
-            "title": "Start with a real place",
-            "description": "Use a city, address, landmark, or coordinate so the poster begins from something concrete.",
+            "title": "For buyers",
+            "description": "Can you make a giftable city, travel, wedding, or hometown map without needing design software?",
             "icon": "MapPin",
             "image": {
               "src": "/imgs/vellumline/showcase-1.png",
@@ -65,8 +65,8 @@
             }
           },
           {
-            "title": "Choose a poster style",
-            "description": "Adjust map layers, color, label density, typography, and ratio until the artwork feels intentional.",
+            "title": "For route memories",
+            "description": "Can you turn a run, ride, road trip, hike, or route into something cleaner than a tracking screenshot?",
             "icon": "Palette",
             "image": {
               "src": "/imgs/vellumline/showcase-2.png",
@@ -74,8 +74,8 @@
             }
           },
           {
-            "title": "Export when it feels ready",
-            "description": "Move from preview to usable artwork with PNG, PDF, and RSVG output paths.",
+            "title": "For creators",
+            "description": "Can you leave with files that work for printing, framing, sharing, or handoff?",
             "icon": "FileDown",
             "image": {
               "src": "/imgs/vellumline/studio.png",
@@ -86,14 +86,14 @@
         "className": "bg-background/60",
         "buttons": [
           {
-            "title": "Open the studio",
+            "title": "Try the Vellum workflow",
             "url": "/app?utm_source=terraink-vs-vellum-line_intro",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "Check the steps",
-            "url": "#benefits",
+            "title": "Read review checklist",
+            "url": "/terraink-review",
             "target": "_self",
             "icon": "Route",
             "variant": "outline"
@@ -103,12 +103,12 @@
       "benefits": {
         "block": "features-accordion",
         "id": "benefits",
-        "title": "A practical comparison path",
-        "description": "Focus on the decisions a real user has to make: where the map starts, how it looks, what text it carries, and how the final file exports.",
+        "title": "The comparison that matters to users",
+        "description": "People choosing a map poster tool care about the moment of use: start speed, creative control, memory detail, and finished output.",
         "items": [
           {
-            "title": "Open before you decide",
-            "description": "The clearest comparison is a hands-on one. Start with your own city, route, or meaningful place.",
+            "title": "Start speed",
+            "description": "How quickly can you start from the real location or route behind the poster idea?",
             "icon": "MousePointerClick",
             "image": {
               "src": "/imgs/vellumline/generated/search-intent.jpg",
@@ -116,8 +116,8 @@
             }
           },
           {
-            "title": "Check the poster fit",
-            "description": "Look at whether the style controls, route support, labels, and export options match your use case.",
+            "title": "Design control",
+            "description": "Can you tune the map enough that it looks intentional, personal, and ready for a frame?",
             "icon": "SlidersHorizontal",
             "image": {
               "src": "/imgs/vellumline/showcase-2.png",
@@ -125,8 +125,8 @@
             }
           },
           {
-            "title": "Compare features and formats",
-            "description": "Compare how both tools manage coordinate geocoding, multi-point GPX route imports, custom themes, and vector file rendering (PDF/SVG).",
+            "title": "Output confidence",
+            "description": "Can you export practical poster files instead of stopping at a preview or screenshot?",
             "icon": "Sliders",
             "image": {
               "src": "/imgs/vellumline/og-banner.png",
@@ -136,49 +136,56 @@
         ],
         "buttons": [
           {
-            "title": "Try Vellum & Line",
+            "title": "Test Vellum & Line workflow",
             "url": "/app?utm_source=terraink-vs-vellum-line_benefits",
             "target": "_self",
             "icon": "Map"
+          },
+          {
+            "title": "Terraink alternative overview",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
           }
         ]
       },
       "features": {
         "id": "features",
-        "title": "What a fair comparison should cover",
-        "description": "Use these points as a simple decision guide before spending more time comparing map poster tools.",
+        "title": "Terraink vs Vellum & Line: user-facing checks",
+        "description": "Use these checks as a market-facing comparison, without implying official affiliation or copying Terraink assets.",
         "items": [
           {
-            "title": "Place search",
-            "description": "Can you quickly start from the city, address, landmark, or coordinate that matters?",
+            "title": "Search-to-poster flow",
+            "description": "Start from a city, address, landmark, route, or coordinate and move directly into poster design.",
             "icon": "Search"
           },
           {
-            "title": "Map styling",
-            "description": "Can you control color, layers, label density, typography, and poster ratio without friction?",
+            "title": "Poster styling",
+            "description": "Adjust colors, layer detail, label density, typography, ratio, borders, and composition.",
             "icon": "Palette"
           },
           {
-            "title": "Route memories",
-            "description": "Can the workflow support running, cycling, travel, and other movement-based posters?",
+            "title": "Route and memory context",
+            "description": "Support routes, markers, titles, coordinates, and story details for personal map art.",
             "icon": "Route"
           },
           {
-            "title": "Export path",
-            "description": "Can you leave with practical poster files instead of only a browser preview?",
+            "title": "Finished artwork",
+            "description": "Export PNG, PDF, or SVG/RSVG files for print, sharing, framing, or handoff.",
             "icon": "Download"
           }
         ],
         "buttons": [
           {
-            "title": "Open Studio",
+            "title": "Test Vellum & Line",
             "url": "/app?utm_source=terraink-vs-vellum-line_features",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "View Terraink alternative guide",
-            "url": "/terraink-alternative",
+            "title": "Terraink review checklist",
+            "url": "/terraink-review",
             "target": "_self",
             "icon": "Split",
             "variant": "outline"
@@ -188,36 +195,36 @@
       "faq": {
         "id": "faq",
         "title": "Terraink vs Vellum & Line FAQ",
-        "description": "Short answers before you decide whether to try the studio.",
+        "description": "Short answers for users comparing Terraink-style map poster tools.",
         "items": [
           {
-            "question": "Is Vellum & Line official Terraink software?",
-            "answer": "No. Vellum & Line is independent and is not affiliated with Terraink or TerraInk."
+            "question": "What should a Terraink vs Vellum & Line comparison include?",
+            "answer": "Compare the real poster outcome: place search, route styling, visual control, and whether the exported file is useful for printing."
           },
           {
-            "question": "What is the best next step?",
-            "answer": "Open the studio and test it with your own city, route, or meaningful place. That gives you a better answer than reading another comparison paragraph."
+            "question": "How should I compare the two?",
+            "answer": "Use the same poster idea in both workflows: one place, one route, or one gift concept. Then compare speed, control, and export usefulness."
           },
           {
-            "question": "What should I compare in a map poster tool?",
-            "answer": "Compare place search, style control, route support, poster text, export formats, and how quickly you can reach a finished design."
+            "question": "When should I try a Terraink alternative?",
+            "answer": "Try one when you want to make a city map, route poster, or memory map in the browser and export printable artwork."
           }
         ]
       },
       "cta": {
         "id": "cta",
-        "title": "Compare inside the studio",
-        "description": "Start with a real place or route, then judge Vellum & Line by the finished poster you can create.",
+        "title": "Make one poster and compare the result",
+        "description": "Start with a real place or route, then judge Vellum & Line by the finished artwork you can create.",
         "buttons": [
           {
-            "title": "Open Vellum & Line Studio",
+            "title": "Test Vellum & Line",
             "url": "/app?utm_source=terraink-vs-vellum-line_cta",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "View Terraink alternative guide",
-            "url": "/terraink-alternative",
+            "title": "Read review checklist",
+            "url": "/terraink-review",
             "target": "_self",
             "icon": "Split",
             "variant": "outline"

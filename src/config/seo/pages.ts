@@ -6,7 +6,8 @@ export type SeoPageGroup =
   | 'competitor'
   | 'comparison'
   | 'review'
-  | 'tool';
+  | 'tool'
+  | 'use-case';
 
 export type SeoPageConfig = {
   path: string;
@@ -58,6 +59,67 @@ export const seoPages: SeoPageConfig[] = [
     ],
     messageKey: 'pages.terraink-alternative.metadata',
     priority: 0.92,
+    changeFrequency: 'weekly',
+  },
+  {
+    path: '/map-poster-maker',
+    group: 'tool',
+    primaryKeyword: 'map poster maker',
+    secondaryKeywords: [
+      'custom map poster maker',
+      'online map poster maker',
+      'printable map art',
+      'city map poster maker',
+      'route poster maker',
+      'wedding map poster',
+    ],
+    messageKey: 'pages.map-poster-maker.metadata',
+    priority: 0.96,
+    changeFrequency: 'weekly',
+  },
+  {
+    path: '/city-map-poster-maker',
+    group: 'use-case',
+    primaryKeyword: 'city map poster maker',
+    secondaryKeywords: [
+      'city map poster',
+      'custom city map poster',
+      'hometown map poster',
+      'travel map poster',
+      'printable city map art',
+    ],
+    messageKey: 'pages.city-map-poster-maker.metadata',
+    priority: 0.9,
+    changeFrequency: 'weekly',
+  },
+  {
+    path: '/route-poster-maker',
+    group: 'use-case',
+    primaryKeyword: 'route poster maker',
+    secondaryKeywords: [
+      'running route poster',
+      'cycling route poster',
+      'travel route poster',
+      'custom route map poster',
+      'route map art',
+    ],
+    messageKey: 'pages.route-poster-maker.metadata',
+    priority: 0.88,
+    changeFrequency: 'weekly',
+  },
+  {
+    path: '/wedding-map-poster',
+    group: 'use-case',
+    primaryKeyword: 'wedding map poster',
+    secondaryKeywords: [
+      'wedding venue map poster',
+      'anniversary map poster',
+      'custom wedding map',
+      'where we met map poster',
+      'personalized map art gift',
+    ],
+    messageKey: 'pages.wedding-map-poster.metadata',
+    priority: 0.86,
     changeFrequency: 'weekly',
   },
   {

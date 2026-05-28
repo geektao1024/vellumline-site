@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "Terraink Alternative for Custom Map Posters | Vellum & Line",
-    "description": "Looking for Terraink or TerraInk? Compare Terraink-style map poster workflows and create printable custom map art from cities, routes, and meaningful places.",
+    "title": "Terraink Alternative for Map Posters | Vellum & Line",
+    "description": "Make Terraink-style city maps and route posters in Vellum & Line, a browser studio for printable custom map art.",
     "keywords": "Terraink alternative, Terraink, TerraInk, Terraink map poster maker, Terraink app, Terraink review, custom map poster maker, printable map art"
   },
   "page": {
-    "title": "Terraink Alternative for Custom Map Posters",
-    "description": "Use Vellum & Line as an independent browser-based alternative for creating custom city map posters, route posters, and printable map art.",
+    "title": "Terraink Alternative for Map Posters",
+    "description": "Move from Terraink research to a real map poster workflow: pick a place, style the map, add memory details, and export artwork.",
     "show_sections": [
       "hero",
       "introduce",
@@ -18,22 +18,22 @@
     "sections": {
       "hero": {
         "id": "hero",
-        "title": "Terraink Alternative for Custom Map Posters",
+        "title": "Terraink Alternative for making map posters faster",
         "highlight_text": "Terraink Alternative",
-        "description": "Searching for Terraink, TerraInk, or a Terraink-style map poster maker? Vellum & Line is an independent online studio for designing printable custom map posters from places, routes, coordinates, and meaningful memories.<br/>Vellum & Line is not affiliated with, endorsed by, or owned by Terraink or TerraInk.",
+        "description": "If you are searching Terraink or TerraInk because you want a beautiful map poster, start with the outcome: a city print, route memory, or custom map artwork you can export from the browser.<br/>Vellum & Line is not official Terraink software; it is best for users who want to make printable map posters directly.",
         "announcement": {
           "title": "Independent browser studio for printable map posters",
           "url": "#compare-workflows"
         },
         "buttons": [
           {
-            "title": "Open Vellum & Line Studio",
+            "title": "Start a map poster",
             "url": "/app?utm_source=terraink-alternative",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "Compare the workflow",
+            "title": "See poster use cases",
             "url": "#compare-workflows",
             "target": "_self",
             "icon": "Split",
@@ -54,23 +54,23 @@
         },
         "background_image": {
           "src": "/imgs/vellumline/generated/hero-map-bg.jpg",
-          "alt": "Dark cartographic background for a Terraink alternative page"
+          "alt": "Dark cartographic background for Terraink alternative map posters"
         }
       },
       "introduce": {
         "block": "features-list",
         "id": "terraink-search-intent",
-        "title": "What people usually mean by a Terraink alternative",
-        "label": "Terraink search intent",
-        "description": "Most searches around Terraink are really about making a polished map poster: start from a real place, shape the cartographic style, add route or marker details, and export a file that can be printed.",
+        "title": "Make the city, route, or gift map you had in mind",
+        "label": "Map poster demand",
+        "description": "Most people searching Terraink want a concrete result: a city print, route memory, travel keepsake, or giftable map poster. Vellum & Line is built around that finished artwork.",
         "image": {
           "src": "/imgs/vellumline/showcase-1.png",
           "alt": "Custom city map poster made in Vellum & Line"
         },
         "items": [
           {
-            "title": "Map poster workflow",
-            "description": "Create a city map, hometown print, travel poster, wedding map, or route memory from one focused browser workflow.",
+            "title": "City and hometown posters",
+            "description": "Start from a city, neighborhood, venue, campus, or coordinate and shape it into a clean wall print.",
             "icon": "MapPinned",
             "image": {
               "src": "/imgs/vellumline/showcase-1.png",
@@ -78,8 +78,8 @@
             }
           },
           {
-            "title": "Browser-based studio",
-            "description": "Open the studio directly, search a place, adjust the map, and keep design decisions in one workspace.",
+            "title": "Route memory posters",
+            "description": "Turn a run, ride, road trip, hike, or travel path into a map poster with route and marker context.",
             "icon": "PanelTop",
             "image": {
               "src": "/imgs/vellumline/studio.png",
@@ -87,8 +87,8 @@
             }
           },
           {
-            "title": "Printable artwork",
-            "description": "Export finished poster files in PNG, PDF, and SVG/RSVG paths instead of stopping at an on-screen preview.",
+            "title": "Gift-ready map art",
+            "description": "Add title text, coordinates, colors, and layout choices so the result feels personal instead of generic.",
             "icon": "FileDown",
             "image": {
               "src": "/imgs/vellumline/og-banner.png",
@@ -99,14 +99,14 @@
         "className": "bg-background/60",
         "buttons": [
           {
-            "title": "Start with your place",
+            "title": "Make a custom map poster",
             "url": "/app?utm_source=terraink-alternative_intro",
             "target": "_self",
             "icon": "Search"
           },
           {
-            "title": "View map poster page",
-            "url": "/terraink-map-poster-maker",
+            "title": "See map poster maker",
+            "url": "/map-poster-maker",
             "target": "_self",
             "icon": "MapPinned",
             "variant": "outline"
@@ -116,13 +116,13 @@
       "benefits": {
         "block": "features-accordion",
         "id": "compare-workflows",
-        "title": "Why use Vellum & Line after a Terraink search",
+        "title": "From Terraink inspiration to finished wall art",
         "label": "Workflow comparison",
-        "description": "A useful alternative page should get you to a real test quickly. Vellum & Line focuses on place search, poster styling, route context, and export-ready files.",
+        "description": "Use Vellum & Line when you want to move from research to a real design: search a place, style the map, add personal details, and export the artwork.",
         "items": [
           {
-            "title": "Start from any place",
-            "description": "Use a city, address, landmark, current location, latitude and longitude, or meaningful destination as the map poster anchor.",
+            "title": "Search the place that matters",
+            "description": "Use the city, address, landmark, coordinate, or destination behind the story you want on the wall.",
             "icon": "Search",
             "image": {
               "src": "/imgs/vellumline/generated/search-intent.jpg",
@@ -130,8 +130,8 @@
             }
           },
           {
-            "title": "Shape the poster style",
-            "description": "Tune palette, road emphasis, label density, layer visibility, typography, poster size, borders, and text until the map feels ready to print.",
+            "title": "Make the map feel intentional",
+            "description": "Tune colors, roads, labels, typography, ratio, borders, and poster text until it looks like a finished piece.",
             "icon": "SlidersHorizontal",
             "image": {
               "src": "/imgs/vellumline/generated/poster-workflow.jpg",
@@ -139,8 +139,8 @@
             }
           },
           {
-            "title": "Export real poster files",
-            "description": "Download PNG, PDF, or SVG/RSVG artwork so the design can move from browser preview to print, framing, or design handoff.",
+            "title": "Leave with usable artwork",
+            "description": "Export PNG, PDF, or SVG/RSVG files for printing, framing, sharing, or design handoff.",
             "icon": "FileDown",
             "image": {
               "src": "/imgs/vellumline/generated/brand-clarity.jpg",
@@ -150,7 +150,7 @@
         ],
         "buttons": [
           {
-            "title": "Try the Terraink alternative workflow",
+            "title": "Try the map poster workflow",
             "url": "/app?utm_source=terraink-alternative_benefits",
             "target": "_self",
             "icon": "Map"
@@ -166,52 +166,52 @@
       },
       "features": {
         "id": "features",
-        "title": "Terraink alternative decision checklist",
-        "description": "Use these checks before choosing any map poster maker. They keep the decision tied to real output rather than brand confusion.",
+        "title": "Map poster scenarios Vellum & Line covers",
+        "description": "Start from the result you want: a city print, route memory, wedding gift, travel keepsake, or printable wall art file.",
         "items": [
           {
-            "title": "Clear independence",
-            "description": "Vellum & Line uses Terraink only as comparison language and does not claim official Terraink status.",
+            "title": "City and hometown prints",
+            "description": "Create clean street-map posters for hometowns, travel cities, campuses, venues, and favorite neighborhoods.",
             "icon": "ShieldCheck"
           },
           {
-            "title": "City map posters",
-            "description": "Create posters around hometowns, neighborhoods, campuses, wedding cities, travel stops, and coordinates.",
+            "title": "Route and movement memories",
+            "description": "Turn runs, rides, hikes, road trips, and travel paths into map artwork with route and marker context.",
             "icon": "Map"
           },
           {
-            "title": "Routes and markers",
-            "description": "Add route lines, marker points, coordinates, poster text, and other memory details when the story needs context.",
+            "title": "Wedding and anniversary gifts",
+            "description": "Use venues, proposal spots, first-date places, dates, coordinates, and captions for personal map gifts.",
             "icon": "Route"
           },
           {
-            "title": "Style and layout controls",
-            "description": "Adjust map layers, labels, colors, dimensions, type, borders, and composition from the same workspace.",
+            "title": "Browser-based creation",
+            "description": "Search, style, preview, and export in one studio without starting in desktop design software.",
             "icon": "Palette"
           },
           {
-            "title": "Export formats",
-            "description": "Use PNG, PDF, and SVG/RSVG export paths for printing, framing, and design handoff.",
+            "title": "Printable export formats",
+            "description": "Download poster files for local printing, framing, digital delivery, or design handoff.",
             "icon": "FileCheck"
           },
           {
-            "title": "Direct studio access",
-            "description": "Move from comparison to creation without reading another thin review page.",
+            "title": "Independent alternative",
+            "description": "Compare Terraink-style map poster workflows and decide whether Vellum & Line better fits the finished artwork you want.",
             "icon": "MousePointerClick"
           }
         ],
         "buttons": [
           {
-            "title": "Open Studio",
+            "title": "Open the studio",
             "url": "/app?utm_source=terraink-alternative_features",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "Read Terraink review",
-            "url": "/terraink-review",
+            "title": "City map poster maker",
+            "url": "/city-map-poster-maker",
             "target": "_self",
-            "icon": "BookOpen",
+            "icon": "MapPinned",
             "variant": "outline"
           }
         ]
@@ -219,19 +219,19 @@
       "faq": {
         "id": "faq",
         "title": "Terraink alternative FAQ",
-        "description": "Short answers for searches around Terraink, TerraInk, map poster makers, and printable custom map art.",
+        "description": "Short answers for people deciding whether to try Vellum & Line after a Terraink search.",
         "items": [
           {
             "question": "Is Vellum & Line the official Terraink app?",
-            "answer": "No. Vellum & Line is independent and is not affiliated with, endorsed by, or owned by Terraink or TerraInk."
+            "answer": "No. Vellum & Line is not official Terraink software. Use it to test place search, styling, and export quality for a printable map poster."
           },
           {
-            "question": "What is a Terraink alternative?",
-            "answer": "In this context, it means an independent tool that helps you make similar map poster outcomes: city prints, route posters, custom map art, and printable files."
+            "question": "What is the fastest way to compare a Terraink alternative?",
+            "answer": "Use the same city, address, or route you care about and try to make a finished poster. Workflow quality becomes clear faster than it does in a feature list."
           },
           {
             "question": "Can I make Terraink-style map posters with Vellum & Line?",
-            "answer": "You can create clean custom map posters with city, route, marker, style, typography, and export controls. The product is independent and does not copy official Terraink assets."
+            "answer": "You can create clean custom map posters with city, route, marker, style, typography, and export controls through Vellum & Line's own browser workflow."
           },
           {
             "question": "Can I make route posters for running, cycling, or travel?",
@@ -239,22 +239,22 @@
           },
           {
             "question": "What files can I export?",
-            "answer": "The current studio includes PNG, PDF, and SVG/RSVG export paths for printable poster artwork."
+            "answer": "The current studio includes PNG, PDF, and SVG/RSVG export formats for printable poster artwork."
           },
           {
-            "question": "Where should I start?",
-            "answer": "Open the studio and test one city, route, or meaningful coordinate. That gives a more useful answer than reading another generic comparison."
+            "question": "Where should I start if I already know what I want to make?",
+            "answer": "Start with the map poster maker for general custom posters, the city map poster maker for hometown or travel prints, and the route poster maker for runs, rides, hikes, or trip maps."
           }
         ]
       },
       "cta": {
         "id": "cta",
         "label": "Terraink alternative",
-        "title": "Try the map poster workflow directly",
-        "description": "Start with a real place or route, style the map, and export a printable poster file from Vellum & Line.",
+        "title": "Start with the poster you want to make",
+        "description": "Search a meaningful place, style the map, add route or text details, and export a printable poster from Vellum & Line.",
         "buttons": [
           {
-            "title": "Open Vellum & Line Studio",
+            "title": "Start a map poster",
             "url": "/app?utm_source=terraink-alternative_cta",
             "target": "_self",
             "icon": "Map"

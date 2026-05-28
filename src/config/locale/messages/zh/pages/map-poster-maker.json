@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "title": "在线地图海报生成器 | Vellum & Line",
+    "description": "用城市、地址、路线、坐标和有纪念意义的地点在线设计可打印定制地图海报。",
+    "keywords": "地图海报生成器, 定制地图海报生成器, 在线地图海报, 可打印地图艺术, 城市地图海报, 路线海报"
+  },
+  "page": {
+    "title": "在线地图海报生成器",
+    "description": "用城市、地址、路线、坐标和有纪念意义的地点在线设计可打印定制地图海报。",
+    "show_sections": [
+      "hero",
+      "introduce",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "地图海报生成器，适合地点、路线和纪念时刻",
+        "highlight_text": "地图海报生成器",
+        "description": "把城市、地址、路线、场地或坐标做成可打印地图艺术。你可以从真实地点开始，调整地图风格，添加文字和标记，然后导出可用的海报文件。",
+        "buttons": [
+          {
+            "title": "打开地图海报工作台",
+            "url": "/app?utm_source=map-poster-maker",
+            "target": "_self",
+            "icon": "Map"
+          },
+          {
+            "title": "选择海报类型",
+            "url": "#poster-types",
+            "target": "_self",
+            "icon": "ArrowDown",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "/imgs/vellumline/vellun-app.png",
+          "alt": "Vellum & Line 在线地图海报生成器",
+          "width": 1725,
+          "height": 1077
+        },
+        "background_image": {
+          "src": "/imgs/vellumline/generated/hero-map-bg.jpg",
+          "alt": "深色地图海报背景"
+        }
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "poster-types",
+        "label": "海报类型",
+        "title": "先明确你要做哪一种地图海报",
+        "description": "好的地图海报工具应该帮用户快速进入实际制作，而不是停留在概念介绍。",
+        "image": {
+          "src": "/imgs/vellumline/showcase-1.png",
+          "alt": "定制城市地图海报示例"
+        },
+        "items": [
+          {
+            "title": "城市地图海报",
+            "description": "把家乡、旅行城市、校园、社区或喜欢的街区做成可以装裱的地图作品。",
+            "icon": "MapPinned"
+          },
+          {
+            "title": "路线海报",
+            "description": "把跑步、骑行、徒步、公路旅行或旅行路线做成以路线为核心的纪念海报。",
+            "icon": "Route"
+          },
+          {
+            "title": "礼物与纪念地图",
+            "description": "用场地、坐标、日期、标题和标记制作婚礼、周年、旅行或私人礼物地图。",
+            "icon": "Gift"
+          }
+        ],
+        "className": "bg-background/60",
+        "buttons": [
+          {
+            "title": "城市地图海报生成器",
+            "url": "/city-map-poster-maker",
+            "target": "_self",
+            "icon": "MapPin"
+          },
+          {
+            "title": "路线海报生成器",
+            "url": "/route-poster-maker",
+            "target": "_self",
+            "icon": "Route",
+            "variant": "outline"
+          }
+        ]
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "workflow",
+        "label": "制作流程",
+        "title": "从地点搜索到可打印海报文件",
+        "description": "真正有用的地图海报工具，应该让用户尽快从灵感进入成品，而不是停留在空白画布。",
+        "items": [
+          {
+            "title": "搜索有意义的地点",
+            "description": "从城市、地址、地标、坐标、场地或目的地开始，确定地图海报的地理锚点。",
+            "icon": "Search",
+            "image": {
+              "src": "/imgs/vellumline/generated/search-intent.jpg",
+              "alt": "搜索地图海报地点"
+            }
+          },
+          {
+            "title": "调整地图视觉风格",
+            "description": "控制道路、标签、图层、颜色、字体、边框和海报比例，让地图更像成品设计。",
+            "icon": "SlidersHorizontal",
+            "image": {
+              "src": "/imgs/vellumline/generated/poster-workflow.jpg",
+              "alt": "定制地图海报样式控制"
+            }
+          },
+          {
+            "title": "导出用于打印或分享",
+            "description": "从浏览器下载海报作品，再用于打印、装裱、分享或后续设计处理。",
+            "icon": "FileDown",
+            "image": {
+              "src": "/imgs/vellumline/generated/brand-clarity.jpg",
+              "alt": "可打印地图海报导出"
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "title": "开始制作地图海报",
+            "url": "/app?utm_source=map-poster-maker_workflow",
+            "target": "_self",
+            "icon": "Map"
+          },
+          {
+            "title": "婚礼地图海报",
+            "url": "/wedding-map-poster",
+            "target": "_self",
+            "icon": "Heart",
+            "variant": "outline"
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "label": "覆盖场景",
+        "title": "一个工作台承接主要地图海报需求",
+        "description": "Vellum & Line 聚焦用户真实会搜索的场景：城市作品、路线纪念、礼物地图、墙面装饰和可打印文件。",
+        "items": [
+          {
+            "title": "以地点开始",
+            "description": "从具体城市、社区、地址、场地、坐标或路线开始制作，而不是从空白设计开始。",
+            "icon": "MapPin"
+          },
+          {
+            "title": "面向海报的风格控制",
+            "description": "调整颜色、图层、标签密度、字体、比例和边框，让地图更适合打印。",
+            "icon": "Palette"
+          },
+          {
+            "title": "纪念信息",
+            "description": "加入路线、标记点、标题、坐标、日期和简短文字，让地图有个人意义。",
+            "icon": "Route"
+          },
+          {
+            "title": "导出成品文件",
+            "description": "把预览变成可下载作品，用于打印、装裱、分享或设计交付。",
+            "icon": "Download"
+          }
+        ],
+        "buttons": [
+          {
+            "title": "制作城市地图海报",
+            "url": "/city-map-poster-maker",
+            "target": "_self",
+            "icon": "MapPinned"
+          },
+          {
+            "title": "查看 Terraink 替代方案",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "地图海报生成器常见问题",
+        "description": "面向准备在线制作定制地图海报的用户。",
+        "items": [
+          {
+            "question": "Vellum & Line 可以做什么？",
+            "answer": "你可以用城市、地址、坐标、场地、旅行地点和路线记忆制作定制地图海报。"
+          },
+          {
+            "question": "它可以做城市地图海报吗？",
+            "answer": "可以。如果你要做家乡、旅行城市、社区、校园或墙面装饰，请优先使用城市地图海报生成器。"
+          },
+          {
+            "question": "可以做路线海报吗？",
+            "answer": "可以。Vellum & Line 支持以路线和标记为核心的海报流程，适合跑步、骑行、徒步、旅行等移动记忆。"
+          },
+          {
+            "question": "需要安装设计软件吗？",
+            "answer": "不需要。你可以在浏览器中搜索地点、调整样式并导出海报文件。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "label": "开始制作",
+        "title": "把有意义的地点做成定制地图海报",
+        "description": "打开工作台，搜索城市、地址、坐标或路线，然后把地图调整成可打印作品。",
+        "buttons": [
+          {
+            "title": "打开地图海报工作台",
+            "url": "/app?utm_source=map-poster-maker_cta",
+            "target": "_self",
+            "icon": "Map"
+          },
+          {
+            "title": "查看路线海报生成器",
+            "url": "/route-poster-maker",
+            "target": "_self",
+            "icon": "Route",
+            "variant": "outline"
+          }
+        ],
+        "className": "bg-background/60"
+      }
+    }
+  }
+}

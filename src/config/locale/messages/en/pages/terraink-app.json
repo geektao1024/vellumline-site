@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Terraink App Alternative | Vellum & Line",
-    "description": "Looking for the Terraink app? Use Vellum & Line as an independent browser-based studio for Terraink-style custom map posters.",
+    "description": "Looking for a Terraink app or online map poster tool? Open Vellum & Line in your browser and start designing printable map art.",
     "keywords": "Terraink app, Terraink online, Terraink web app, TerraInk app, Vellum & Line studio, map poster app"
   },
   "page": {
@@ -17,17 +17,17 @@
     "sections": {
       "hero": {
         "id": "hero",
-        "title": "Terraink App Alternative",
-        "description": "Searching for the Terraink app or Terraink online? Vellum & Line is an independent browser-based studio for making custom map posters without an app store detour.",
+        "title": "Open a map poster app in your browser",
+        "description": "If you searched for a Terraink app because you want to make a map poster, skip the install hunt. Vellum & Line opens in the browser and starts from your place, route, or memory.",
         "buttons": [
           {
-            "title": "Open Vellum & Line Studio",
+            "title": "Open browser studio",
             "url": "/app?utm_source=terraink-app",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "See the guided path",
+            "title": "See what it can make",
             "url": "#introduce",
             "target": "_self",
             "icon": "ArrowDown",
@@ -48,16 +48,16 @@
       "introduce": {
         "block": "features-list",
         "id": "introduce",
-        "title": "Use Vellum & Line directly in the browser",
-        "description": "If your goal is to make a map poster, the fastest path is to open the web studio, enter a place, and start designing.",
+        "title": "Designed for the moment you want to create",
+        "description": "A good map poster app should reduce steps between idea and artwork. Vellum & Line keeps the core workflow in one browser workspace.",
         "image": {
           "src": "/imgs/vellumline/showcase-1.png",
           "alt": "Browser map poster app"
         },
         "items": [
           {
-            "title": "Start with a real place",
-            "description": "Use a city, address, landmark, or coordinate so the poster begins from something concrete.",
+            "title": "No app store detour",
+            "description": "Open the web studio directly and start with a city, address, landmark, or coordinate.",
             "icon": "MapPin",
             "image": {
               "src": "/imgs/vellumline/showcase-1.png",
@@ -65,8 +65,8 @@
             }
           },
           {
-            "title": "Choose a poster style",
-            "description": "Adjust map layers, color, label density, typography, and ratio until the artwork feels intentional.",
+            "title": "Design while you browse",
+            "description": "Adjust map style, labels, colors, poster ratio, and text in the same focused workspace.",
             "icon": "Palette",
             "image": {
               "src": "/imgs/vellumline/showcase-2.png",
@@ -74,8 +74,8 @@
             }
           },
           {
-            "title": "Export when it feels ready",
-            "description": "Move from preview to usable artwork with PNG, PDF, and RSVG output paths.",
+            "title": "Export from the studio",
+            "description": "Download PNG, PDF, or SVG/RSVG artwork when the poster is ready to print or share.",
             "icon": "FileDown",
             "image": {
               "src": "/imgs/vellumline/studio.png",
@@ -86,14 +86,14 @@
         "className": "bg-background/60",
         "buttons": [
           {
-            "title": "Open the studio",
+            "title": "Launch the browser app",
             "url": "/app?utm_source=terraink-app_intro",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "Check the steps",
-            "url": "#benefits",
+            "title": "See map poster maker",
+            "url": "/map-poster-maker",
             "target": "_self",
             "icon": "Route",
             "variant": "outline"
@@ -103,12 +103,12 @@
       "benefits": {
         "block": "features-accordion",
         "id": "benefits",
-        "title": "Why a browser studio is easier to test",
-        "description": "No install step, no download claim, no official affiliation implied. Just a working map poster studio you can try online.",
+        "title": "Why a browser studio wins the first test",
+        "description": "When a user is comparison shopping, the product that opens fastest gets the clearest chance to prove itself.",
         "items": [
           {
-            "title": "Open before you decide",
-            "description": "The clearest comparison is a hands-on one. Start with your own city, route, or meaningful place.",
+            "title": "Try before you commit",
+            "description": "Use your own city, route, or destination and see whether the workflow fits before investing more time.",
             "icon": "MousePointerClick",
             "image": {
               "src": "/imgs/vellumline/generated/search-intent.jpg",
@@ -116,8 +116,8 @@
             }
           },
           {
-            "title": "Check the poster fit",
-            "description": "Look at whether the style controls, route support, labels, and export options match your use case.",
+            "title": "Keep the creative flow",
+            "description": "Move from location search to styling to export without switching between research pages and tools.",
             "icon": "SlidersHorizontal",
             "image": {
               "src": "/imgs/vellumline/showcase-2.png",
@@ -125,60 +125,67 @@
             }
           },
           {
-            "title": "Install as a web app",
-            "description": "Add Vellum & Line to your home screen using standard Progressive Web App (PWA) triggers for offline editing capability.",
+            "title": "Save it for repeat use",
+            "description": "Use it as a browser-based studio for future city posters, route memories, travel maps, and gifts.",
             "icon": "AppWindow",
             "image": {
               "src": "/imgs/vellumline/og-banner.png",
-              "alt": "Install Vellum & Line PWA App"
+              "alt": "Vellum & Line browser map poster studio"
             }
           }
         ],
         "buttons": [
           {
-            "title": "Try Vellum & Line",
+            "title": "Open the online map studio",
             "url": "/app?utm_source=terraink-app_benefits",
             "target": "_self",
             "icon": "Map"
+          },
+          {
+            "title": "Terraink alternative overview",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
           }
         ]
       },
       "features": {
         "id": "features",
-        "title": "What you can do after opening the online studio",
-        "description": "Use these points as a simple decision guide before spending more time comparing map poster tools.",
+        "title": "What the online studio helps you make",
+        "description": "Use one real city, route, venue, or coordinate to judge whether Vellum & Line fits your map poster workflow.",
         "items": [
           {
-            "title": "Place search",
-            "description": "Can you quickly start from the city, address, landmark, or coordinate that matters?",
+            "title": "City and place posters",
+            "description": "Build posters from hometowns, neighborhoods, wedding venues, campuses, and travel stops.",
             "icon": "Search"
           },
           {
-            "title": "Map styling",
-            "description": "Can you control color, layers, label density, typography, and poster ratio without friction?",
+            "title": "Route memory posters",
+            "description": "Create running, cycling, road trip, hiking, and travel route posters with context.",
             "icon": "Palette"
           },
           {
-            "title": "Route memories",
-            "description": "Can the workflow support running, cycling, travel, and other movement-based posters?",
+            "title": "Personal map gifts",
+            "description": "Add title text, coordinates, markers, colors, and composition choices for meaningful gifts.",
             "icon": "Route"
           },
           {
-            "title": "Export path",
-            "description": "Can you leave with practical poster files instead of only a browser preview?",
+            "title": "Printable artwork",
+            "description": "Export files for printing, framing, sharing, or further design handoff.",
             "icon": "Download"
           }
         ],
         "buttons": [
           {
-            "title": "Open Studio",
+            "title": "Open browser studio",
             "url": "/app?utm_source=terraink-app_features",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "View Terraink alternative guide",
-            "url": "/terraink-alternative",
+            "title": "Compare with Terraink",
+            "url": "/terraink-vs-vellum-line",
             "target": "_self",
             "icon": "Split",
             "variant": "outline"
@@ -188,36 +195,36 @@
       "faq": {
         "id": "faq",
         "title": "Terraink app FAQ",
-        "description": "Short answers before you decide whether to try the studio.",
+        "description": "Short answers for people searching for a Terraink app or browser-based map poster workflow.",
         "items": [
           {
-            "question": "Is Vellum & Line official Terraink software?",
-            "answer": "No. Vellum & Line is independent and is not affiliated with Terraink or TerraInk."
+            "question": "Can I use Vellum & Line as a Terraink app alternative?",
+            "answer": "Yes, if your goal is to make map posters online. Start from a place, route, or memory, then design and export in the browser."
           },
           {
-            "question": "What is the best next step?",
-            "answer": "Open the studio and test it with your own city, route, or meaningful place. That gives you a better answer than reading another comparison paragraph."
+            "question": "Do I need to install anything?",
+            "answer": "No. Vellum & Line is designed as a browser-based studio, so you can open it and start from a place or route."
           },
           {
-            "question": "What should I compare in a map poster tool?",
-            "answer": "Compare place search, style control, route support, poster text, export formats, and how quickly you can reach a finished design."
+            "question": "What should I try first?",
+            "answer": "Start with one city, route, address, or coordinate you actually care about. A real poster idea is the best test."
           }
         ]
       },
       "cta": {
         "id": "cta",
-        "title": "Use Vellum & Line online",
-        "description": "Move from app search into a browser-based map poster workflow.",
+        "title": "Open the map poster studio now",
+        "description": "Start with a place or route, design the poster, and export artwork from your browser.",
         "buttons": [
           {
-            "title": "Open Vellum & Line Studio",
+            "title": "Open browser studio",
             "url": "/app?utm_source=terraink-app_cta",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "View Terraink alternative guide",
-            "url": "/terraink-alternative",
+            "title": "See map poster maker",
+            "url": "/map-poster-maker",
             "target": "_self",
             "icon": "Split",
             "variant": "outline"

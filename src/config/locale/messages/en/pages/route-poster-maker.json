@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "title": "Route Poster Maker for Runs, Rides, Hikes, and Trips | Vellum & Line",
+    "description": "Create route map posters for running routes, cycling rides, hikes, road trips, travel paths, and movement-based memories.",
+    "keywords": "route poster maker, running route poster, cycling route poster, travel route poster, custom route map poster, route map art"
+  },
+  "page": {
+    "title": "Route Poster Maker",
+    "description": "Create route map posters for running routes, cycling rides, hikes, road trips, travel paths, and movement-based memories.",
+    "show_sections": [
+      "hero",
+      "introduce",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Route poster maker for runs, rides, hikes, and trips",
+        "highlight_text": "Route poster maker",
+        "description": "Turn a route, path, or journey into a map poster that feels cleaner than a tracking screenshot. Use Vellum & Line for running memories, cycling routes, hikes, travel paths, and road trips.",
+        "buttons": [
+          {
+            "title": "Make a route poster",
+            "url": "/app?utm_source=route-poster-maker",
+            "target": "_self",
+            "icon": "Route"
+          },
+          {
+            "title": "See all map poster types",
+            "url": "/map-poster-maker",
+            "target": "_self",
+            "icon": "Map",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "/imgs/vellumline/showcase-2.png",
+          "alt": "Route map poster example",
+          "width": 1500,
+          "height": 1414
+        },
+        "background_image": {
+          "src": "/imgs/vellumline/generated/hero-map-bg.jpg",
+          "alt": "Route map poster background"
+        }
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "route-poster-types",
+        "label": "Route ideas",
+        "title": "Make the path the center of the poster",
+        "description": "Route posters work when the line carries a memory: the finish, the climb, the loop, the trip, or the place you kept returning to.",
+        "image": {
+          "src": "/imgs/vellumline/showcase-2.png",
+          "alt": "Custom route poster example"
+        },
+        "items": [
+          {
+            "title": "Running route posters",
+            "description": "Turn a favorite loop, race course, marathon memory, or everyday running path into wall art.",
+            "icon": "Activity"
+          },
+          {
+            "title": "Cycling and hiking routes",
+            "description": "Use the ride, trail, climb, or outdoor route as the main visual line in the poster.",
+            "icon": "Bike"
+          },
+          {
+            "title": "Travel and road trip maps",
+            "description": "Show the path between cities, stops, venues, or places that made the trip memorable.",
+            "icon": "Route"
+          }
+        ],
+        "className": "bg-background/60",
+        "buttons": [
+          {
+            "title": "Open route poster studio",
+            "url": "/app?utm_source=route-poster-maker_types",
+            "target": "_self",
+            "icon": "Route"
+          },
+          {
+            "title": "City map posters",
+            "url": "/city-map-poster-maker",
+            "target": "_self",
+            "icon": "MapPinned",
+            "variant": "outline"
+          }
+        ]
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "route-workflow",
+        "label": "Route workflow",
+        "title": "Build around movement, not just a location",
+        "description": "A route poster needs the surrounding map, the line, the markers, and the final composition to work together.",
+        "items": [
+          {
+            "title": "Start with the place and path",
+            "description": "Use the location and route context behind the run, ride, hike, trip, or commute you want to remember.",
+            "icon": "MapPin",
+            "image": {
+              "src": "/imgs/vellumline/studio.png",
+              "alt": "Start a route map poster"
+            }
+          },
+          {
+            "title": "Make the route readable",
+            "description": "Balance road detail, label density, colors, and line contrast so the route is clear at poster scale.",
+            "icon": "SlidersHorizontal",
+            "image": {
+              "src": "/imgs/vellumline/generated/poster-workflow.jpg",
+              "alt": "Style a route map poster"
+            }
+          },
+          {
+            "title": "Add memory markers",
+            "description": "Use marker points, titles, dates, coordinates, and captions when the route needs more context.",
+            "icon": "MapPinPlus",
+            "image": {
+              "src": "/imgs/vellumline/generated/brand-clarity.jpg",
+              "alt": "Add marker details to a route poster"
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "title": "Create a route poster",
+            "url": "/app?utm_source=route-poster-maker_workflow",
+            "target": "_self",
+            "icon": "Route"
+          },
+          {
+            "title": "Wedding map poster",
+            "url": "/wedding-map-poster",
+            "target": "_self",
+            "icon": "Heart",
+            "variant": "outline"
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "label": "Route poster controls",
+        "title": "What matters for route map art",
+        "description": "Best for users who want a route poster that can be printed, gifted, or saved as a record of movement.",
+        "items": [
+          {
+            "title": "Route-first composition",
+            "description": "Make the path visible while keeping enough map detail to understand where the journey happened.",
+            "icon": "Route"
+          },
+          {
+            "title": "Clear surrounding map",
+            "description": "Tune roads, labels, layers, and color so the background supports the route instead of competing with it.",
+            "icon": "Layers"
+          },
+          {
+            "title": "Personal context",
+            "description": "Add starts, finishes, markers, dates, place names, and short text to make the route feel specific.",
+            "icon": "BadgeCheck"
+          },
+          {
+            "title": "Poster export",
+            "description": "Export a finished file that can move from browser preview to print, frame, or design handoff.",
+            "icon": "Download"
+          }
+        ],
+        "buttons": [
+          {
+            "title": "Make a route map poster",
+            "url": "/app?utm_source=route-poster-maker_features",
+            "target": "_self",
+            "icon": "Route"
+          },
+          {
+            "title": "Terraink map poster guide",
+            "url": "/terraink-map-poster-maker",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Route poster maker FAQ",
+        "description": "Short answers for running, cycling, hiking, and travel route posters.",
+        "items": [
+          {
+            "question": "What is a route poster?",
+            "answer": "A route poster turns a path, run, ride, hike, trip, or journey into map art, usually with the route line as the visual focus."
+          },
+          {
+            "question": "Can I make a running route poster?",
+            "answer": "Yes. Use the route poster workflow for running loops, race courses, training routes, and movement-based memories."
+          },
+          {
+            "question": "Can I use this for cycling or hiking?",
+            "answer": "Yes. Cycling routes, trails, climbs, hikes, and travel paths all fit the route poster format."
+          },
+          {
+            "question": "Does Vellum & Line import GPX files?",
+            "answer": "Do not assume GPX import is available for your exact workflow yet. If GPX import is required, test the live studio before relying on it."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "label": "Start with a route",
+        "title": "Turn your route into a printable poster",
+        "description": "Use the studio to shape a run, ride, hike, road trip, or travel path into a clean map poster.",
+        "buttons": [
+          {
+            "title": "Open route poster studio",
+            "url": "/app?utm_source=route-poster-maker_cta",
+            "target": "_self",
+            "icon": "Route"
+          },
+          {
+            "title": "See city map posters",
+            "url": "/city-map-poster-maker",
+            "target": "_self",
+            "icon": "MapPinned",
+            "variant": "outline"
+          }
+        ],
+        "className": "bg-background/60"
+      }
+    }
+  }
+}

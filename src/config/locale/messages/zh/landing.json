@@ -19,24 +19,38 @@
           "icon": "PanelTop"
         },
         {
-          "title": "地图海报",
-          "url": "/#map-poster-maker",
+          "title": "地图海报生成器",
+          "url": "/map-poster-maker",
           "icon": "MapPinned"
         },
         {
-          "title": "路线海报",
-          "url": "/#use-cases",
-          "icon": "Route"
+          "title": "使用场景",
+          "icon": "PanelsTopLeft",
+          "children": [
+            {
+              "title": "城市地图海报",
+              "description": "制作家乡、旅行、校园和社区地图作品。",
+              "url": "/city-map-poster-maker",
+              "icon": "MapPin"
+            },
+            {
+              "title": "路线海报生成器",
+              "description": "把跑步、骑行、徒步和旅行路线做成海报。",
+              "url": "/route-poster-maker",
+              "icon": "Route"
+            },
+            {
+              "title": "婚礼地图海报",
+              "description": "创建婚礼场地、周年和纪念地点地图礼物。",
+              "url": "/wedding-map-poster",
+              "icon": "Heart"
+            }
+          ]
         },
         {
-          "title": "功能",
-          "url": "/#features",
-          "icon": "SlidersHorizontal"
-        },
-        {
-          "title": "常见问题",
-          "url": "/#faq",
-          "icon": "CircleHelp"
+          "title": "示例",
+          "url": "/showcases",
+          "icon": "Images"
         },
         {
           "title": "Terraink 指南",
@@ -83,17 +97,22 @@
           "children": [
             {
               "title": "定制地图海报",
-              "url": "/#map-poster-maker",
+              "url": "/map-poster-maker",
               "target": "_self"
             },
             {
-              "title": "路线海报流程",
-              "url": "/#use-cases",
+              "title": "城市地图海报",
+              "url": "/city-map-poster-maker",
               "target": "_self"
             },
             {
-              "title": "功能",
-              "url": "/#features",
+              "title": "路线海报生成器",
+              "url": "/route-poster-maker",
+              "target": "_self"
+            },
+            {
+              "title": "婚礼地图海报",
+              "url": "/wedding-map-poster",
               "target": "_self"
             }
           ]
@@ -172,7 +191,7 @@
         }
       ]
     },
-    "copyright": "© 2026 Vellum & Line。Vellum & Line 是独立产品，与 Terraink 或 TerraInk 无从属或官方关联。",
+    "copyright": "© 2026 Vellum & Line。独立地图海报工作台，专注城市、路线与记忆地图创作。",
     "show_theme": false,
     "show_locale": true,
     "show_built_with": false

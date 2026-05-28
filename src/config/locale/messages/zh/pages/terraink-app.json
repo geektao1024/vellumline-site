@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Terraink App 替代方案 | Vellum & Line",
-    "description": "正在寻找 Terraink app？使用 Vellum & Line 这个独立的浏览器工作台制作 Terraink 风格定制地图海报。",
+    "description": "正在寻找 Terraink app 或在线地图海报工具？直接在浏览器打开 Vellum & Line，开始制作可打印地图艺术。",
     "keywords": "Terraink app, Terraink online, Terraink web app, TerraInk app, Vellum & Line 工作台, 地图海报应用"
   },
   "page": {
@@ -17,17 +17,17 @@
     "sections": {
       "hero": {
         "id": "hero",
-        "title": "Terraink App 替代方案",
-        "description": "正在搜索 Terraink app 或 Terraink online？Vellum & Line 是独立的浏览器地图海报工作台，不需要先绕到应用商店。",
+        "title": "在浏览器打开地图海报 app",
+        "description": "如果你搜索 Terraink app 是为了制作地图海报，不必先找安装入口。Vellum & Line 可以在浏览器中打开，并从你的地点、路线或记忆开始。",
         "buttons": [
           {
-            "title": "打开 Vellum & Line 工作台",
+            "title": "打开浏览器工作台",
             "url": "/app?utm_source=terraink-app",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "查看引导路径",
+            "title": "查看能制作什么",
             "url": "#introduce",
             "target": "_self",
             "icon": "ArrowDown",
@@ -48,16 +48,16 @@
       "introduce": {
         "block": "features-list",
         "id": "introduce",
-        "title": "直接在浏览器使用 Vellum & Line",
-        "description": "如果目标是制作地图海报，最快路径就是打开网页工作台，输入地点，然后开始设计。",
+        "title": "为想开始创作的那一刻设计",
+        "description": "好的地图海报 app 应该减少从想法到作品的步骤。Vellum & Line 把核心流程放在一个浏览器工作区。",
         "image": {
           "src": "/imgs/vellumline/showcase-1.png",
           "alt": "浏览器地图海报应用"
         },
         "items": [
           {
-            "title": "从真实地点开始",
-            "description": "使用城市、地址、地标或坐标，让海报从具体的位置出发。",
+            "title": "不用绕到应用商店",
+            "description": "直接打开网页工作台，从城市、地址、地标或坐标开始。",
             "icon": "MapPin",
             "image": {
               "src": "/imgs/vellumline/showcase-1.png",
@@ -65,8 +65,8 @@
             }
           },
           {
-            "title": "选择海报风格",
-            "description": "调整地图图层、配色、标签密度、字体和比例，让作品更完整。",
+            "title": "边浏览边设计",
+            "description": "在同一个工作区调整地图样式、标签、颜色、海报比例和文字。",
             "icon": "Palette",
             "image": {
               "src": "/imgs/vellumline/showcase-2.png",
@@ -74,8 +74,8 @@
             }
           },
           {
-            "title": "准备好后导出",
-            "description": "通过 PNG、PDF 和 RSVG 输出路径，把预览变成可用的作品文件。",
+            "title": "从工作台导出",
+            "description": "海报完成后，下载 PNG、PDF 或 SVG/RSVG 作品用于打印或分享。",
             "icon": "FileDown",
             "image": {
               "src": "/imgs/vellumline/studio.png",
@@ -86,14 +86,14 @@
         "className": "bg-background/60",
         "buttons": [
           {
-            "title": "打开工作台",
+            "title": "启动浏览器 app",
             "url": "/app?utm_source=terraink-app_intro",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "查看步骤",
-            "url": "#benefits",
+            "title": "查看地图海报生成器页",
+            "url": "/map-poster-maker",
             "target": "_self",
             "icon": "Route",
             "variant": "outline"
@@ -103,12 +103,12 @@
       "benefits": {
         "block": "features-accordion",
         "id": "benefits",
-        "title": "为什么浏览器工作台更容易测试",
-        "description": "不需要安装步骤，不提供下载暗示，也不暗示官方关系。这里只提供一个可以在线试用的地图海报工作台。",
+        "title": "为什么浏览器工作台更适合第一次测试",
+        "description": "当用户正在比较工具时，能最快打开的产品最容易证明自己。",
         "items": [
           {
-            "title": "先打开，再判断",
-            "description": "最清楚的比较是亲手试一次。用自己的城市、路线或纪念地点开始。",
+            "title": "先试，再投入时间",
+            "description": "用自己的城市、路线或目的地测试，看流程是否适合，再决定是否继续。",
             "icon": "MousePointerClick",
             "image": {
               "src": "/imgs/vellumline/generated/search-intent.jpg",
@@ -116,8 +116,8 @@
             }
           },
           {
-            "title": "检查是否适合你的海报",
-            "description": "看样式控制、路线支持、标签和导出选项是否符合你的使用场景。",
+            "title": "保持创作节奏",
+            "description": "从地点搜索到样式调整再到导出，减少资料研究和实际制作之间的来回切换。",
             "icon": "SlidersHorizontal",
             "image": {
               "src": "/imgs/vellumline/showcase-2.png",
@@ -125,8 +125,8 @@
             }
           },
           {
-            "title": "支持添加为桌面应用",
-            "description": "支持标准渐进式网页应用（PWA）规范，可一键添加到手机或电脑桌面，享受免下载的类原生 App 体验。",
+            "title": "适合反复使用",
+            "description": "把它作为浏览器地图工作台，用于城市海报、路线记忆、旅行地图和礼物海报。",
             "icon": "AppWindow",
             "image": {
               "src": "/imgs/vellumline/og-banner.png",
@@ -136,49 +136,56 @@
         ],
         "buttons": [
           {
-            "title": "试用 Vellum & Line",
+            "title": "打开在线地图工作台",
             "url": "/app?utm_source=terraink-app_benefits",
             "target": "_self",
             "icon": "Map"
+          },
+          {
+            "title": "Terraink 替代方案总览",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
           }
         ]
       },
       "features": {
         "id": "features",
-        "title": "打开在线工作台后你可以做什么",
-        "description": "在继续花时间比较地图海报工具前，可以先用这些点做快速判断。",
+        "title": "在线工作台能帮你制作什么",
+        "description": "用一个真实地点、路线或礼物想法判断 Vellum & Line 是否符合你的地图海报需求。",
         "items": [
           {
-            "title": "地点搜索",
-            "description": "能否快速从城市、地址、地标或坐标开始？",
+            "title": "城市与地点海报",
+            "description": "围绕家乡、街区、婚礼场地、校园和旅行目的地制作地图海报。",
             "icon": "Search"
           },
           {
-            "title": "地图样式",
-            "description": "能否顺畅控制配色、图层、标签密度、字体和海报比例？",
+            "title": "路线记忆海报",
+            "description": "制作跑步、骑行、自驾、徒步和旅行路线海报。",
             "icon": "Palette"
           },
           {
-            "title": "路线记忆",
-            "description": "能否支持跑步、骑行、旅行和其他移动路线海报？",
+            "title": "个人地图礼物",
+            "description": "加入标题、坐标、标记、配色和构图，让地图更有纪念意义。",
             "icon": "Route"
           },
           {
-            "title": "导出路径",
-            "description": "能否获得实际海报文件，而不是只停留在浏览器预览？",
+            "title": "可打印作品",
+            "description": "导出用于打印、装裱、分享或设计交付的文件。",
             "icon": "Download"
           }
         ],
         "buttons": [
           {
-            "title": "打开工作台",
+            "title": "打开浏览器工作台",
             "url": "/app?utm_source=terraink-app_features",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "查看 Terraink 替代指南",
-            "url": "/terraink-alternative",
+            "title": "对比 Terraink",
+            "url": "/terraink-vs-vellum-line",
             "target": "_self",
             "icon": "Split",
             "variant": "outline"
@@ -188,36 +195,36 @@
       "faq": {
         "id": "faq",
         "title": "Terraink app 常见问题",
-        "description": "在决定是否试用工作台前，先看几个简短回答。",
+        "description": "给正在搜索 Terraink app 或浏览器地图海报流程的用户几个直接回答。",
         "items": [
           {
-            "question": "Vellum & Line 是官方 Terraink 软件吗？",
-            "answer": "不是。Vellum & Line 是独立产品，与 Terraink 或 TerraInk 没有官方从属或合作关系。"
+            "question": "可以把 Vellum & Line 当作 Terraink app 替代方案吗？",
+            "answer": "如果你的目标是在线制作地图海报，可以。它适合从地点、路线或纪念场景开始，并在浏览器中完成设计和导出。"
           },
           {
-            "question": "下一步最好做什么？",
-            "answer": "打开工作台，用自己的城市、路线或纪念地点测试。这样比继续阅读对比段落更容易判断是否适合。"
+            "question": "需要安装吗？",
+            "answer": "不需要。Vellum & Line 是浏览器工作台，可以直接打开并从地点或路线开始。"
           },
           {
-            "question": "选择地图海报工具时应该比较什么？",
-            "answer": "比较地点搜索、样式控制、路线支持、海报文字、导出格式，以及完成设计所需的速度。"
+            "question": "第一次应该测试什么？",
+            "answer": "用一个你真实关心的城市、路线、地址或坐标开始。真实海报想法是最好的测试。"
           }
         ]
       },
       "cta": {
         "id": "cta",
-        "title": "在线使用 Vellum & Line",
-        "description": "从应用搜索结果进入浏览器地图海报制作流程。",
+        "title": "现在打开地图海报工作台",
+        "description": "从地点或路线开始，在浏览器中设计并导出地图海报。",
         "buttons": [
           {
-            "title": "打开 Vellum & Line 工作台",
+            "title": "打开浏览器工作台",
             "url": "/app?utm_source=terraink-app_cta",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "查看 Terraink 替代指南",
-            "url": "/terraink-alternative",
+            "title": "查看地图海报生成器页",
+            "url": "/map-poster-maker",
             "target": "_self",
             "icon": "Split",
             "variant": "outline"

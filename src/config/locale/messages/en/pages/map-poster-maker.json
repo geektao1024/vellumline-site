@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "title": "Map Poster Maker Online | Vellum & Line",
+    "description": "Design printable custom map posters from cities, addresses, routes, coordinates, and meaningful places in a focused browser studio.",
+    "keywords": "map poster maker, custom map poster maker, online map poster maker, printable map art, city map poster maker, route poster maker"
+  },
+  "page": {
+    "title": "Map Poster Maker Online",
+    "description": "Design printable custom map posters from cities, addresses, routes, coordinates, and meaningful places in Vellum & Line.",
+    "show_sections": [
+      "hero",
+      "introduce",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Map poster maker for places, routes, and memories",
+        "highlight_text": "Map poster maker",
+        "description": "Turn a city, address, route, venue, or coordinate into printable map art without leaving the browser. Start with a real place, tune the style, add context, and export a poster file you can use.",
+        "buttons": [
+          {
+            "title": "Open map poster studio",
+            "url": "/app?utm_source=map-poster-maker",
+            "target": "_self",
+            "icon": "Map"
+          },
+          {
+            "title": "Choose a poster type",
+            "url": "#poster-types",
+            "target": "_self",
+            "icon": "ArrowDown",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "/imgs/vellumline/vellun-app.png",
+          "alt": "Vellum & Line online map poster maker",
+          "width": 1725,
+          "height": 1077
+        },
+        "background_image": {
+          "src": "/imgs/vellumline/generated/hero-map-bg.jpg",
+          "alt": "Dark map poster background"
+        }
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "poster-types",
+        "label": "Poster types",
+        "title": "Start with the map you want to make",
+        "description": "The strongest map poster pages answer one practical question: what place or route should become the finished artwork?",
+        "image": {
+          "src": "/imgs/vellumline/showcase-1.png",
+          "alt": "Custom city map poster example"
+        },
+        "items": [
+          {
+            "title": "City map posters",
+            "description": "Make a poster from a hometown, favorite neighborhood, campus, travel stop, or city you want on the wall.",
+            "icon": "MapPinned"
+          },
+          {
+            "title": "Route posters",
+            "description": "Shape a run, ride, hike, road trip, or travel path into a clean route-based memory poster.",
+            "icon": "Route"
+          },
+          {
+            "title": "Gift and event maps",
+            "description": "Use venues, coordinates, dates, titles, and marker details for weddings, anniversaries, and personal gifts.",
+            "icon": "Gift"
+          }
+        ],
+        "className": "bg-background/60",
+        "buttons": [
+          {
+            "title": "City map poster maker",
+            "url": "/city-map-poster-maker",
+            "target": "_self",
+            "icon": "MapPin"
+          },
+          {
+            "title": "Route poster maker",
+            "url": "/route-poster-maker",
+            "target": "_self",
+            "icon": "Route",
+            "variant": "outline"
+          }
+        ]
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "workflow",
+        "label": "Workflow",
+        "title": "From search to printable poster file",
+        "description": "A useful map poster maker should move quickly from location idea to finished export, not trap you in a blank design tool.",
+        "items": [
+          {
+            "title": "Search any meaningful place",
+            "description": "Start with a city, address, landmark, coordinate, venue, or destination that gives the poster its story.",
+            "icon": "Search",
+            "image": {
+              "src": "/imgs/vellumline/generated/search-intent.jpg",
+              "alt": "Search a place for a map poster"
+            }
+          },
+          {
+            "title": "Tune the map style",
+            "description": "Adjust roads, labels, layers, colors, typography, borders, and poster ratio until the map feels designed.",
+            "icon": "SlidersHorizontal",
+            "image": {
+              "src": "/imgs/vellumline/generated/poster-workflow.jpg",
+              "alt": "Style controls for a custom map poster"
+            }
+          },
+          {
+            "title": "Export files for print or sharing",
+            "description": "Download poster artwork from the browser and refine the file before printing, framing, or sending it onward.",
+            "icon": "FileDown",
+            "image": {
+              "src": "/imgs/vellumline/generated/brand-clarity.jpg",
+              "alt": "Printable map poster export"
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "title": "Start a custom map poster",
+            "url": "/app?utm_source=map-poster-maker_workflow",
+            "target": "_self",
+            "icon": "Map"
+          },
+          {
+            "title": "Wedding map poster ideas",
+            "url": "/wedding-map-poster",
+            "target": "_self",
+            "icon": "Heart",
+            "variant": "outline"
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "label": "What it covers",
+        "title": "One studio for the main map poster jobs",
+        "description": "Vellum & Line is built around the moments people actually search for: city prints, route memories, gifts, wall art, and printable files.",
+        "items": [
+          {
+            "title": "Place-first creation",
+            "description": "Start with the exact city, neighborhood, address, venue, coordinate, or route behind the poster.",
+            "icon": "MapPin"
+          },
+          {
+            "title": "Poster-ready styling",
+            "description": "Use color, layers, label density, type, ratio, and border choices to make the map feel finished.",
+            "icon": "Palette"
+          },
+          {
+            "title": "Memory details",
+            "description": "Add route lines, marker points, titles, coordinates, dates, and short context when the map needs a story.",
+            "icon": "Route"
+          },
+          {
+            "title": "Export-focused output",
+            "description": "Move from preview to downloadable artwork for printing, framing, sharing, or design handoff.",
+            "icon": "Download"
+          }
+        ],
+        "buttons": [
+          {
+            "title": "Make a city map poster",
+            "url": "/city-map-poster-maker",
+            "target": "_self",
+            "icon": "MapPinned"
+          },
+          {
+            "title": "Compare Terraink alternative",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Map poster maker FAQ",
+        "description": "Short answers for people ready to create a custom map poster online.",
+        "items": [
+          {
+            "question": "What can I make with Vellum & Line?",
+            "answer": "You can create custom map posters from cities, addresses, coordinates, venues, travel places, and route-based memories."
+          },
+          {
+            "question": "Is this a city map poster maker?",
+            "answer": "Yes. Use the city map poster maker when your main goal is a hometown, travel city, neighborhood, campus, or wall art print."
+          },
+          {
+            "question": "Can I make route posters?",
+            "answer": "Yes. Vellum & Line supports route and marker-based poster workflows for runs, rides, hikes, trips, and other movement-based memories."
+          },
+          {
+            "question": "Do I need design software?",
+            "answer": "No. The workflow runs in the browser so you can search, style, and export from the same studio."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "label": "Create now",
+        "title": "Make a custom map poster from a place that matters",
+        "description": "Open the studio, search a city, address, coordinate, or route, then shape the map into printable artwork.",
+        "buttons": [
+          {
+            "title": "Open map poster studio",
+            "url": "/app?utm_source=map-poster-maker_cta",
+            "target": "_self",
+            "icon": "Map"
+          },
+          {
+            "title": "See route poster maker",
+            "url": "/route-poster-maker",
+            "target": "_self",
+            "icon": "Route",
+            "variant": "outline"
+          }
+        ],
+        "className": "bg-background/60"
+      }
+    }
+  }
+}

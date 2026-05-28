@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Terraink vs Vellum & Line | 地图海报生成器对比",
-    "description": "对比 Terraink 与 Vellum & Line 在定制地图海报、路线海报、城市地图和可打印地图艺术流程上的差异。",
+    "description": "通过速度、样式、路线支持和导出质量，对比 Terraink 风格地图海报流程与 Vellum & Line。",
     "keywords": "Terraink vs Vellum & Line, Terraink alternative, Terraink 对比, Vellum & Line 地图海报生成器, 定制地图海报对比"
   },
   "page": {
@@ -18,16 +18,16 @@
       "hero": {
         "id": "hero",
         "title": "Terraink vs Vellum & Line",
-        "description": "通过真实工作流来对比 Terraink 风格地图海报制作与 Vellum & Line：地点搜索、样式控制、路线支持和导出。",
+        "description": "有用的对比很简单：哪条流程能把一个有意义的地点或路线，更快变成你愿意使用的海报文件？",
         "buttons": [
           {
-            "title": "打开 Vellum & Line 工作台",
+            "title": "测试 Vellum & Line",
             "url": "/app?utm_source=terraink-vs-vellum-line",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "查看引导路径",
+            "title": "查看对比点",
             "url": "#introduce",
             "target": "_self",
             "icon": "ArrowDown",
@@ -48,16 +48,16 @@
       "introduce": {
         "block": "features-list",
         "id": "introduce",
-        "title": "用同一个海报想法来比较",
-        "description": "有用的比较不是只看名字。用同一个城市、路线或记忆测试，看哪条流程更快到达成品。",
+        "title": "比较结果，而不是比较名称",
+        "description": "用同一个城市、路线、场馆或旅行记忆测试，然后看哪条流程更快把想法变成墙面地图作品。",
         "image": {
           "src": "/imgs/vellumline/showcase-1.png",
           "alt": "地图海报工作流对比"
         },
         "items": [
           {
-            "title": "从真实地点开始",
-            "description": "使用城市、地址、地标或坐标，让海报从具体的位置出发。",
+            "title": "送礼购买者",
+            "description": "能否不用设计软件，就做出城市、旅行、婚礼或家乡地图礼物？",
             "icon": "MapPin",
             "image": {
               "src": "/imgs/vellumline/showcase-1.png",
@@ -65,8 +65,8 @@
             }
           },
           {
-            "title": "选择海报风格",
-            "description": "调整地图图层、配色、标签密度、字体和比例，让作品更完整。",
+            "title": "路线记忆用户",
+            "description": "能否把跑步、骑行、自驾、徒步或旅行路线做得比轨迹截图更干净？",
             "icon": "Palette",
             "image": {
               "src": "/imgs/vellumline/showcase-2.png",
@@ -74,8 +74,8 @@
             }
           },
           {
-            "title": "准备好后导出",
-            "description": "通过 PNG、PDF 和 RSVG 输出路径，把预览变成可用的作品文件。",
+            "title": "创作者与设计用户",
+            "description": "能否带走适合打印、装裱、分享或交付的文件？",
             "icon": "FileDown",
             "image": {
               "src": "/imgs/vellumline/studio.png",
@@ -86,14 +86,14 @@
         "className": "bg-background/60",
         "buttons": [
           {
-            "title": "打开工作台",
+            "title": "试用 Vellum 流程",
             "url": "/app?utm_source=terraink-vs-vellum-line_intro",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "查看步骤",
-            "url": "#benefits",
+            "title": "阅读评测清单",
+            "url": "/terraink-review",
             "target": "_self",
             "icon": "Route",
             "variant": "outline"
@@ -103,12 +103,12 @@
       "benefits": {
         "block": "features-accordion",
         "id": "benefits",
-        "title": "更实际的对比路径",
-        "description": "聚焦真实用户要做的决定：地图从哪里开始、看起来如何、承载什么文字、最终文件怎么导出。",
+        "title": "用户真正关心的对比",
+        "description": "选择地图海报工具时，用户关心的是使用瞬间：开始速度、创作控制、记忆细节和最终输出。",
         "items": [
           {
-            "title": "先打开，再判断",
-            "description": "最清楚的比较是亲手试一次。用自己的城市、路线或纪念地点开始。",
+            "title": "开始速度",
+            "description": "能多快从真实地点或路线进入第一版海报设计？",
             "icon": "MousePointerClick",
             "image": {
               "src": "/imgs/vellumline/generated/search-intent.jpg",
@@ -116,8 +116,8 @@
             }
           },
           {
-            "title": "检查是否适合你的海报",
-            "description": "看样式控制、路线支持、标签和导出选项是否符合你的使用场景。",
+            "title": "设计控制",
+            "description": "能否把地图调整到有设计感、个人化、适合装裱的程度？",
             "icon": "SlidersHorizontal",
             "image": {
               "src": "/imgs/vellumline/showcase-2.png",
@@ -125,8 +125,8 @@
             }
           },
           {
-            "title": "对比功能与输出格式",
-            "description": "对比两款工具在地点搜索定位、多点 GPX 路线导入、自定义地图主题配置以及高分矢量导出（PDF/SVG）上的实际差异。",
+            "title": "输出信心",
+            "description": "能否导出实际海报文件，而不是停留在预览或截图？",
             "icon": "Sliders",
             "image": {
               "src": "/imgs/vellumline/og-banner.png",
@@ -136,49 +136,56 @@
         ],
         "buttons": [
           {
-            "title": "试用 Vellum & Line",
+            "title": "试用 Vellum & Line 流程",
             "url": "/app?utm_source=terraink-vs-vellum-line_benefits",
             "target": "_self",
             "icon": "Map"
+          },
+          {
+            "title": "Terraink 替代方案总览",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
           }
         ]
       },
       "features": {
         "id": "features",
-        "title": "公平对比应该看哪些点",
-        "description": "在继续花时间比较地图海报工具前，可以先用这些点做快速判断。",
+        "title": "Terraink vs Vellum & Line：用户视角检查点",
+        "description": "用真实海报任务比较 Terraink 风格流程：从地点搜索、路线表达、样式控制到最终导出。",
         "items": [
           {
-            "title": "地点搜索",
-            "description": "能否快速从城市、地址、地标或坐标开始？",
+            "title": "从搜索到海报",
+            "description": "从城市、地址、地标、路线或坐标开始，并直接进入海报设计。",
             "icon": "Search"
           },
           {
-            "title": "地图样式",
-            "description": "能否顺畅控制配色、图层、标签密度、字体和海报比例？",
+            "title": "海报样式",
+            "description": "调整配色、图层细节、标签密度、字体、比例、边框和构图。",
             "icon": "Palette"
           },
           {
-            "title": "路线记忆",
-            "description": "能否支持跑步、骑行、旅行和其他移动路线海报？",
+            "title": "路线与记忆上下文",
+            "description": "支持路线、标记、标题、坐标和故事细节，用于个人地图艺术。",
             "icon": "Route"
           },
           {
-            "title": "导出路径",
-            "description": "能否获得实际海报文件，而不是只停留在浏览器预览？",
+            "title": "完成作品",
+            "description": "导出 PNG、PDF 或 SVG/RSVG 文件，用于打印、分享、装裱或交付。",
             "icon": "Download"
           }
         ],
         "buttons": [
           {
-            "title": "打开工作台",
+            "title": "测试 Vellum & Line",
             "url": "/app?utm_source=terraink-vs-vellum-line_features",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "查看 Terraink 替代指南",
-            "url": "/terraink-alternative",
+            "title": "Terraink 评测清单",
+            "url": "/terraink-review",
             "target": "_self",
             "icon": "Split",
             "variant": "outline"
@@ -188,36 +195,36 @@
       "faq": {
         "id": "faq",
         "title": "Terraink vs Vellum & Line 常见问题",
-        "description": "在决定是否试用工作台前，先看几个简短回答。",
+        "description": "给正在比较 Terraink 风格地图海报工具的用户几个直接回答。",
         "items": [
           {
-            "question": "Vellum & Line 是官方 Terraink 软件吗？",
-            "answer": "不是。Vellum & Line 是独立产品，与 Terraink 或 TerraInk 没有官方从属或合作关系。"
+            "question": "Terraink vs Vellum & Line 应该比较什么？",
+            "answer": "重点比较真实制作结果：地点搜索是否顺、路线是否好看、样式是否可控、导出文件是否适合打印。"
           },
           {
-            "question": "下一步最好做什么？",
-            "answer": "打开工作台，用自己的城市、路线或纪念地点测试。这样比继续阅读对比段落更容易判断是否适合。"
+            "question": "应该怎样比较两者？",
+            "answer": "用同一个海报想法测试：同一个地点、路线或礼物场景。然后比较速度、控制感和导出是否有用。"
           },
           {
-            "question": "选择地图海报工具时应该比较什么？",
-            "answer": "比较地点搜索、样式控制、路线支持、海报文字、导出格式，以及完成设计所需的速度。"
+            "question": "什么时候适合尝试 Terraink 替代方案？",
+            "answer": "当你想快速做城市地图、路线海报或纪念地点海报，并希望直接在浏览器里完成样式和导出时。"
           }
         ]
       },
       "cta": {
         "id": "cta",
-        "title": "在工作台里完成比较",
-        "description": "从一个真实地点或路线开始，再根据最终能做出的海报判断 Vellum & Line。",
+        "title": "制作一张海报，再比较结果",
+        "description": "从真实地点或路线开始，用最终能做出的地图作品判断 Vellum & Line 是否适合。",
         "buttons": [
           {
-            "title": "打开 Vellum & Line 工作台",
+            "title": "测试 Vellum & Line",
             "url": "/app?utm_source=terraink-vs-vellum-line_cta",
             "target": "_self",
             "icon": "Map"
           },
           {
-            "title": "查看 Terraink 替代指南",
-            "url": "/terraink-alternative",
+            "title": "阅读评测清单",
+            "url": "/terraink-review",
             "target": "_self",
             "icon": "Split",
             "variant": "outline"

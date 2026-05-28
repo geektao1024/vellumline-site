@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "title": "路线海报生成器：跑步、骑行、徒步和旅行路线 | Vellum & Line",
+    "description": "为跑步路线、骑行路线、徒步、公路旅行、旅行路线和移动记忆创建路线地图海报。",
+    "keywords": "路线海报生成器, 跑步路线海报, 骑行路线海报, 旅行路线海报, 定制路线地图海报, 路线地图艺术"
+  },
+  "page": {
+    "title": "路线海报生成器",
+    "description": "为跑步路线、骑行路线、徒步、公路旅行、旅行路线和移动记忆创建路线地图海报。",
+    "show_sections": [
+      "hero",
+      "introduce",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "路线海报生成器，适合跑步、骑行、徒步和旅行",
+        "highlight_text": "路线海报生成器",
+        "description": "把一条路线、轨迹或旅程做成比运动截图更干净的地图海报。适合跑步记忆、骑行路线、徒步、公路旅行和旅行路线。",
+        "buttons": [
+          {
+            "title": "制作路线海报",
+            "url": "/app?utm_source=route-poster-maker",
+            "target": "_self",
+            "icon": "Route"
+          },
+          {
+            "title": "查看所有地图海报",
+            "url": "/map-poster-maker",
+            "target": "_self",
+            "icon": "Map",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "/imgs/vellumline/showcase-2.png",
+          "alt": "路线地图海报示例",
+          "width": 1500,
+          "height": 1414
+        },
+        "background_image": {
+          "src": "/imgs/vellumline/generated/hero-map-bg.jpg",
+          "alt": "路线地图海报背景"
+        }
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "route-poster-types",
+        "label": "路线海报灵感",
+        "title": "让路线成为海报的主体",
+        "description": "路线海报的核心是那条线：终点、爬升、环线、旅程或反复经过的地方。",
+        "image": {
+          "src": "/imgs/vellumline/showcase-2.png",
+          "alt": "定制路线海报示例"
+        },
+        "items": [
+          {
+            "title": "跑步路线海报",
+            "description": "把常跑路线、比赛路线、马拉松记忆或训练轨迹做成墙面地图作品。",
+            "icon": "Activity"
+          },
+          {
+            "title": "骑行与徒步路线",
+            "description": "把骑行、山路、爬坡、徒步或户外路线作为海报的主要视觉线索。",
+            "icon": "Bike"
+          },
+          {
+            "title": "旅行与公路路线",
+            "description": "展示城市之间、停靠点之间或旅途中有意义地点之间的路线。",
+            "icon": "Route"
+          }
+        ],
+        "className": "bg-background/60",
+        "buttons": [
+          {
+            "title": "打开路线海报工作台",
+            "url": "/app?utm_source=route-poster-maker_types",
+            "target": "_self",
+            "icon": "Route"
+          },
+          {
+            "title": "城市地图海报",
+            "url": "/city-map-poster-maker",
+            "target": "_self",
+            "icon": "MapPinned",
+            "variant": "outline"
+          }
+        ]
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "route-workflow",
+        "label": "路线流程",
+        "title": "围绕移动轨迹制作，而不只是选一个地点",
+        "description": "路线海报需要地图背景、路线线条、标记点和最终构图一起成立。",
+        "items": [
+          {
+            "title": "从地点和路线开始",
+            "description": "使用跑步、骑行、徒步、公路旅行或通勤背后的地点和路线信息。",
+            "icon": "MapPin",
+            "image": {
+              "src": "/imgs/vellumline/studio.png",
+              "alt": "开始制作路线地图海报"
+            }
+          },
+          {
+            "title": "让路线足够清晰",
+            "description": "平衡道路细节、标签密度、颜色和线条对比，让路线在海报尺寸下仍然清楚。",
+            "icon": "SlidersHorizontal",
+            "image": {
+              "src": "/imgs/vellumline/generated/poster-workflow.jpg",
+              "alt": "调整路线地图海报样式"
+            }
+          },
+          {
+            "title": "加入纪念标记",
+            "description": "用起终点、标记、标题、日期、坐标和简短文字，让路线更有上下文。",
+            "icon": "MapPinPlus",
+            "image": {
+              "src": "/imgs/vellumline/generated/brand-clarity.jpg",
+              "alt": "路线海报标记信息"
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "title": "创建路线海报",
+            "url": "/app?utm_source=route-poster-maker_workflow",
+            "target": "_self",
+            "icon": "Route"
+          },
+          {
+            "title": "婚礼地图海报",
+            "url": "/wedding-map-poster",
+            "target": "_self",
+            "icon": "Heart",
+            "variant": "outline"
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "label": "路线海报控制项",
+        "title": "路线地图艺术真正需要的能力",
+        "description": "适合想把路线做成可打印、可赠送或可长期保存地图海报的用户。",
+        "items": [
+          {
+            "title": "以路线为中心的构图",
+            "description": "让路线足够突出，同时保留必要地图细节，标明旅程发生在哪里。",
+            "icon": "Route"
+          },
+          {
+            "title": "清晰的地图背景",
+            "description": "调整道路、标签、图层和颜色，让背景服务路线，而不是抢走注意力。",
+            "icon": "Layers"
+          },
+          {
+            "title": "个人化上下文",
+            "description": "添加起点、终点、标记、日期、地点名和简短文字，让路线更具体。",
+            "icon": "BadgeCheck"
+          },
+          {
+            "title": "海报文件导出",
+            "description": "把浏览器预览导出为可用于打印、装裱或设计交付的文件。",
+            "icon": "Download"
+          }
+        ],
+        "buttons": [
+          {
+            "title": "制作路线地图海报",
+            "url": "/app?utm_source=route-poster-maker_features",
+            "target": "_self",
+            "icon": "Route"
+          },
+          {
+            "title": "Terraink 地图海报指南",
+            "url": "/terraink-map-poster-maker",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "路线海报生成器常见问题",
+        "description": "适合跑步、骑行、徒步和旅行路线海报用户。",
+        "items": [
+          {
+            "question": "什么是路线海报？",
+            "answer": "路线海报把一条路线、跑步、骑行、徒步、旅行或旅程做成地图艺术，通常以路线线条作为视觉主体。"
+          },
+          {
+            "question": "可以做跑步路线海报吗？",
+            "answer": "可以。路线海报流程适合跑步环线、比赛路线、训练路线和其他移动记忆。"
+          },
+          {
+            "question": "可以用于骑行或徒步吗？",
+            "answer": "可以。骑行路线、徒步轨迹、爬坡、公路旅行和旅行路线都适合路线海报形式。"
+          },
+          {
+            "question": "Vellum & Line 支持 GPX 文件导入吗？",
+            "answer": "不要默认当前工作流已经满足你的具体 GPX 导入需求。如果必须依赖 GPX，请先在实时工作台中测试后再判断。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "label": "从路线开始",
+        "title": "把你的路线做成可打印海报",
+        "description": "用工作台把跑步、骑行、徒步、公路旅行或旅行路线调整成干净的地图海报。",
+        "buttons": [
+          {
+            "title": "打开路线海报工作台",
+            "url": "/app?utm_source=route-poster-maker_cta",
+            "target": "_self",
+            "icon": "Route"
+          },
+          {
+            "title": "查看城市地图海报",
+            "url": "/city-map-poster-maker",
+            "target": "_self",
+            "icon": "MapPinned",
+            "variant": "outline"
+          }
+        ],
+        "className": "bg-background/60"
+      }
+    }
+  }
+}

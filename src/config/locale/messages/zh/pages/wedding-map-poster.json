@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "title": "婚礼地图海报生成器 | Vellum & Line",
+    "description": "用婚礼场地、初次见面地点、求婚地点、坐标、日期和有意义的位置制作个性化婚礼地图海报。",
+    "keywords": "婚礼地图海报, 婚礼场地地图海报, 周年地图海报, 定制婚礼地图, 初次见面地图海报, 个性化地图礼物"
+  },
+  "page": {
+    "title": "婚礼地图海报生成器",
+    "description": "用婚礼场地、初次见面地点、求婚地点、坐标、日期和有意义的位置制作个性化婚礼地图海报。",
+    "show_sections": [
+      "hero",
+      "introduce",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "婚礼地图海报生成器，把故事里的地点做成礼物",
+        "highlight_text": "婚礼地图海报生成器",
+        "description": "把婚礼场地、初次约会地点、求婚地点、蜜月城市或共同的家乡做成个性化地图海报，支持干净风格、文字、坐标和可打印导出。",
+        "buttons": [
+          {
+            "title": "制作婚礼地图海报",
+            "url": "/app?utm_source=wedding-map-poster",
+            "target": "_self",
+            "icon": "Heart"
+          },
+          {
+            "title": "查看地图海报生成器",
+            "url": "/map-poster-maker",
+            "target": "_self",
+            "icon": "Map",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "/imgs/vellumline/generated/brand-clarity.jpg",
+          "alt": "Vellum & Line 婚礼地图海报",
+          "width": 1448,
+          "height": 1086
+        },
+        "background_image": {
+          "src": "/imgs/vellumline/generated/hero-map-bg.jpg",
+          "alt": "婚礼地图海报背景"
+        }
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "wedding-map-ideas",
+        "label": "适合送礼的地图艺术",
+        "title": "先选择那个真正有意义的地点",
+        "description": "婚礼和周年地图海报成立，是因为地点本身已经有故事。",
+        "image": {
+          "src": "/imgs/vellumline/showcase-1.png",
+          "alt": "个性化地图海报礼物"
+        },
+        "items": [
+          {
+            "title": "婚礼场地地图",
+            "description": "围绕仪式场地、宴会地点、目的地婚礼城市或酒店区域制作地图海报。",
+            "icon": "Landmark"
+          },
+          {
+            "title": "初次见面地图",
+            "description": "把第一次约会、求婚地点、共同生活过的社区或最喜欢的地址做成纪念作品。",
+            "icon": "Heart"
+          },
+          {
+            "title": "周年地图艺术",
+            "description": "用城市、路线、家、旅行地点或坐标制作个性化周年礼物。",
+            "icon": "Gift"
+          }
+        ],
+        "className": "bg-background/60",
+        "buttons": [
+          {
+            "title": "从场地开始制作",
+            "url": "/app?utm_source=wedding-map-poster_ideas",
+            "target": "_self",
+            "icon": "MapPin"
+          },
+          {
+            "title": "城市地图海报生成器",
+            "url": "/city-map-poster-maker",
+            "target": "_self",
+            "icon": "MapPinned",
+            "variant": "outline"
+          }
+        ]
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "wedding-workflow",
+        "label": "婚礼地图流程",
+        "title": "让它像一份礼物，而不是一张截图",
+        "description": "婚礼地图艺术不只是一张地图。标题、坐标、日期、配色和打印文件同样重要。",
+        "items": [
+          {
+            "title": "从有意义的地点开始",
+            "description": "搜索婚礼场地、城市、地址、地标、求婚地点或坐标。",
+            "icon": "Search",
+            "image": {
+              "src": "/imgs/vellumline/generated/search-intent.jpg",
+              "alt": "搜索婚礼地图地点"
+            }
+          },
+          {
+            "title": "为房间或礼物调整风格",
+            "description": "选择地图细节、颜色、标签、边框、比例和字体，让作品适合收礼人和摆放空间。",
+            "icon": "Palette",
+            "image": {
+              "src": "/imgs/vellumline/generated/poster-workflow.jpg",
+              "alt": "调整婚礼地图海报样式"
+            }
+          },
+          {
+            "title": "加入日期和坐标",
+            "description": "用名字、日期、坐标、简短文字和标记信息，把地点变成纪念物。",
+            "icon": "Type",
+            "image": {
+              "src": "/imgs/vellumline/og-banner.png",
+              "alt": "带文字信息的婚礼地图海报"
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "title": "创建婚礼地图艺术",
+            "url": "/app?utm_source=wedding-map-poster_workflow",
+            "target": "_self",
+            "icon": "Heart"
+          },
+          {
+            "title": "路线海报生成器",
+            "url": "/route-poster-maker",
+            "target": "_self",
+            "icon": "Route",
+            "variant": "outline"
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "label": "婚礼海报细节",
+        "title": "让地图真正有纪念意义的细节",
+        "description": "好的婚礼地图从真实地点开始，最终应该成为可以打印、装裱或送出的作品。",
+        "items": [
+          {
+            "title": "场地和地址搜索",
+            "description": "使用准确的婚礼场地、求婚地点、初次约会位置、城市或坐标。",
+            "icon": "MapPin"
+          },
+          {
+            "title": "名字、日期和文字",
+            "description": "加入海报文字，让地点变成故事，而不只是一块地图区域。",
+            "icon": "Type"
+          },
+          {
+            "title": "适合送礼的风格",
+            "description": "选择配色、标签层级、边框和比例，让作品看起来足够完整。",
+            "icon": "Gift"
+          },
+          {
+            "title": "可打印文件导出",
+            "description": "下载作品，用于本地打印、装裱、数字交付或最后设计整理。",
+            "icon": "Download"
+          }
+        ],
+        "buttons": [
+          {
+            "title": "制作婚礼地图",
+            "url": "/app?utm_source=wedding-map-poster_features",
+            "target": "_self",
+            "icon": "Heart"
+          },
+          {
+            "title": "Terraink 替代方案",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "婚礼地图海报常见问题",
+        "description": "适合婚礼、周年、求婚和礼物地图海报用户。",
+        "items": [
+          {
+            "question": "什么是婚礼地图海报？",
+            "answer": "它是围绕婚礼场地、求婚地点、初次见面地点、共同城市、蜜月地点或重要坐标制作的个性化地图作品。"
+          },
+          {
+            "question": "可以添加名字、日期或坐标吗？",
+            "answer": "可以。你可以使用标题、坐标、标记信息和版式选择，让地图更个人化。"
+          },
+          {
+            "question": "可以用于周年纪念吗？",
+            "answer": "可以。周年地图海报可以使用第一个家、最喜欢的城市、路线、旅行地点或关系开始的地方。"
+          },
+          {
+            "question": "如果只想做城市海报，从哪里开始？",
+            "answer": "如果目标是家乡、旅行城市、社区或普通墙面装饰，请使用城市地图海报生成器。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "label": "从地点开始",
+        "title": "创建个性化婚礼地图海报",
+        "description": "搜索场地或有意义的地点，调整地图风格，添加文字，并从浏览器工作台导出作品。",
+        "buttons": [
+          {
+            "title": "打开婚礼地图工作台",
+            "url": "/app?utm_source=wedding-map-poster_cta",
+            "target": "_self",
+            "icon": "Heart"
+          },
+          {
+            "title": "查看城市地图海报",
+            "url": "/city-map-poster-maker",
+            "target": "_self",
+            "icon": "MapPinned",
+            "variant": "outline"
+          }
+        ],
+        "className": "bg-background/60"
+      }
+    }
+  }
+}

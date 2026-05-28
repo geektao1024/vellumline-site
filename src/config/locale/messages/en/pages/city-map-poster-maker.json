@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "title": "City Map Poster Maker | Vellum & Line",
+    "description": "Create custom city map posters for hometowns, travel memories, neighborhoods, campuses, venues, and printable wall art.",
+    "keywords": "city map poster maker, city map poster, custom city map poster, hometown map poster, travel map poster, printable city map art"
+  },
+  "page": {
+    "title": "City Map Poster Maker",
+    "description": "Create custom city map posters for hometowns, travel memories, neighborhoods, campuses, venues, and printable wall art.",
+    "show_sections": [
+      "hero",
+      "introduce",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "City map poster maker for the places you keep",
+        "highlight_text": "City map poster maker",
+        "description": "Design a printable city map poster from a hometown, trip, neighborhood, campus, venue, or address. Frame the streets, tune the style, add text, and export a finished map art file.",
+        "buttons": [
+          {
+            "title": "Make a city map poster",
+            "url": "/app?utm_source=city-map-poster-maker",
+            "target": "_self",
+            "icon": "MapPinned"
+          },
+          {
+            "title": "All map poster options",
+            "url": "/map-poster-maker",
+            "target": "_self",
+            "icon": "Map",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "/imgs/vellumline/showcase-1.png",
+          "alt": "Custom city map poster made with Vellum & Line",
+          "width": 1500,
+          "height": 1414
+        },
+        "background_image": {
+          "src": "/imgs/vellumline/generated/hero-map-bg.jpg",
+          "alt": "City map poster background"
+        }
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "city-poster-ideas",
+        "label": "City poster ideas",
+        "title": "Make a city map for the moment behind it",
+        "description": "A city poster works best when it is anchored to a real memory, not a generic map preview.",
+        "image": {
+          "src": "/imgs/vellumline/generated/search-intent.jpg",
+          "alt": "Search a city for a custom map poster"
+        },
+        "items": [
+          {
+            "title": "Hometown map poster",
+            "description": "Turn the city, neighborhood, or street grid you know best into a clean print for home or gifting.",
+            "icon": "Home"
+          },
+          {
+            "title": "Travel city print",
+            "description": "Save the city from a trip, semester abroad, honeymoon, or favorite weekend as printable wall art.",
+            "icon": "Plane"
+          },
+          {
+            "title": "Venue or campus map",
+            "description": "Frame a school, venue, office district, stadium area, or meaningful address with poster text and coordinates.",
+            "icon": "Landmark"
+          }
+        ],
+        "className": "bg-background/60",
+        "buttons": [
+          {
+            "title": "Open city poster studio",
+            "url": "/app?utm_source=city-map-poster-maker_ideas",
+            "target": "_self",
+            "icon": "MapPinned"
+          },
+          {
+            "title": "Wedding map posters",
+            "url": "/wedding-map-poster",
+            "target": "_self",
+            "icon": "Heart",
+            "variant": "outline"
+          }
+        ]
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "city-workflow",
+        "label": "City workflow",
+        "title": "Frame the city before you print it",
+        "description": "The city matters, but the crop, labels, colors, title, and export quality decide whether it feels like wall art.",
+        "items": [
+          {
+            "title": "Search a city or address",
+            "description": "Start with a city name, neighborhood, landmark, venue, coordinate, or exact address.",
+            "icon": "Search",
+            "image": {
+              "src": "/imgs/vellumline/studio.png",
+              "alt": "Search city map poster"
+            }
+          },
+          {
+            "title": "Choose the right map crop",
+            "description": "Zoom from city-wide layout to neighborhood detail so the streets and landmarks tell the right story.",
+            "icon": "Scan",
+            "image": {
+              "src": "/imgs/vellumline/showcase-1.png",
+              "alt": "City map poster crop"
+            }
+          },
+          {
+            "title": "Export a print-ready file",
+            "description": "Keep the poster digital or send the exported artwork toward home printing, local print shops, or framing.",
+            "icon": "FileDown",
+            "image": {
+              "src": "/imgs/vellumline/og-banner.png",
+              "alt": "City map poster export"
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "title": "Start a city map poster",
+            "url": "/app?utm_source=city-map-poster-maker_workflow",
+            "target": "_self",
+            "icon": "MapPinned"
+          },
+          {
+            "title": "Route poster maker",
+            "url": "/route-poster-maker",
+            "target": "_self",
+            "icon": "Route",
+            "variant": "outline"
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "label": "City poster controls",
+        "title": "Useful controls for city map wall art",
+        "description": "A good city map poster should look intentional enough to print, frame, or give.",
+        "items": [
+          {
+            "title": "City, neighborhood, or landmark",
+            "description": "Search broad cities or specific places depending on how personal the poster should feel.",
+            "icon": "MapPin"
+          },
+          {
+            "title": "Street and label clarity",
+            "description": "Adjust map detail so the poster reads well at print size instead of looking like a screenshot.",
+            "icon": "Layers"
+          },
+          {
+            "title": "Title and coordinate details",
+            "description": "Add the city name, date, coordinates, or short caption that makes the print personal.",
+            "icon": "Type"
+          },
+          {
+            "title": "Exportable artwork",
+            "description": "Download a finished file for printing, framing, sharing, or further design work.",
+            "icon": "Download"
+          }
+        ],
+        "buttons": [
+          {
+            "title": "Make a custom city map",
+            "url": "/app?utm_source=city-map-poster-maker_features",
+            "target": "_self",
+            "icon": "MapPinned"
+          },
+          {
+            "title": "Terraink alternative guide",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "City map poster FAQ",
+        "description": "Answers for people making city, hometown, neighborhood, and travel map posters.",
+        "items": [
+          {
+            "question": "Can I make a poster from any city?",
+            "answer": "You can start from a city, neighborhood, address, landmark, venue, or coordinate and then style the map in the browser studio."
+          },
+          {
+            "question": "Is this only for large cities?",
+            "answer": "No. City posters can work for small towns, campuses, neighborhoods, districts, and meaningful addresses."
+          },
+          {
+            "question": "Can I add text or coordinates?",
+            "answer": "Yes. Use poster text, coordinates, dates, and layout choices to make the city map feel personal."
+          },
+          {
+            "question": "Where should I go for route-based posters?",
+            "answer": "Use the route poster maker when the main memory is a run, ride, hike, road trip, or travel path."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "label": "Start with a city",
+        "title": "Turn a city into printable map art",
+        "description": "Search the city, frame the streets, choose the visual style, and export a poster file from Vellum & Line.",
+        "buttons": [
+          {
+            "title": "Open city poster studio",
+            "url": "/app?utm_source=city-map-poster-maker_cta",
+            "target": "_self",
+            "icon": "MapPinned"
+          },
+          {
+            "title": "See map poster maker",
+            "url": "/map-poster-maker",
+            "target": "_self",
+            "icon": "Map",
+            "variant": "outline"
+          }
+        ],
+        "className": "bg-background/60"
+      }
+    }
+  }
+}

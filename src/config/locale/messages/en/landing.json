@@ -19,24 +19,38 @@
           "icon": "PanelTop"
         },
         {
-          "title": "Map Posters",
-          "url": "/#map-poster-maker",
+          "title": "Map Poster Maker",
+          "url": "/map-poster-maker",
           "icon": "MapPinned"
         },
         {
-          "title": "Route Posters",
-          "url": "/#use-cases",
-          "icon": "Route"
+          "title": "Use Cases",
+          "icon": "PanelsTopLeft",
+          "children": [
+            {
+              "title": "City map posters",
+              "description": "Make hometown, travel, campus, and neighborhood map prints.",
+              "url": "/city-map-poster-maker",
+              "icon": "MapPin"
+            },
+            {
+              "title": "Route poster maker",
+              "description": "Turn runs, rides, hikes, and trips into map posters.",
+              "url": "/route-poster-maker",
+              "icon": "Route"
+            },
+            {
+              "title": "Wedding map poster",
+              "description": "Create venue, anniversary, and where-we-met map gifts.",
+              "url": "/wedding-map-poster",
+              "icon": "Heart"
+            }
+          ]
         },
         {
-          "title": "Features",
-          "url": "/#features",
-          "icon": "SlidersHorizontal"
-        },
-        {
-          "title": "FAQ",
-          "url": "/#faq",
-          "icon": "CircleHelp"
+          "title": "Examples",
+          "url": "/showcases",
+          "icon": "Images"
         },
         {
           "title": "Terraink Guide",
@@ -83,17 +97,22 @@
           "children": [
             {
               "title": "Custom map posters",
-              "url": "/#map-poster-maker",
+              "url": "/map-poster-maker",
               "target": "_self"
             },
             {
-              "title": "Route poster workflow",
-              "url": "/#use-cases",
+              "title": "City map posters",
+              "url": "/city-map-poster-maker",
               "target": "_self"
             },
             {
-              "title": "Features",
-              "url": "/#features",
+              "title": "Route poster maker",
+              "url": "/route-poster-maker",
+              "target": "_self"
+            },
+            {
+              "title": "Wedding map posters",
+              "url": "/wedding-map-poster",
               "target": "_self"
             }
           ]
@@ -172,7 +191,7 @@
         }
       ]
     },
-    "copyright": "© 2026 Vellum & Line. Vellum & Line is independent and not affiliated with Terraink or TerraInk.",
+    "copyright": "© 2026 Vellum & Line. An independent map poster studio for cities, routes, and meaningful places.",
     "show_theme": false,
     "show_locale": true,
     "show_built_with": false

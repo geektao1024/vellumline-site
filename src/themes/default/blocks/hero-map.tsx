@@ -1,7 +1,7 @@
 'use client';
 
-import Image from 'next/image';
 import { FormEvent, useEffect, useMemo, useRef, useState } from 'react';
+import Image from 'next/image';
 import {
   ArrowRight,
   BadgeCheck,
@@ -96,7 +96,10 @@ function buildStudioHref(baseUrl: string, city: string) {
     return baseUrl;
   }
 
-  const target = new URL(baseUrl || '/app?utm_source=home_hero', window.location.origin);
+  const target = new URL(
+    baseUrl || '/app?utm_source=home_hero',
+    window.location.origin
+  );
   const normalizedCity = city.trim();
 
   if (normalizedCity) {
@@ -170,7 +173,9 @@ export function HeroMap({
   const actionUrl = primaryButton?.url || '/app?utm_source=home_hero';
   const placeholder =
     inputConfig.placeholder ||
-    (isZh ? '输入城市名称，例如 纽约, 美国' : 'Enter a city, for example New York, NY');
+    (isZh
+      ? '输入城市名称，例如 纽约, 美国'
+      : 'Enter a city, for example New York, NY');
   const inputLabel =
     inputConfig.label || (isZh ? '地图海报城市' : 'Map poster city');
   const helperText =
@@ -313,7 +318,7 @@ export function HeroMap({
             priority
             sizes="100vw"
             quality={70}
-            className="object-cover object-[center_38%] opacity-[0.68] saturate-[0.84] contrast-[1.06] brightness-[0.78]"
+            className="object-cover object-[center_38%] opacity-[0.68] brightness-[0.78] contrast-[1.06] saturate-[0.84]"
             unoptimized={section.background_image.src.startsWith('http')}
           />
           <div className="absolute inset-0 bg-[linear-gradient(180deg,var(--background)_0%,oklch(12%_0.018_243_/_0.38)_24%,oklch(12%_0.018_243_/_0.72)_100%)]" />
@@ -335,7 +340,7 @@ export function HeroMap({
           key={label}
           aria-hidden
           className={cn(
-            'vellum-hero-icon-shell pointer-events-none absolute z-0 size-10 items-center justify-center rounded-[calc(var(--radius-panel)-4px)] border border-primary/14 bg-card/18 text-primary/62 backdrop-blur-[2px] md:size-11',
+            'vellum-hero-icon-shell border-primary/14 bg-card/18 text-primary/62 pointer-events-none absolute z-0 size-10 items-center justify-center rounded-[calc(var(--radius-panel)-4px)] border backdrop-blur-[2px] md:size-11',
             iconClassName
           )}
           style={{ animationDelay: delay }}
@@ -344,26 +349,26 @@ export function HeroMap({
         </div>
       ))}
 
-      <div className="container relative z-10">
+      <div className="relative z-10 container">
         <div className="mx-auto flex max-w-5xl flex-col items-center text-center">
           {section.announcement?.title && (
             <Link
               href={section.announcement.url || '#terraink'}
               target={section.announcement.target || '_self'}
-              className="mb-9 inline-flex max-w-full items-center gap-2 rounded-[var(--radius-panel)] border border-primary/22 bg-card/48 px-3 py-2 text-sm text-foreground/86 shadow-xs backdrop-blur-md hover:border-primary/38 hover:bg-card/62"
+              className="border-primary/22 bg-card/48 text-foreground/86 hover:border-primary/38 hover:bg-card/62 mb-9 inline-flex max-w-full items-center gap-2 rounded-[var(--radius-panel)] border px-3 py-2 text-sm shadow-xs backdrop-blur-md"
             >
-              <MapPinned className="size-4 shrink-0 text-primary" />
+              <MapPinned className="text-primary size-4 shrink-0" />
               <span className="truncate">{section.announcement.title}</span>
-              <ArrowRight className="size-3.5 shrink-0 text-muted-foreground" />
+              <ArrowRight className="text-muted-foreground size-3.5 shrink-0" />
             </Link>
           )}
 
-          <h1 className="max-w-4xl text-balance font-serif text-[clamp(2.35rem,4.65vw,4.75rem)] leading-[1.03] font-bold tracking-normal text-foreground">
+          <h1 className="text-foreground max-w-4xl font-serif text-[clamp(2.35rem,4.65vw,4.75rem)] leading-[1.03] font-bold tracking-normal text-balance">
             <span className="block bg-[linear-gradient(92deg,var(--color-ink)_0%,var(--color-accent-strong)_54%,var(--color-memory)_100%)] bg-clip-text text-transparent">
               {line1}
             </span>
             {line2 && (
-              <span className="mt-2 block text-[0.66em] text-foreground">
+              <span className="text-foreground mt-2 block text-[0.66em]">
                 {line2}
               </span>
             )}
@@ -371,7 +376,7 @@ export function HeroMap({
 
           {section.description && (
             <p
-              className="mt-7 max-w-3xl text-balance text-base leading-7 text-muted-foreground md:text-lg"
+              className="text-muted-foreground mt-7 max-w-5xl text-base leading-7 text-pretty md:text-lg md:leading-8"
               dangerouslySetInnerHTML={{ __html: section.description }}
             />
           )}
@@ -381,15 +386,15 @@ export function HeroMap({
             className="mt-8 w-full max-w-3xl"
             aria-label={inputLabel}
           >
-            <div className="vellum-hero-prompt relative overflow-hidden rounded-[var(--radius-panel)] border border-primary/30 bg-card/72 px-3 py-3 shadow-lg backdrop-blur-xl md:px-4">
+            <div className="vellum-hero-prompt border-primary/30 bg-card/72 relative overflow-hidden rounded-[var(--radius-panel)] border px-3 py-3 shadow-lg backdrop-blur-xl md:px-4">
               <div
                 aria-hidden
-                className="absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent via-primary/42 to-transparent"
+                className="via-primary/42 absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent to-transparent"
               />
               <div className="relative flex min-h-[3.75rem] items-center gap-2 md:gap-3">
                 <div className="min-w-0 flex-1">
-                  <div className="mb-1 flex items-center justify-center gap-2 font-mono text-[0.62rem] font-semibold tracking-[0.12em] text-primary uppercase">
-                    <span className="size-1.5 rounded-full bg-primary" />
+                  <div className="text-primary mb-1 flex items-center justify-center gap-2 font-mono text-[0.62rem] font-semibold tracking-[0.12em] uppercase">
+                    <span className="bg-primary size-1.5 rounded-full" />
                     {inputLabel}
                   </div>
                   <input
@@ -397,7 +402,9 @@ export function HeroMap({
                     value={city}
                     onFocus={() => {
                       if (!hasUserEditedCity) {
-                        setCity(citySamples[typingIndex % citySamples.length] || city);
+                        setCity(
+                          citySamples[typingIndex % citySamples.length] || city
+                        );
                         setHasUserEditedCity(true);
                       }
                     }}
@@ -406,11 +413,11 @@ export function HeroMap({
                       setCity(event.target.value);
                     }}
                     placeholder={placeholder}
-                    className="h-8 w-full border-0 bg-transparent px-0 text-center font-sans text-xl font-semibold tracking-normal text-foreground outline-none placeholder:text-muted-foreground/62 focus-visible:outline-none md:text-2xl"
+                    className="text-foreground placeholder:text-muted-foreground/62 h-8 w-full border-0 bg-transparent px-0 text-center font-sans text-xl font-semibold tracking-normal outline-none focus-visible:outline-none md:text-2xl"
                     autoComplete="off"
                     spellCheck={false}
                   />
-                  <p className="mt-0.5 truncate text-xs tracking-normal text-muted-foreground/68">
+                  <p className="text-muted-foreground/68 mt-0.5 truncate text-xs tracking-normal">
                     {helperText}
                   </p>
                 </div>
@@ -419,7 +426,7 @@ export function HeroMap({
                   type="button"
                   onClick={rollCity}
                   className={cn(
-                    'vellum-hero-dice flex size-10 shrink-0 items-center justify-center rounded-[var(--radius-control)] border border-primary/26 bg-background/72 text-primary shadow-sm hover:border-primary/42 hover:bg-primary/10',
+                    'vellum-hero-dice border-primary/26 bg-background/72 text-primary hover:border-primary/42 hover:bg-primary/10 flex size-10 shrink-0 items-center justify-center rounded-[var(--radius-control)] border shadow-sm',
                     isRolling && 'border-primary/55 bg-primary/16 text-primary'
                   )}
                   aria-label={diceLabel}
@@ -435,7 +442,7 @@ export function HeroMap({
             <button
               type="button"
               onClick={() => submitCity(city)}
-              className="vellum-hero-primary inline-flex h-11 items-center justify-center gap-2 rounded-[var(--radius-control)] bg-primary px-4 text-sm font-semibold text-primary-foreground shadow-md hover:bg-[var(--color-accent-strong)]"
+              className="vellum-hero-primary bg-primary text-primary-foreground inline-flex h-11 items-center justify-center gap-2 rounded-[var(--radius-control)] px-4 text-sm font-semibold shadow-md hover:bg-[var(--color-accent-strong)]"
             >
               <Map className="size-4" />
               {actionTitle}
@@ -451,9 +458,12 @@ export function HeroMap({
                 return (
                   <span
                     key={item}
-                    className="inline-flex items-center gap-2 rounded-[var(--radius-panel)] border border-border/58 bg-card/38 px-3 py-1.5 text-sm text-foreground/78 backdrop-blur-sm"
+                    className="border-border/58 bg-card/38 text-foreground/78 inline-flex items-center gap-2 rounded-[var(--radius-panel)] border px-3 py-1.5 text-sm backdrop-blur-sm"
                   >
-                    <MetaIcon className="size-4 text-primary" strokeWidth={1.6} />
+                    <MetaIcon
+                      className="text-primary size-4"
+                      strokeWidth={1.6}
+                    />
                     {item}
                   </span>
                 );
@@ -462,7 +472,7 @@ export function HeroMap({
           </div>
 
           {section.image?.src && (
-            <div className="mt-11 hidden w-full max-w-5xl overflow-hidden rounded-t-[var(--radius-sheet)] border border-border/60 bg-card/40 shadow-xl backdrop-blur-sm md:block">
+            <div className="border-border/60 bg-card/40 mt-11 hidden w-full max-w-5xl overflow-hidden rounded-t-[var(--radius-sheet)] border shadow-xl backdrop-blur-sm md:block">
               <div className="relative h-48 overflow-hidden lg:h-[14.5rem]">
                 <Image
                   src={section.image.src}

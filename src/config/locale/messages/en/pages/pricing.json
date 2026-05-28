@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Vellum & Line Pricing | Custom Map Poster Studio",
-    "description": "Simple access notes for Vellum & Line, a browser-based studio for custom map posters, route posters, and printable map art."
+    "description": "Check current Vellum & Line access for creating city map posters, route posters, and printable map art in the browser."
   },
   "page": {
     "title": "Vellum & Line Pricing",
@@ -9,9 +9,9 @@
       "pricing": {
         "id": "pricing",
         "block": "cta",
-        "label": "Pricing",
-        "title": "Start with the studio. Pricing stays simple.",
-        "description": "Vellum & Line currently opens as a browser-based map poster studio. Use it to create city maps, route posters, and printable map art from real places and routes. Paid print, template, or account plans can be added later when they are ready.",
+        "label": "Current access",
+        "title": "Open the studio first and create a map poster.",
+        "description": "Vellum & Line currently opens as a browser-based map poster studio. Use it to create city maps, route posters, and printable map art from real places and routes. If paid printing, premium templates, or saved accounts are added later, they will be listed here clearly.",
         "buttons": [
           {
             "title": "Open Vellum & Line Studio",

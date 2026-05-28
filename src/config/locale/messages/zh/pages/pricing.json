@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "title": "Vellum & Line 价格说明 | 定制地图海报工作台",
-    "description": "Vellum & Line 的简要访问说明：在浏览器中制作定制地图海报、路线海报和可打印地图艺术作品。"
+    "title": "Vellum & Line 价格 | 定制地图海报工作台",
+    "description": "查看 Vellum & Line 当前访问方式，在浏览器中制作城市地图海报、路线海报和可打印地图艺术作品。"
   },
   "page": {
-    "title": "Vellum & Line 价格说明",
+    "title": "Vellum & Line 价格",
     "sections": {
       "pricing": {
         "id": "pricing",
         "block": "cta",
-        "label": "价格说明",
-        "title": "先打开工作台，价格策略保持简单。",
-        "description": "Vellum & Line 目前以浏览器地图海报工作台为主。你可以直接用它从真实地点和路线创建城市地图、路线海报和可打印地图艺术作品。付费打印、模板或账户方案会在准备好后再加入。",
+        "label": "当前访问方式",
+        "title": "先免费打开工作台，直接制作地图海报。",
+        "description": "Vellum & Line 目前以浏览器地图海报工作台为主。你可以从真实地点和路线创建城市地图、路线海报和可打印地图艺术作品。后续如果加入付费打印、高级模板或账户保存，会在这里明确列出。",
         "buttons": [
           {
             "title": "打开 Vellum & Line 工作台",

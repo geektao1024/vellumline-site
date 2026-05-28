@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "title": "Wedding Map Poster Maker | Vellum & Line",
+    "description": "Create personalized wedding map posters from venues, first-date places, proposal spots, coordinates, dates, and meaningful locations.",
+    "keywords": "wedding map poster, wedding venue map poster, anniversary map poster, custom wedding map, where we met map poster, personalized map art gift"
+  },
+  "page": {
+    "title": "Wedding Map Poster Maker",
+    "description": "Create personalized wedding map posters from venues, first-date places, proposal spots, coordinates, dates, and meaningful locations.",
+    "show_sections": [
+      "hero",
+      "introduce",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Wedding map poster maker for the places behind the story",
+        "highlight_text": "Wedding map poster maker",
+        "description": "Turn a wedding venue, first date, proposal spot, honeymoon city, or shared hometown into a personalized map poster with clean styling, text, coordinates, and printable export.",
+        "buttons": [
+          {
+            "title": "Make a wedding map poster",
+            "url": "/app?utm_source=wedding-map-poster",
+            "target": "_self",
+            "icon": "Heart"
+          },
+          {
+            "title": "See map poster maker",
+            "url": "/map-poster-maker",
+            "target": "_self",
+            "icon": "Map",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "/imgs/vellumline/generated/brand-clarity.jpg",
+          "alt": "Wedding map poster made with Vellum & Line",
+          "width": 1448,
+          "height": 1086
+        },
+        "background_image": {
+          "src": "/imgs/vellumline/generated/hero-map-bg.jpg",
+          "alt": "Wedding map poster background"
+        }
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "wedding-map-ideas",
+        "label": "Giftable map art",
+        "title": "Choose the place that makes the poster personal",
+        "description": "Wedding and anniversary map posters work because the location already means something.",
+        "image": {
+          "src": "/imgs/vellumline/showcase-1.png",
+          "alt": "Personalized map poster gift"
+        },
+        "items": [
+          {
+            "title": "Wedding venue map",
+            "description": "Frame the ceremony venue, reception place, destination wedding city, or hotel district.",
+            "icon": "Landmark"
+          },
+          {
+            "title": "Where we met poster",
+            "description": "Turn a first date, proposal spot, shared neighborhood, or favorite address into a keepsake.",
+            "icon": "Heart"
+          },
+          {
+            "title": "Anniversary map art",
+            "description": "Use a city, route, home, travel stop, or coordinate as a personalized anniversary gift.",
+            "icon": "Gift"
+          }
+        ],
+        "className": "bg-background/60",
+        "buttons": [
+          {
+            "title": "Start from a venue",
+            "url": "/app?utm_source=wedding-map-poster_ideas",
+            "target": "_self",
+            "icon": "MapPin"
+          },
+          {
+            "title": "City map poster maker",
+            "url": "/city-map-poster-maker",
+            "target": "_self",
+            "icon": "MapPinned",
+            "variant": "outline"
+          }
+        ]
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "wedding-workflow",
+        "label": "Wedding workflow",
+        "title": "Make it feel like a gift, not a screenshot",
+        "description": "For wedding map art, the map is only half the job. The title, coordinates, date, palette, and print file matter just as much.",
+        "items": [
+          {
+            "title": "Start from the meaningful place",
+            "description": "Search the venue, city, address, landmark, proposal spot, or coordinate behind the story.",
+            "icon": "Search",
+            "image": {
+              "src": "/imgs/vellumline/generated/search-intent.jpg",
+              "alt": "Search a wedding venue for map art"
+            }
+          },
+          {
+            "title": "Style for the room or gift",
+            "description": "Choose map detail, colors, labels, border, ratio, and typography that fit the couple and the space.",
+            "icon": "Palette",
+            "image": {
+              "src": "/imgs/vellumline/generated/poster-workflow.jpg",
+              "alt": "Style a wedding map poster"
+            }
+          },
+          {
+            "title": "Add date and coordinates",
+            "description": "Use names, a date, coordinates, short captions, and marker details to turn location into a keepsake.",
+            "icon": "Type",
+            "image": {
+              "src": "/imgs/vellumline/og-banner.png",
+              "alt": "Wedding map poster with text details"
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "title": "Create wedding map art",
+            "url": "/app?utm_source=wedding-map-poster_workflow",
+            "target": "_self",
+            "icon": "Heart"
+          },
+          {
+            "title": "Route poster maker",
+            "url": "/route-poster-maker",
+            "target": "_self",
+            "icon": "Route",
+            "variant": "outline"
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "label": "Wedding poster details",
+        "title": "Personal details that make the map useful",
+        "description": "A strong wedding map starts with a real place and ends with artwork someone can print, frame, or give.",
+        "items": [
+          {
+            "title": "Venue and address search",
+            "description": "Use the exact wedding venue, proposal spot, first date location, city, or coordinate.",
+            "icon": "MapPin"
+          },
+          {
+            "title": "Names, dates, and captions",
+            "description": "Add poster text that turns a place into a story, not just a map crop.",
+            "icon": "Type"
+          },
+          {
+            "title": "Gift-ready styling",
+            "description": "Choose a palette, label level, frame, and ratio that feels polished enough to give.",
+            "icon": "Gift"
+          },
+          {
+            "title": "Printable file export",
+            "description": "Download the artwork for local printing, framing, digital delivery, or final design cleanup.",
+            "icon": "Download"
+          }
+        ],
+        "buttons": [
+          {
+            "title": "Make a wedding map",
+            "url": "/app?utm_source=wedding-map-poster_features",
+            "target": "_self",
+            "icon": "Heart"
+          },
+          {
+            "title": "Terraink alternative",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Wedding map poster FAQ",
+        "description": "Short answers for wedding, anniversary, proposal, and gift map posters.",
+        "items": [
+          {
+            "question": "What is a wedding map poster?",
+            "answer": "It is a personalized map print built around a wedding venue, proposal spot, first date, shared city, honeymoon place, or meaningful coordinate."
+          },
+          {
+            "question": "Can I add names, dates, or coordinates?",
+            "answer": "Yes. Use poster text, coordinates, marker details, and layout choices to make the map personal."
+          },
+          {
+            "question": "Can this work for anniversaries?",
+            "answer": "Yes. Anniversary map posters can use a first home, favorite city, route, travel stop, or the place where the relationship began."
+          },
+          {
+            "question": "Where should I start if I just need a city print?",
+            "answer": "Use the city map poster maker if the goal is a hometown, travel city, neighborhood, or general wall art print."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "label": "Start with the place",
+        "title": "Create a personalized wedding map poster",
+        "description": "Search the venue or meaningful place, style the map, add text, and export artwork from the browser studio.",
+        "buttons": [
+          {
+            "title": "Open wedding map studio",
+            "url": "/app?utm_source=wedding-map-poster_cta",
+            "target": "_self",
+            "icon": "Heart"
+          },
+          {
+            "title": "See city map posters",
+            "url": "/city-map-poster-maker",
+            "target": "_self",
+            "icon": "MapPinned",
+            "variant": "outline"
+          }
+        ],
+        "className": "bg-background/60"
+      }
+    }
+  }
+}

@@ -29,7 +29,7 @@
         "announcement": {
           "badge": "Vellum & Line",
           "title": "创建城市地图、路线海报和纪念地图",
-          "url": "#map-poster-maker"
+          "url": "/map-poster-maker"
         },
         "tip": "从地点、路线、城市或地址开始，生成一张有意义的地图海报。",
         "buttons": [
@@ -100,7 +100,7 @@
           },
           {
             "title": "路线地图海报",
-            "description": "围绕跑步、骑行、公路旅行、徒步或迁徙路径制作地图海报，让路线成为记忆主体。",
+            "description": "围绕跑步、骑行、公路旅行、徒步或迁徙路线制作地图海报，让路线成为记忆主体。",
             "icon": "Route",
             "image": {
               "src": "/imgs/vellumline/showcase-2.png",
@@ -136,7 +136,7 @@
           },
           {
             "title": "制作路线海报",
-            "url": "#use-cases",
+            "url": "/route-poster-maker",
             "target": "_self",
             "icon": "Route",
             "variant": "outline"
@@ -187,7 +187,7 @@
           },
           {
             "title": "查看路线海报流程",
-            "url": "#use-cases",
+            "url": "/route-poster-maker",
             "target": "_self",
             "icon": "Route",
             "variant": "outline"
@@ -265,7 +265,7 @@
           },
           {
             "title": "跑步与旅行路线",
-            "description": "把跑步路线、骑行轨迹、公路旅行、徒步或迁徙路径做成地图作品。",
+            "description": "把跑步路线、骑行轨迹、公路旅行、徒步或迁徙路线做成地图作品。",
             "icon": "Route"
           },
           {
@@ -297,10 +297,10 @@
             "icon": "Map"
           },
           {
-            "title": "查看 Terraink 替代指南",
-            "url": "/terraink-alternative",
+            "title": "查看地图海报生成器",
+            "url": "/map-poster-maker",
             "target": "_self",
-            "icon": "Search",
+            "icon": "Map",
             "variant": "outline"
           }
         ]
@@ -339,19 +339,19 @@
           },
           {
             "question": "可以制作跑步、骑行或旅行路线海报吗？",
-            "answer": "可以。工作台支持路线线条和标记细节，适合把跑步、骑行、公路旅行、徒步或旅行路径做成地图海报。"
+            "answer": "可以。工作台支持路线线条和标记细节，适合把跑步、骑行、公路旅行、徒步或旅行路线做成地图海报。"
           },
           {
             "question": "Vellum & Line 支持哪些导出格式？",
-            "answer": "当前应用包含 PNG、PDF 和 SVG/RSVG 导出路径，用于可打印地图海报作品。"
+            "answer": "当前应用包含 PNG、PDF 和 SVG/RSVG 导出格式，用于可打印地图海报作品。"
           },
           {
             "question": "需要安装软件或创建账号吗？",
             "answer": "不需要安装桌面软件。地图海报工作台可以直接从首页打开，在浏览器中使用。"
           },
           {
-            "question": "Vellum & Line 和 Terraink 有官方关联吗？",
-            "answer": "没有。Vellum & Line 是独立产品，不属于 Terraink 或 TerraInk，也不代表其官方。"
+            "question": "Vellum & Line 适合做哪些地图海报？",
+            "answer": "适合城市地图、家乡地图、旅行路线、跑步骑行轨迹、婚礼地点和纪念日礼物等可打印地图海报。"
           }
         ]
       },
@@ -368,10 +368,10 @@
             "icon": "Map"
           },
           {
-            "title": "查看 Terraink 替代指南",
-            "url": "/terraink-alternative",
+            "title": "查看婚礼地图海报",
+            "url": "/wedding-map-poster",
             "target": "_self",
-            "icon": "Split",
+            "icon": "Heart",
             "variant": "outline"
           }
         ],
