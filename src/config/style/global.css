@@ -21,8 +21,16 @@
       'liga' 1,
       'calt' 1;
     background-image:
-      linear-gradient(to right, oklch(76% 0.075 82 / 0.04) 1px, transparent 1px),
-      linear-gradient(to bottom, oklch(76% 0.075 82 / 0.035) 1px, transparent 1px);
+      linear-gradient(
+        to right,
+        oklch(76% 0.075 82 / 0.04) 1px,
+        transparent 1px
+      ),
+      linear-gradient(
+        to bottom,
+        oklch(76% 0.075 82 / 0.035) 1px,
+        transparent 1px
+      );
     background-size: 64px 64px;
     text-rendering: optimizeLegibility;
   }
@@ -34,11 +42,31 @@
     pointer-events: none;
     z-index: -1;
     background-image:
-      linear-gradient(to right, oklch(76% 0.075 82 / 0.045) 1px, transparent 1px),
-      linear-gradient(to bottom, oklch(76% 0.075 82 / 0.04) 1px, transparent 1px),
-      radial-gradient(circle at 12% 18%, oklch(72% 0.16 47 / 0.07), transparent 26rem);
-    background-size: 64px 64px, 64px 64px, auto;
-    mask-image: linear-gradient(to bottom, black 0%, black 48%, transparent 100%);
+      linear-gradient(
+        to right,
+        oklch(76% 0.075 82 / 0.045) 1px,
+        transparent 1px
+      ),
+      linear-gradient(
+        to bottom,
+        oklch(76% 0.075 82 / 0.04) 1px,
+        transparent 1px
+      ),
+      radial-gradient(
+        circle at 12% 18%,
+        oklch(72% 0.16 47 / 0.07),
+        transparent 26rem
+      );
+    background-size:
+      64px 64px,
+      64px 64px,
+      auto;
+    mask-image: linear-gradient(
+      to bottom,
+      black 0%,
+      black 48%,
+      transparent 100%
+    );
   }
 
   ::selection {
@@ -186,13 +214,12 @@ pre {
   inset: -0.85rem;
   z-index: -1;
   border-radius: inherit;
-  background:
-    radial-gradient(
-      circle at 50% 42%,
-      oklch(82% 0.1 84 / 0.2),
-      oklch(82% 0.1 84 / 0.075) 36%,
-      transparent 68%
-    );
+  background: radial-gradient(
+    circle at 50% 42%,
+    oklch(82% 0.1 84 / 0.2),
+    oklch(82% 0.1 84 / 0.075) 36%,
+    transparent 68%
+  );
   filter: blur(4px);
   opacity: 0.42;
   transform: scale(0.9);
@@ -204,8 +231,7 @@ pre {
   transform-origin: center;
   animation: vellum-hero-icon-breathe 4.8s var(--ease-out) infinite;
   animation-delay: inherit;
-  filter:
-    drop-shadow(0 0 6px oklch(82% 0.1 84 / 0.24))
+  filter: drop-shadow(0 0 6px oklch(82% 0.1 84 / 0.24))
     drop-shadow(0 0 16px oklch(82% 0.1 84 / 0.08));
   will-change: transform, opacity, filter;
 }
@@ -241,10 +267,30 @@ pre {
 
 .vellum-hero-primary {
   position: relative;
+  isolation: isolate;
   overflow: hidden;
+  border-color: oklch(92% 0.11 86 / 0.72);
+  background: linear-gradient(
+    180deg,
+    oklch(89% 0.12 86) 0%,
+    oklch(78% 0.12 78) 54%,
+    oklch(67% 0.14 70) 100%
+  );
   box-shadow:
-    0 18px 36px -26px oklch(82% 0.1 84 / 0.62),
-    0 1px 0 oklch(100% 0 0 / 0.28) inset;
+    0 28px 54px -24px oklch(82% 0.1 84 / 0.68),
+    0 16px 24px -18px oklch(2% 0.008 243 / 0.96),
+    0 0 34px oklch(82% 0.1 84 / 0.18),
+    0 1px 0 oklch(100% 0 0 / 0.56) inset,
+    0 -4px 0 oklch(37% 0.105 62 / 0.24) inset,
+    0 0 0 1px oklch(100% 0 0 / 0.2) inset;
+  text-shadow: 0 1px 0 oklch(100% 0 0 / 0.22);
+  transform: translateY(-1px);
+  transition:
+    background var(--dur-short) var(--ease-out),
+    border-color var(--dur-short) var(--ease-out),
+    box-shadow var(--dur-short) var(--ease-out),
+    filter var(--dur-short) var(--ease-out),
+    transform var(--dur-short) var(--ease-out);
 }
 
 .vellum-hero-primary::before {
@@ -266,10 +312,78 @@ pre {
     transform 560ms var(--ease-out);
 }
 
+.vellum-hero-primary::after {
+  content: '';
+  position: absolute;
+  inset: 1px 1px auto;
+  height: 48%;
+  z-index: -1;
+  pointer-events: none;
+  border-radius: 999px;
+  background: linear-gradient(
+    180deg,
+    oklch(100% 0 0 / 0.46),
+    oklch(100% 0 0 / 0.12) 58%,
+    transparent
+  );
+  opacity: 0.78;
+}
+
+.vellum-hero-primary > svg {
+  filter: drop-shadow(0 1px 0 oklch(100% 0 0 / 0.18));
+}
+
+.vellum-hero-primary-arrow {
+  animation: vellum-hero-arrow-nudge 1.7s var(--ease-out) infinite;
+  will-change: transform;
+}
+
+.vellum-hero-primary:hover,
+.vellum-hero-primary:focus-visible {
+  border-color: oklch(98% 0.08 90 / 0.9);
+  box-shadow:
+    0 34px 68px -24px oklch(82% 0.1 84 / 0.78),
+    0 20px 30px -20px oklch(2% 0.008 243 / 0.98),
+    0 0 46px oklch(82% 0.1 84 / 0.26),
+    0 1px 0 oklch(100% 0 0 / 0.68) inset,
+    0 -4px 0 oklch(37% 0.105 62 / 0.22) inset,
+    0 0 0 1px oklch(100% 0 0 / 0.26) inset;
+  filter: saturate(1.05) brightness(1.03);
+  transform: translateY(-3px);
+}
+
+.vellum-hero-primary:hover .vellum-hero-primary-arrow,
+.vellum-hero-primary:focus-visible .vellum-hero-primary-arrow {
+  animation-duration: 0.95s;
+}
+
 .vellum-hero-primary:hover::before,
 .vellum-hero-primary:focus-visible::before {
   opacity: 0.62;
   transform: translateX(420%) skewX(-18deg);
+}
+
+.vellum-hero-primary:active {
+  box-shadow:
+    0 18px 38px -24px oklch(82% 0.1 84 / 0.56),
+    0 10px 18px -16px oklch(2% 0.008 243 / 0.96),
+    0 0 24px oklch(82% 0.1 84 / 0.16),
+    0 1px 0 oklch(100% 0 0 / 0.44) inset,
+    0 -2px 0 oklch(37% 0.105 62 / 0.2) inset;
+  transform: translateY(0);
+}
+
+@keyframes vellum-hero-arrow-nudge {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  45% {
+    transform: translateX(4px);
+  }
+  62% {
+    transform: translateX(1px);
+  }
 }
 
 @keyframes vellum-hero-float {
@@ -301,15 +415,13 @@ pre {
   100% {
     opacity: 0.66;
     transform: scale(0.96);
-    filter:
-      drop-shadow(0 0 5px oklch(82% 0.1 84 / 0.2))
+    filter: drop-shadow(0 0 5px oklch(82% 0.1 84 / 0.2))
       drop-shadow(0 0 12px oklch(82% 0.1 84 / 0.07));
   }
   50% {
     opacity: 0.95;
     transform: scale(1.06);
-    filter:
-      drop-shadow(0 0 8px oklch(82% 0.1 84 / 0.34))
+    filter: drop-shadow(0 0 8px oklch(82% 0.1 84 / 0.34))
       drop-shadow(0 0 20px oklch(82% 0.1 84 / 0.14));
   }
 }
@@ -331,5 +443,9 @@ pre {
     transition-duration: 1ms !important;
     animation-duration: 1ms !important;
     animation-iteration-count: 1 !important;
+  }
+
+  .vellum-hero-primary-arrow {
+    animation: none !important;
   }
 }

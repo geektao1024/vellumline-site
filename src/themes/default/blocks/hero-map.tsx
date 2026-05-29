@@ -442,11 +442,11 @@ export function HeroMap({
             <button
               type="button"
               onClick={() => submitCity(city)}
-              className="vellum-hero-primary bg-primary text-primary-foreground inline-flex h-11 items-center justify-center gap-2 rounded-[var(--radius-control)] px-4 text-sm font-semibold shadow-md hover:bg-[var(--color-accent-strong)]"
+              className="vellum-hero-primary bg-primary text-primary-foreground inline-flex h-[3.25rem] min-w-[10.5rem] items-center justify-center gap-2.5 rounded-full border px-6 text-[0.95rem] font-bold shadow-md hover:bg-[var(--color-accent-strong)] md:h-14 md:min-w-[11.25rem] md:px-8 md:text-base"
             >
-              <Map className="size-4" />
+              <Map className="size-4.5 md:size-5" />
               {actionTitle}
-              <ArrowRight className="size-4" />
+              <ArrowRight className="vellum-hero-primary-arrow size-4.5 md:size-5" />
             </button>
 
             <div className="flex flex-wrap items-center justify-center gap-3">
