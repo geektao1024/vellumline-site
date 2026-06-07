@@ -10,9 +10,18 @@ export default async function DynamicPage({
   page: DynamicPageType;
   data?: Record<string, any>;
 }) {
+  const hasVisiblePageHeading = Object.values(page.sections || {}).some(
+    (section) =>
+      section &&
+      section.disabled !== true &&
+      (section.id === 'hero' ||
+        section.block === 'hero' ||
+        section.block === 'article-guide')
+  );
+
   return (
     <>
-      {page.title && !page.sections?.hero && (
+      {page.title && !hasVisiblePageHeading && (
         <h1 className="sr-only">{page.title}</h1>
       )}
       {page?.sections &&

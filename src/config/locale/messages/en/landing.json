@@ -53,9 +53,9 @@
           "icon": "Images"
         },
         {
-          "title": "Terraink Guide",
-          "url": "/terraink-alternative",
-          "icon": "Split"
+          "title": "Guides",
+          "url": "/guides",
+          "icon": "BookOpen"
         }
       ]
     },
@@ -140,6 +140,11 @@
         {
           "title": "Alternatives & Guides",
           "children": [
+            {
+              "title": "Map Poster Guides",
+              "url": "/guides",
+              "target": "_self"
+            },
             {
               "title": "Terraink Alternative",
               "url": "/terraink-alternative",

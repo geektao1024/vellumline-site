@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "title": "地图海报指南与 Terraink 替代方案 | Vellum & Line",
+    "description": "Vellum & Line 指南页，覆盖 Terraink 替代方案、TerraInk 搜索、城市地图海报、路线海报和可打印地图艺术流程。",
+    "keywords": "地图海报指南, Terraink alternative, TerraInk alternative, Terraink 替代方案, Terraink app, Terraink map poster maker, map poster maker, city map poster maker, route poster maker, 定制地图海报"
+  },
+  "page": {
+    "title": "地图海报指南",
+    "description": "面向正在比较 Terraink、TerraInk 和浏览器地图海报流程的用户。",
+    "show_sections": [
+      "hero",
+      "guide_index",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "面向 Terraink 搜索、城市和路线的地图海报指南",
+        "highlight_text": "地图海报指南",
+        "description": "用这个指南页选择正确入口：比较 Terraink 和 TerraInk 替代方案，制作定制城市地图海报，把路线变成墙面地图作品，或直接进入 Vellum & Line 浏览器工作台。",
+        "buttons": [
+          {
+            "title": "阅读 Terraink 替代方案",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Split"
+          },
+          {
+            "title": "打开地图海报工作台",
+            "url": "/app?utm_source=guides",
+            "target": "_self",
+            "icon": "Map",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "/imgs/vellumline/vellun-app.png",
+          "alt": "Vellum & Line 地图海报指南页",
+          "width": 1725,
+          "height": 1077
+        },
+        "background_image": {
+          "src": "/imgs/vellumline/generated/hero-map-bg.jpg",
+          "alt": "地图海报指南背景"
+        }
+      },
+      "guide_index": {
+        "block": "guide-hub",
+        "id": "guide-index",
+        "label": "Guide index",
+        "title": "选择与你的搜索意图匹配的页面",
+        "description": "下面每个指南都指向真实可索引页面。如果你正在比较工具，从 Terraink/TerraInk 集群开始；如果你已经知道要做哪类海报，就直接进入地图海报流程集群。",
+        "groups": [
+          {
+            "title": "Terraink 与 TerraInk 搜索",
+            "description": "当查询包含 Terraink、TerraInk、app、review、alternative、comparison 或 map poster maker 意图时，优先使用这些页面。",
+            "items": [
+              {
+                "title": "Terraink 替代方案",
+                "description": "主承接页，面向搜索 Terraink、TerraInk 或 Terraink alternative，并判断浏览器地图海报流程是否适合的用户。",
+                "url": "/terraink-alternative",
+                "icon": "Split",
+                "badge": "Primary",
+                "keywords": [
+                  "Terraink alternative",
+                  "TerraInk alternative",
+                  "map poster"
+                ]
+              },
+              {
+                "title": "Terraink Map Poster Maker",
+                "description": "面向把 Terraink 和 custom map poster 联系在一起的用户，从地点搜索进入可打印地图艺术流程。",
+                "url": "/terraink-map-poster-maker",
+                "icon": "Palette",
+                "badge": "Poster intent",
+                "keywords": [
+                  "Terraink map poster maker",
+                  "custom map poster"
+                ]
+              },
+              {
+                "title": "Terraink App Alternative",
+                "description": "承接 app 意图搜索，适合想快速打开地图海报工具、不想先寻找安装路径的用户。",
+                "url": "/terraink-app",
+                "icon": "PanelTop",
+                "badge": "App intent",
+                "keywords": [
+                  "Terraink app",
+                  "Terraink online"
+                ]
+              },
+              {
+                "title": "Terraink Review Checklist",
+                "description": "面向评测意图，用来判断输出质量、流程速度、样式控制、路线支持和导出文件是否可用。",
+                "url": "/terraink-review",
+                "icon": "Search",
+                "badge": "Review",
+                "keywords": [
+                  "Terraink review",
+                  "map poster review"
+                ]
+              },
+              {
+                "title": "Terraink vs Vellum & Line",
+                "description": "对比页，适合想用同一座城市、同一条路线、同一个场馆或坐标测试两个流程的用户。",
+                "url": "/terraink-vs-vellum-line",
+                "icon": "GitCompare",
+                "badge": "Comparison",
+                "keywords": [
+                  "Terraink vs Vellum & Line",
+                  "Terraink comparison"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "地图海报制作流程",
+            "description": "当用户不再比较品牌，而是想制作某一种可打印地图海报时，使用这些页面。",
+            "items": [
+              {
+                "title": "地图海报生成器",
+                "description": "Vellum & Line 主流程，把城市、地址、路线、场馆或坐标做成可打印地图艺术。",
+                "url": "/map-poster-maker",
+                "icon": "MapPinned",
+                "badge": "Core tool",
+                "keywords": [
+                  "map poster maker",
+                  "custom map poster"
+                ]
+              },
+              {
+                "title": "城市地图海报生成器",
+                "description": "适合家乡、旅行城市、街区、校园、地标和可挂墙的城市地图作品。",
+                "url": "/city-map-poster-maker",
+                "icon": "MapPin",
+                "badge": "City",
+                "keywords": [
+                  "city map poster maker",
+                  "city map poster"
+                ]
+              },
+              {
+                "title": "路线海报生成器",
+                "description": "适合跑步、骑行、徒步、自驾、旅行路径和其他路线型纪念海报。",
+                "url": "/route-poster-maker",
+                "icon": "Route",
+                "badge": "Route",
+                "keywords": [
+                  "route poster maker",
+                  "route map art"
+                ]
+              },
+              {
+                "title": "婚礼地图海报",
+                "description": "适合婚礼场地、求婚地点、周年纪念、where-we-met maps、坐标和个人化地图礼物。",
+                "url": "/wedding-map-poster",
+                "icon": "Heart",
+                "badge": "Gift",
+                "keywords": [
+                  "wedding map poster",
+                  "personalized map gift"
+                ]
+              }
+            ]
+          }
+        ],
+        "buttons": [
+          {
+            "title": "从 Terraink 替代方案开始",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Split"
+          },
+          {
+            "title": "从地图海报生成器开始",
+            "url": "/map-poster-maker",
+            "target": "_self",
+            "icon": "MapPinned",
+            "variant": "outline"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "label": "制作海报",
+        "title": "用一个真实地点测试流程",
+        "description": "选择城市、路线、场馆或坐标，根据你能做出的海报文件来判断工作流。",
+        "buttons": [
+          {
+            "title": "打开地图海报工作台",
+            "url": "/app?utm_source=guides_cta",
+            "target": "_self",
+            "icon": "Map"
+          },
+          {
+            "title": "阅读 Terraink 指南",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
+          }
+        ],
+        "className": "bg-background/60"
+      }
+    }
+  }
+}

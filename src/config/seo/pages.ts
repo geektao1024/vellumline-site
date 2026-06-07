@@ -5,6 +5,7 @@ export type SeoPageGroup =
   | 'brand'
   | 'competitor'
   | 'comparison'
+  | 'guide'
   | 'review'
   | 'tool'
   | 'use-case';
@@ -59,6 +60,22 @@ export const seoPages: SeoPageConfig[] = [
     ],
     messageKey: 'pages.terraink-alternative.metadata',
     priority: 0.92,
+    changeFrequency: 'weekly',
+  },
+  {
+    path: '/guides',
+    group: 'guide',
+    primaryKeyword: 'map poster guides',
+    secondaryKeywords: [
+      'Terraink alternative',
+      'Terraink app',
+      'map poster maker',
+      'city map poster maker',
+      'route poster maker',
+      'custom map poster guide',
+    ],
+    messageKey: 'pages.guides.metadata',
+    priority: 0.9,
     changeFrequency: 'weekly',
   },
   {

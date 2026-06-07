@@ -53,9 +53,9 @@
           "icon": "Images"
         },
         {
-          "title": "Terraink 指南",
-          "url": "/terraink-alternative",
-          "icon": "Split"
+          "title": "指南",
+          "url": "/guides",
+          "icon": "BookOpen"
         }
       ]
     },
@@ -140,6 +140,11 @@
         {
           "title": "对比与指南",
           "children": [
+            {
+              "title": "地图海报指南",
+              "url": "/guides",
+              "target": "_self"
+            },
             {
               "title": "Terraink 替代方案",
               "url": "/terraink-alternative",

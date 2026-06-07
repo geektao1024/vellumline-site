@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "title": "Map Poster Guides and Terraink Alternatives | Vellum & Line",
+    "description": "A guide hub for Terraink alternatives, TerraInk searches, custom map poster workflows, city map posters, route posters, and printable map art.",
+    "keywords": "map poster guides, Terraink alternative, TerraInk alternative, Terraink app, Terraink map poster maker, map poster maker, city map poster maker, route poster maker, custom map poster"
+  },
+  "page": {
+    "title": "Map Poster Guides",
+    "description": "Guides for people comparing Terraink, TerraInk, and browser-based map poster workflows.",
+    "show_sections": [
+      "hero",
+      "guide_index",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Map poster guides for Terraink searches, cities, and routes",
+        "highlight_text": "Map poster guides",
+        "description": "Use this guide hub to choose the right path: compare Terraink and TerraInk alternatives, make a custom city map poster, turn a route into wall art, or start directly in the Vellum & Line browser studio.",
+        "buttons": [
+          {
+            "title": "Read Terraink alternative",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Split"
+          },
+          {
+            "title": "Open map poster studio",
+            "url": "/app?utm_source=guides",
+            "target": "_self",
+            "icon": "Map",
+            "variant": "outline"
+          }
+        ],
+        "image": {
+          "src": "/imgs/vellumline/vellun-app.png",
+          "alt": "Vellum & Line map poster guide hub",
+          "width": 1725,
+          "height": 1077
+        },
+        "background_image": {
+          "src": "/imgs/vellumline/generated/hero-map-bg.jpg",
+          "alt": "Map poster guide background"
+        }
+      },
+      "guide_index": {
+        "block": "guide-hub",
+        "id": "guide-index",
+        "label": "Guide index",
+        "title": "Choose the page that matches your search intent",
+        "description": "Each guide below points to a real indexed page. Start with the Terraink/TerraInk cluster if you are comparing tools, or use the workflow cluster if you already know the poster you want to make.",
+        "groups": [
+          {
+            "title": "Terraink and TerraInk searches",
+            "description": "Use these pages when the query includes Terraink, TerraInk, app, review, alternative, comparison, or map poster maker intent.",
+            "items": [
+              {
+                "title": "Terraink Alternative",
+                "description": "The primary guide for people searching Terraink, TerraInk, or a Terraink alternative and deciding whether a browser map poster workflow fits.",
+                "url": "/terraink-alternative",
+                "icon": "Split",
+                "badge": "Primary",
+                "keywords": [
+                  "Terraink alternative",
+                  "TerraInk alternative",
+                  "map poster"
+                ]
+              },
+              {
+                "title": "Terraink Map Poster Maker",
+                "description": "For users who connect Terraink with custom map posters and want a direct path from place search to printable map art.",
+                "url": "/terraink-map-poster-maker",
+                "icon": "Palette",
+                "badge": "Poster intent",
+                "keywords": [
+                  "Terraink map poster maker",
+                  "custom map poster"
+                ]
+              },
+              {
+                "title": "Terraink App Alternative",
+                "description": "For app-intent searches where the user wants to open a map poster tool quickly without hunting for an installer.",
+                "url": "/terraink-app",
+                "icon": "PanelTop",
+                "badge": "App intent",
+                "keywords": [
+                  "Terraink app",
+                  "Terraink online"
+                ]
+              },
+              {
+                "title": "Terraink Review Checklist",
+                "description": "A review-oriented page for judging output quality, workflow speed, styling controls, route support, and export usefulness.",
+                "url": "/terraink-review",
+                "icon": "Search",
+                "badge": "Review",
+                "keywords": [
+                  "Terraink review",
+                  "map poster review"
+                ]
+              },
+              {
+                "title": "Terraink vs Vellum & Line",
+                "description": "A comparison page for searchers who want to test both workflows against the same city, route, venue, or coordinate.",
+                "url": "/terraink-vs-vellum-line",
+                "icon": "GitCompare",
+                "badge": "Comparison",
+                "keywords": [
+                  "Terraink vs Vellum & Line",
+                  "Terraink comparison"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Map poster workflows",
+            "description": "Use these pages when the user is no longer comparing brands and wants to make a specific kind of printable map poster.",
+            "items": [
+              {
+                "title": "Map Poster Maker",
+                "description": "The main Vellum & Line workflow for turning a city, address, route, venue, or coordinate into printable map art.",
+                "url": "/map-poster-maker",
+                "icon": "MapPinned",
+                "badge": "Core tool",
+                "keywords": [
+                  "map poster maker",
+                  "custom map poster"
+                ]
+              },
+              {
+                "title": "City Map Poster Maker",
+                "description": "For hometown prints, travel cities, neighborhoods, campuses, landmarks, and wall-ready city map art.",
+                "url": "/city-map-poster-maker",
+                "icon": "MapPin",
+                "badge": "City",
+                "keywords": [
+                  "city map poster maker",
+                  "city map poster"
+                ]
+              },
+              {
+                "title": "Route Poster Maker",
+                "description": "For runs, rides, hikes, road trips, travel paths, and other route-based memory posters.",
+                "url": "/route-poster-maker",
+                "icon": "Route",
+                "badge": "Route",
+                "keywords": [
+                  "route poster maker",
+                  "route map art"
+                ]
+              },
+              {
+                "title": "Wedding Map Poster",
+                "description": "For wedding venues, proposal spots, anniversaries, where-we-met maps, coordinates, and personal map gifts.",
+                "url": "/wedding-map-poster",
+                "icon": "Heart",
+                "badge": "Gift",
+                "keywords": [
+                  "wedding map poster",
+                  "personalized map gift"
+                ]
+              }
+            ]
+          }
+        ],
+        "buttons": [
+          {
+            "title": "Start with Terraink Alternative",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Split"
+          },
+          {
+            "title": "Start with Map Poster Maker",
+            "url": "/map-poster-maker",
+            "target": "_self",
+            "icon": "MapPinned",
+            "variant": "outline"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "label": "Make the poster",
+        "title": "Use one real place as your test",
+        "description": "Pick a city, route, venue, or coordinate and judge the workflow by the poster file you can create.",
+        "buttons": [
+          {
+            "title": "Open map poster studio",
+            "url": "/app?utm_source=guides_cta",
+            "target": "_self",
+            "icon": "Map"
+          },
+          {
+            "title": "Read Terraink guide",
+            "url": "/terraink-alternative",
+            "target": "_self",
+            "icon": "Split",
+            "variant": "outline"
+          }
+        ],
+        "className": "bg-background/60"
+      }
+    }
+  }
+}

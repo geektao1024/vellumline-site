@@ -54,6 +54,7 @@ export const localeMessagesPaths = [
   'pages/showcases',
   'pages/blog',
   'pages/updates',
+  'pages/guides',
   'pages/map-poster-maker',
   'pages/city-map-poster-maker',
   'pages/route-poster-maker',
